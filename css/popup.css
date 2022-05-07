@@ -4,7 +4,7 @@ body{
 	padding:0;
 	font-family: arial,sans-serif;
 	font-size: 13px;
-	transition: background .4s ease-in-out;
+	transition: background-color .4s ease-in-out;
 }
 body ul{
 	min-width: 160px;

@@ -1,6 +1,9 @@
-nav,menu,#main{
-	opacity: .9 !important;
+nav,
+menu,
+#main {
+  opacity: .9 !important;
 }
-#top{
-	display: none;
+
+#top {
+  display: none;
 }
