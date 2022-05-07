@@ -293,8 +293,8 @@ sue.apps = {
       config: _config
     }, function (response) {
       console.log(response)
-        // response&&response.type?sue.apps.notification(e.target,response.value):null;
-        !response || !response.type || !config.general.settings.appnotif ? null : sue.apps.notification(e.target, response.value);
+      // response&&response.type?sue.apps.notification(e.target,response.value):null;
+      !response || !response.type || !config.general.settings.appnotif ? null : sue.apps.notification(e.target, response.value);
     })
     sue.apps.showOpt(e);
   },
@@ -323,7 +323,8 @@ sue.apps = {
         }
       }
     }
-    if (einner) {}
+    if (einner) {
+    }
     if (ecss) {
       dom.style.cssText += ecss;
     }
@@ -433,7 +434,7 @@ sue.apps = {
     return url;
   },
   editBoxInit: function (e, opt) {
-    let dom = sue.apps.getAPPboxEle(e) /*.querySelector(".su_apps")*/ ,
+    let dom = sue.apps.getAPPboxEle(e) /*.querySelector(".su_apps")*/,
       domBg = sue.apps.domCreate("div", {
         setName: ["className"],
         setValue: ["su_editbg"]
@@ -475,6 +476,7 @@ sue.apps = {
     dom.appendChild(domBox);
     return boxMain;
   },
+
   editBoxClose: function (e) {
     let dom = sue.apps.getAPPboxEle(e);
     let domEdit = dom.querySelector(".su_editbox"),
@@ -482,6 +484,7 @@ sue.apps = {
     domEdit.remove();
     domBg.remove();
   },
+
   notification: function (e, text, type, time) {
     text = text || sue.apps.i18n("msg_saved");
     type = type || "success";
@@ -502,6 +505,7 @@ sue.apps = {
         _domNotif.style.cssText += "background-color:yellow;color:rgba(0,0,0,.8);";
         break;
     }
+
     _dom.insertBefore(_domNotif, _dom.querySelector("div.su_head"));
     let _domNotifWidth = window.getComputedStyle(_domNotif).width;
     _domNotifWidth = _domNotifWidth.substr(0, _domNotifWidth.length - 2);

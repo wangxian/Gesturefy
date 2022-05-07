@@ -2,8 +2,8 @@
   "ext_des": {
     "message": "A better gestures extension. Features include: mouse gestures, simple drag, super drag, rocker gestures and wheel gestures."
   },
-  "ext_name":{
-    "message":"smartUp Gestures"
+  "ext_name": {
+    "message": "smartUp Gestures"
   },
   "ext_desb": {
     "message": "smartUp will help you to use chrome smartly and quickly, features include mouse gestures, simple drag, super drag and so on. With it, you can quickly complete many common operations, such as close tab/new tab, Minimize/Maximize window. And, you can start up another extension too( with few changes ) . "
@@ -17,8 +17,8 @@
   "ext_email": {
     "message": "Feedback:"
   },
-  "icon_tip":{
-    "message":"smartUp Gestures can't work perfectly in this tab!"
+  "icon_tip": {
+    "message": "smartUp Gestures can't work perfectly in this tab!"
   },
   "opt_title": {
     "message": "Settings"
@@ -32,20 +32,20 @@
   "menu_autosave": {
     "message": "Auto Save Settings"
   },
-  "menu_popactions":{
-    "message":"Popup actions:"
+  "menu_popactions": {
+    "message": "Popup actions:"
   },
-  "menu_opts":{
-    "message":"Options"
+  "menu_opts": {
+    "message": "Options"
   },
-  "menu_about":{
-    "message":"About"
+  "menu_about": {
+    "message": "About"
   },
-  "menuplus_opennew":{
-    "message":"Open in new tab"
+  "menuplus_opennew": {
+    "message": "Open in new tab"
   },
-  "menuplus_exit":{
-    "message":"Exit"
+  "menuplus_exit": {
+    "message": "Exit"
   },
   "con_name": {
     "message": "Name:"
@@ -53,8 +53,8 @@
   "con_timeout": {
     "message": "Timeout"
   },
-  "con_timeout_nomenu":{
-    "message":"Do NOT popup context menu"
+  "con_timeout_nomenu": {
+    "message": "Do NOT popup context menu"
   },
   "con_minlength": {
     "message": "The minimum length of the line drawing"
@@ -68,7 +68,7 @@
   "con_notif": {
     "message": "Show update notification"
   },
-  "con_miniappnotif":{
+  "con_miniappnotif": {
     "message": "Show notification from mini-apps"
   },
   "con_linux": {
@@ -107,44 +107,44 @@
   "con_enableimg": {
     "message": "Image Drag"
   },
-  "con_lang":{
-    "message":"Displays language:"
+  "con_lang": {
+    "message": "Displays language:"
   },
-  "con_export":{
-    "message":"Click here to export configuration."
+  "con_export": {
+    "message": "Click here to export configuration."
   },
-  "con_setbg":{
-    "message":"Customize background image"
+  "con_setbg": {
+    "message": "Customize background image"
   },
-  "con_bgnote0":{
-    "message":"Its current background image, you can change to your own."
+  "con_bgnote0": {
+    "message": "Its current background image, you can change to your own."
   },
-  "con_bgnote1":{
-    "message":"this changeing will not be synced!"
+  "con_bgnote1": {
+    "message": "this changeing will not be synced!"
   },
-  "con_theme":{
-    "message":"Theme for options page:"
+  "con_theme": {
+    "message": "Theme for options page:"
   },
-  "con_drgcursor":{
-    "message":"Change mouse style to removable(some browser's default features don't work)"
+  "con_drgcursor": {
+    "message": "Change mouse style to removable(some browser's default features don't work)"
   },
-  "con_notename":{
-    "message":"Note for this action:"
+  "con_notename": {
+    "message": "Note for this action:"
   },
-  "con_notechk":{
-    "message":"show the note in tab."
+  "con_notechk": {
+    "message": "show the note in tab."
   },
-  "con_autosync":{
-    "message":"Auto sync configuration"
+  "con_autosync": {
+    "message": "Auto sync configuration"
   },
-  "con_esc":{
-    "message":"Press [ESC] to cancel current operation"
+  "con_esc": {
+    "message": "Press [ESC] to cancel current operation"
   },
-  "con_background":{
-    "message":"Make Chrome always work in background , so smartUp will work better. (will request 'background' permission)"
+  "con_background": {
+    "message": "Make Chrome always work in background , so smartUp will work better. (will request 'background' permission)"
   },
-  "con_draggable":{
-    "message":"Disable drag, when the dragged element was set as draggable[draggable=true]"
+  "con_draggable": {
+    "message": "Disable drag, when the dragged element was set as draggable[draggable=true]"
   },
   "stnm_per_pers": {
     "message": "Permissions Management"
@@ -176,7 +176,7 @@
   "stnm_exportconf": {
     "message": "Export Configuration"
   },
-  "stnm_syncconf":{
+  "stnm_syncconf": {
     "message": "Sync Configuration"
   },
   "stnm_resetconf": {
@@ -185,19 +185,19 @@
   "stnm_drgsw": {
     "message": "Drag ON"
   },
-  "stnm_resetapps":{
-    "message":"Reset  all mini-apps configuration"
+  "stnm_resetapps": {
+    "message": "Reset  all mini-apps configuration"
   },
-  "stnm_action":{
-    "message":"Edit actions"
-    },
+  "stnm_action": {
+    "message": "Edit actions"
+  },
   "des_pers": {
     "message": "For more information, visit https://developer.chrome.com/extensions/permission_warnings "
   },
-  "des_pers1":{
-    "message":"You can always delete these requested permissions from Settings>General>Permissions"
+  "des_pers1": {
+    "message": "You can always delete these requested permissions from Settings>General>Permissions"
   },
-  "des_lang":{
+  "des_lang": {
     "message": "smartUp will display in English or chrome's display language. "
   },
   "des_linux": {
@@ -206,8 +206,8 @@
   "des_sync": {
     "message": "The configuration will be synced with the browser, if you are already logged in to the browser and the browser supports this feature."
   },
-  "des_sync1":{
-    "message":"If you can't connect the browser's service (Google,Mozilla and so on) easily, or configuration cant be saved and aways reset to last one, you may try to uncheck this, by exporting the configuration to preserve your settings."
+  "des_sync1": {
+    "message": "If you can't connect the browser's service (Google,Mozilla and so on) easily, or configuration cant be saved and aways reset to last one, you may try to uncheck this, by exporting the configuration to preserve your settings."
   },
   "des_item": {
     "message": "Click item to edit, 'X' to delete, '+' to add a new one, and, drag to sort."
@@ -215,8 +215,8 @@
   "des_fnswitch": {
     "message": "Based on individual needs to choose, advised to turn off the feature which is not commonly used."
   },
-  "des_resetapps":{
-    "message":"If some mini-apps cant work, try to reset mini-apps configuration. This operation will clear all mini-apps configurations, and cant be undone!"
+  "des_resetapps": {
+    "message": "If some mini-apps cant work, try to reset mini-apps configuration. This operation will clear all mini-apps configurations, and cant be undone!"
   },
   "s_default": {
     "message": "Default"
@@ -224,8 +224,8 @@
   "s_current": {
     "message": "Current Tab"
   },
-  "s_currentwin":{
-    "message":"Current Window"
+  "s_currentwin": {
+    "message": "Current Window"
   },
   "s_others": {
     "message": "Others"
@@ -317,47 +317,47 @@
   "s_detached_panel": {
     "message": "Detached Panel"
   },
-  "s_tabele_title":{
-    "message":"Tab's title"
+  "s_tabele_title": {
+    "message": "Tab's title"
   },
-  "s_tabele_url":{
-    "message":"Tab's URL"
+  "s_tabele_url": {
+    "message": "Tab's URL"
   },
-  "s_tabele_aslnk":{
-    "message":"As link"
+  "s_tabele_aslnk": {
+    "message": "As link"
   },
-  "s_cr_set":{
-    "message":"Settings"
+  "s_cr_set": {
+    "message": "Settings"
   },
-  "s_cr_ext":{
-    "message":"Extensions"
+  "s_cr_ext": {
+    "message": "Extensions"
   },
-  "s_cr_history":{
-    "message":"History"
+  "s_cr_history": {
+    "message": "History"
   },
-  "s_cr_app":{
-    "message":"Apps"
+  "s_cr_app": {
+    "message": "Apps"
   },
-  "s_cr_dl":{
-    "message":"Downloads"
+  "s_cr_dl": {
+    "message": "Downloads"
   },
-  "s_cr_bookmark":{
-    "message":"Bookmarks"
+  "s_cr_bookmark": {
+    "message": "Bookmarks"
   },
-  "s_cr_flag":{
-    "message":"Flags"
+  "s_cr_flag": {
+    "message": "Flags"
   },
-  "s_unicode":{
-    "message":"Unicode"
+  "s_unicode": {
+    "message": "Unicode"
   },
-  "s_uri":{
-    "message":"encodeURI"
+  "s_uri": {
+    "message": "encodeURI"
   },
-  "s_uric":{
-    "message":"encodeURIComponent"
+  "s_uric": {
+    "message": "encodeURIComponent"
   },
-  "s_uricgbk":{
-    "message":"encodeURI(GBK)"
+  "s_uricgbk": {
+    "message": "encodeURI(GBK)"
   },
   "s_none": {
     "message": "None"
@@ -398,20 +398,20 @@
   "s_reset": {
     "message": "Reset"
   },
-  "s_audible":{
-    "message":"Audible tabs"
+  "s_audible": {
+    "message": "Audible tabs"
   },
-  "n_notif":{
-    "message":"Show notifications from action"
+  "n_notif": {
+    "message": "Show notifications from action"
   },
-  "n_tab":{
-    "message":"Target Tab:"
+  "n_tab": {
+    "message": "Target Tab:"
   },
-  "n_tab_single":{
-    "message":"Target Tab:"
+  "n_tab_single": {
+    "message": "Target Tab:"
   },
-  "n_tab_lrhl":{
-    "message":"Target Tab:"
+  "n_tab_lrhl": {
+    "message": "Target Tab:"
   },
   "n_close": {
     "message": "Target Tab:"
@@ -422,17 +422,17 @@
   "n_close_sel": {
     "message": "Selected Tab:"
   },
-  "n_close_keep":{
-    "message":"Keep window, when closing last tab."
+  "n_close_keep": {
+    "message": "Keep window, when closing last tab."
   },
-  "n_closePin":{
-    "message":"Do not close the pinned tab."
+  "n_closePin": {
+    "message": "Do not close the pinned tab."
   },
-  "n_closeConfirm":{
-    "message":"Need to confirm, when closing multiple tabs."
+  "n_closeConfirm": {
+    "message": "Need to confirm, when closing multiple tabs."
   },
-  "n_closetab":{
-    "message":"Close tab after completing action."
+  "n_closetab": {
+    "message": "Close tab after completing action."
   },
   "n_optype": {
     "message": "Open Type:"
@@ -440,17 +440,17 @@
   "n_position": {
     "message": "Position:"
   },
-  "n_position_lrhl":{
-    "message":"Position:"
+  "n_position_lrhl": {
+    "message": "Position:"
   },
   "n_new_position": {
     "message": "Position:"
   },
-  "n_index":{
-    "message":"Position:"
+  "n_index": {
+    "message": "Position:"
   },
-  "n_index_new":{
-    "message":"Position:"
+  "n_index_new": {
+    "message": "Position:"
   },
   "n_wintype": {
     "message": "Window Type:"
@@ -470,29 +470,29 @@
   "n_content": {
     "message": "Content:"
   },
-  "n_encoding":{
-    "message":"Encoding:"
+  "n_encoding": {
+    "message": "Encoding:"
   },
-  "n_target_np":{
-    "message":"Open style:"
+  "n_target_np": {
+    "message": "Open style:"
   },
-  "n_npkey_n":{
-    "message":"Key words:"
+  "n_npkey_n": {
+    "message": "Key words:"
   },
-  "n_npkey_p":{
-    "message":"Key words:"
+  "n_npkey_p": {
+    "message": "Key words:"
   },
-  "n_dlbar":{
-    "message":"Show download bar"
+  "n_dlbar": {
+    "message": "Show download bar"
   },
-  "n_crpages":{
-    "message":"Internal pages:"
+  "n_crpages": {
+    "message": "Internal pages:"
   },
-  "n_copytabele_content":{
-    "message":"Copy type:"
+  "n_copytabele_content": {
+    "message": "Copy type:"
   },
-  "n_script":{
-    "message":"Script:"
+  "n_script": {
+    "message": "Script:"
   },
   "n_jq": {
     "message": "Inject JQ"
@@ -503,29 +503,29 @@
   "n_imgengine": {
     "message": "Images engine:"
   },
-  "n_zoom":{
-    "message":"Zoom type:"
+  "n_zoom": {
+    "message": "Zoom type:"
   },
-  "n_scroll":{
-    "message":"Scroll Type:"
+  "n_scroll": {
+    "message": "Scroll Type:"
   },
-  "n_num":{
-    "message":"Number:"
+  "n_num": {
+    "message": "Number:"
   },
-  "n_closebox":{
-    "message":"Close window, after clicked list item."
+  "n_closebox": {
+    "message": "Close window, after clicked list item."
   },
-  "n_snap":{
-    "message":"Snap direction:"
+  "n_snap": {
+    "message": "Snap direction:"
   },
-  "n_url":{
-    "message":"URL:"
+  "n_url": {
+    "message": "URL:"
   },
-  "n_dialog":{
-    "message":"Show dialog box"
+  "n_dialog": {
+    "message": "Show dialog box"
   },
-  "n_duplicatetype":{
-    "message":"Open duplicated tab in background."
+  "n_duplicatetype": {
+    "message": "Open duplicated tab in background."
   },
   "script": {
     "message": "Script"
@@ -563,20 +563,20 @@
   "ag_search": {
     "message": "Search"
   },
-  "ag_exp":{
-    "message":"Experimental"
+  "ag_exp": {
+    "message": "Experimental"
   },
-  "ag_chrome":{
-    "message":"About Chrome"
+  "ag_chrome": {
+    "message": "About Chrome"
   },
-  "ag_apps":{
-    "message":"Mini APPs"
+  "ag_apps": {
+    "message": "Mini APPs"
   },
-  "ag_su":{
-    "message":"About smartUp"
+  "ag_su": {
+    "message": "About smartUp"
   },
-  "ag_dep":{
-    "message":"Deprecated"
+  "ag_dep": {
+    "message": "Deprecated"
   },
   "none": {
     "message": "None"
@@ -668,8 +668,8 @@
   "txtsearch": {
     "message": "Search Texts"
   },
-  "txtsearchclip":{
-    "message":"Search Texts from Clipboard"
+  "txtsearchclip": {
+    "message": "Search Texts from Clipboard"
   },
   "openlnk": {
     "message": "Open Link"
@@ -719,68 +719,68 @@
   "copytabele": {
     "message": "Copy Tab's Element"
   },
-  "crpages":{
-    "message":"Chrome Internal Pages"
+  "crpages": {
+    "message": "Chrome Internal Pages"
   },
-  "dldir":{
-    "message":"Open Default Downloads Folder"
+  "dldir": {
+    "message": "Open Default Downloads Folder"
   },
-  "bookmark":{
-    "message":"Add Bookmark"
+  "bookmark": {
+    "message": "Add Bookmark"
   },
-  "bookmarklnk":{
-    "message":"Add Bookmark"
+  "bookmarklnk": {
+    "message": "Add Bookmark"
   },
-  "zoom":{
-    "message":"Zoom"
+  "zoom": {
+    "message": "Zoom"
   },
-  "zoom_dep":{
-    "message":"Zoom"
+  "zoom_dep": {
+    "message": "Zoom"
   },
-  "savepage":{
-    "message":"Save Page"
+  "savepage": {
+    "message": "Save Page"
   },
-  "tablist":{
-    "message":"Tabs List"
+  "tablist": {
+    "message": "Tabs List"
   },
-  "upperlevel":{
-    "message":"Go Upper Level"
+  "upperlevel": {
+    "message": "Go Upper Level"
   },
-  "increment":{
-    "message":"Increment Number in URL"
+  "increment": {
+    "message": "Increment Number in URL"
   },
-  "decrement":{
-    "message":"Decrement Number in URL"
+  "decrement": {
+    "message": "Decrement Number in URL"
   },
-  "extdisable":{
-    "message":"Disable smartUp in current tab temporarily"
+  "extdisable": {
+    "message": "Disable smartUp in current tab temporarily"
   },
   "general": {
     "message": "General"
   },
-  "recentbk":{
-    "message":"Recent Bookmarks"
+  "recentbk": {
+    "message": "Recent Bookmarks"
   },
-  "recentht":{
-    "message":"Recent History"
+  "recentht": {
+    "message": "Recent History"
   },
-  "dllink":{
-    "message":"Save Link"
+  "dllink": {
+    "message": "Save Link"
   },
-  "savepdf":{
-    "message":"Save as PDF"
+  "savepdf": {
+    "message": "Save as PDF"
   },
-  "copyimg":{
-    "message":"Copy Image"
+  "copyimg": {
+    "message": "Copy Image"
   },
-  "set_bk":{
-    "message":"Set Open Bookmarks in new Tabs"
+  "set_bk": {
+    "message": "Set Open Bookmarks in new Tabs"
   },
-  "set_search":{
-    "message":"Set Open Search Results in new Tabs"
+  "set_search": {
+    "message": "Set Open Search Results in new Tabs"
   },
-  "readermode":{
-    "message":"Reader Mode"
+  "readermode": {
+    "message": "Reader Mode"
   },
   "mges": {
     "message": "Mouse Gestures"
@@ -800,14 +800,14 @@
   "about": {
     "message": "About"
   },
-  "changelog":{
-    "message":"Change Log"
+  "changelog": {
+    "message": "Change Log"
   },
-  "translate":{
-    "message":"Translation"
+  "translate": {
+    "message": "Translation"
   },
-  "thanks":{
-    "message":"Thanks To"
+  "thanks": {
+    "message": "Thanks To"
   },
   "setting": {
     "message": "Settings"
@@ -827,8 +827,8 @@
   "linux": {
     "message": "Linux/Mac Settings"
   },
-  "per":{
-    "message":"Permissions"
+  "per": {
+    "message": "Permissions"
   },
   "conf": {
     "message": "Configuration"
@@ -911,11 +911,11 @@
   "msg_dirrepeat": {
     "message": "The direction repeated, try again!"
   },
-  "msg_blank":{
-    "message":"You must enter something to continue!"
+  "msg_blank": {
+    "message": "You must enter something to continue!"
   },
-  "msg_setbg":{
-    "message":"Something is wrong!!"
+  "msg_setbg": {
+    "message": "Something is wrong!!"
   },
   "test_mges": {
     "message": "Drawing line in here."
@@ -941,41 +941,41 @@
   "btn_done": {
     "message": "DONE"
   },
-  "btn_del":{
-    "message":"DELETE"
+  "btn_del": {
+    "message": "DELETE"
   },
-  "btn_continue":{
-    "message":"CONTINUE"
+  "btn_continue": {
+    "message": "CONTINUE"
   },
-  "btn_next":{
-    "message":"NEXT"
+  "btn_next": {
+    "message": "NEXT"
   },
-  "btn_back":{
-    "message":"BACK"
+  "btn_back": {
+    "message": "BACK"
   },
-  "btn_decode":{
-    "message":"DECODE"
+  "btn_decode": {
+    "message": "DECODE"
   },
-  "btn_encode":{
-    "message":"ENCODE"
+  "btn_encode": {
+    "message": "ENCODE"
   },
-  "btn_play":{
-    "message":"PLAY"
+  "btn_play": {
+    "message": "PLAY"
   },
-  "btn_pause":{
-    "message":"PAUSE"
+  "btn_pause": {
+    "message": "PAUSE"
   },
-  "btn_resume":{
-    "message":"RESUME"
+  "btn_resume": {
+    "message": "RESUME"
   },
-  "btn_stop":{
-    "message":"STOP"
+  "btn_stop": {
+    "message": "STOP"
   },
-  "btn_resetapps":{
-    "message":"Reset Mini-apps Configuration"
+  "btn_resetapps": {
+    "message": "Reset Mini-apps Configuration"
   },
-  "btn_reset":{
-    "message":"RESET"
+  "btn_reset": {
+    "message": "RESET"
   },
   "init_openlnk_bg": {
     "message": "Open link in background"
@@ -1001,774 +1001,830 @@
   "init_openimg_bg": {
     "message": "Open image in background"
   },
-  "init_searchtxt_bg":{
+  "init_searchtxt_bg": {
     "message": "Search texts in background"
   },
   "init_searchimg_bg": {
     "message": "Search image in background"
   },
-  "init_scroll_up":{
-    "message":"Scroll up"
+  "init_scroll_up": {
+    "message": "Scroll up"
   },
-  "init_scroll_down":{
-    "message":"Scroll down"
+  "init_scroll_down": {
+    "message": "Scroll down"
   },
-  "init_scroll_top":{
-    "message":"Scroll top"
+  "init_scroll_top": {
+    "message": "Scroll top"
   },
-  "init_scroll_bottom":{
-    "message":"Scroll bottom"
+  "init_scroll_bottom": {
+    "message": "Scroll bottom"
   },
-  "getper_title":{
-    "message":"Permission Request"
+  "getper_title": {
+    "message": "Permission Request"
   },
-  "getper_des":{
-    "message":"To use the action, need to require more permissions:"
+  "getper_des": {
+    "message": "To use the action, need to require more permissions:"
   },
-  "getper_btn":{
-    "message":"Get Permissons"
+  "getper_btn": {
+    "message": "Get Permissons"
   },
-  "getper_after":{
-    "message":"Permissions request successful! Please re-try the last gesture. It will work after Chrome be restarted, sometimes.<br \/>This page will be closed in "
+  "getper_after": {
+    "message": "Permissions request successful! Please re-try the last gesture. It will work after Chrome be restarted, sometimes.<br \/>This page will be closed in "
   },
-  "getper_des1":{
-    "message":"You can always delete these requested permissions from Settings>General>Permissions"
+  "getper_des1": {
+    "message": "You can always delete these requested permissions from Settings>General>Permissions"
   },
-  "getper_fail":{
-    "message":"Failure to get permissions! \nChrome must be upgraded to latest version."
+  "getper_fail": {
+    "message": "Failure to get permissions! \nChrome must be upgraded to latest version."
   },
-  "notif_title":{
-    "message":"smartUp Notification"
+  "notif_title": {
+    "message": "smartUp Notification"
   },
-  "notif_dlok":{
-    "message":"Download completed!"
+  "notif_dlok": {
+    "message": "Download completed!"
   },
-  "notif_dlerr":{
-    "message":"download error!"
+  "notif_dlerr": {
+    "message": "download error!"
   },
-  "notif_title_update":{
-    "message":"Update Notification"
+  "notif_title_update": {
+    "message": "Update Notification"
   },
-  "notif_title_appsave":{
-    "message":"Mini-apps Notification"
+  "notif_title_appsave": {
+    "message": "Mini-apps Notification"
   },
-  "notif_con_appsave":{
-    "message":"The changing has been saved."
+  "notif_con_appsave": {
+    "message": "The changing has been saved."
   },
-  "notif_con_bkdel":{
-    "message":"Have deleted the bookmark."
+  "notif_con_bkdel": {
+    "message": "Have deleted the bookmark."
   },
-  "notif_con_bkadd":{
-    "message":"Have added the bookmark."
+  "notif_con_bkadd": {
+    "message": "Have added the bookmark."
   },
-  "notif_con_dlok":{
-    "message":"Download completed!"
+  "notif_con_dlok": {
+    "message": "Download completed!"
   },
-  "notif_btn_open":{
-    "message":"Open options page"
+  "notif_btn_open": {
+    "message": "Open options page"
   },
-  "notif_con_dnimgerr":{
-    "message":"Save image error!"
+  "notif_con_dnimgerr": {
+    "message": "Save image error!"
   },
-  "notif_con_dnimg":{
-    "message":"The image has been downloaded."
+  "notif_con_dnimg": {
+    "message": "The image has been downloaded."
   },
-  "lang_auto":{
-    "message":"Auto"
+  "lang_auto": {
+    "message": "Auto"
   },
-  "lang_en":{
-    "message":"English (en)"
+  "lang_en": {
+    "message": "English (en)"
   },
-  "title_newengine":{
-    "message":"Add new engine"
+  "title_newengine": {
+    "message": "Add new engine"
   },
-  "title_newaction":{
-    "message":"Add new action"
+  "title_newaction": {
+    "message": "Add new action"
   },
-  "title_newscript":{
-    "message":"Add new script"
+  "title_newscript": {
+    "message": "Add new script"
   },
-  "title_editaction":{
-    "message":"Edit actions"
+  "title_editaction": {
+    "message": "Edit actions"
   },
-  "title_editengine":{
-    "message":"Edit engine"
+  "title_editengine": {
+    "message": "Edit engine"
   },
-  "title_editscript":{
-    "message":"Edit script"
+  "title_editscript": {
+    "message": "Edit script"
   },
-  "title_editdirect":{
-    "message":"Edit directions"
+  "title_editdirect": {
+    "message": "Edit directions"
   },
-  "tip_editdir":{
-    "message":"Edit directions"
+  "tip_editdir": {
+    "message": "Edit directions"
   },
-  "tip_resetcur":{
-    "message":"Reset current page"
+  "tip_resetcur": {
+    "message": "Reset current page"
   },
-  "tip_addnew":{
-    "message":"Add New"
+  "tip_addnew": {
+    "message": "Add New"
   },
-  "rss":{
-    "message":"RSS"
+  "rss": {
+    "message": "RSS"
   },
-  "random":{
-    "message":"Random Number"
+  "random": {
+    "message": "Random Number"
   },
-  "extmgm":{
-    "message":"Extensions Management"
+  "extmgm": {
+    "message": "Extensions Management"
   },
-  "appslist":{
-    "message":"Mini APPs list"
+  "appslist": {
+    "message": "Mini APPs list"
   },
-  "app_random_bound":{
-    "message":"Bound:"
+  "app_random_bound": {
+    "message": "Bound:"
   },
-  "app_random_num":{
-    "message":"Number:"
+  "app_random_num": {
+    "message": "Number:"
   },
-  "app_random_norepeat":{
-    "message":"No-repeat"
+  "app_random_norepeat": {
+    "message": "No-repeat"
   },
-  "app_random_fill":{
-    "message":"Fill all digital"
+  "app_random_fill": {
+    "message": "Fill all digital"
   },
-  "app_extmgm_disableall":{
-    "message":"Disable All"
+  "app_extmgm_disableall": {
+    "message": "Disable All"
   },
-  "recentclosed":{
-    "message":"Recent Closed"
+  "recentclosed": {
+    "message": "Recent Closed"
   },
-  "app_recentclosed_tabs":{
-    "message":"tabs"
+  "app_recentclosed_tabs": {
+    "message": "tabs"
   },
-  "synced":{
-    "message":"Synced Tabs"
+  "synced": {
+    "message": "Synced Tabs"
   },
-  "app_synced_switch":{
-    "message":"Switch synced device: "
+  "app_synced_switch": {
+    "message": "Switch synced device: "
   },
-  "app_synced_nodevice":{
-    "message":"there's no synced device."
+  "app_synced_nodevice": {
+    "message": "there's no synced device."
   },
-  "app_tip_opt":{
-    "message":"Options"
+  "app_tip_opt": {
+    "message": "Options"
   },
-  "app_tip_info":{
-    "message":"Information"
+  "app_tip_info": {
+    "message": "Information"
   },
-  "app_rss_menu":{
-    "message":"Menu"
+  "app_rss_menu": {
+    "message": "Menu"
   },
-  "app_rss_new":{
-    "message":"New"
+  "app_rss_new": {
+    "message": "New"
   },
-  "app_rss_subplace":{
-    "message":"RSS2.0"
+  "app_rss_subplace": {
+    "message": "RSS2.0"
   },
-  "app_recentbk_recentlength":{
-    "message":"Number:"
+  "app_recentbk_recentlength": {
+    "message": "Number:"
   },
-  "app_recentht_recentlength":{
-    "message":"Number:"
+  "app_recentht_recentlength": {
+    "message": "Number:"
   },
-  "app_recentclosed_recentlength":{
-    "message":"Number:"
+  "app_recentclosed_recentlength": {
+    "message": "Number:"
   },
-  "base64":{
-    "message":"Base64 Code"
+  "base64": {
+    "message": "Base64 Code"
   },
-  "mail":{
-    "message":"Sharing with Email"
+  "mail": {
+    "message": "Sharing with Email"
   },
-  "n_mail":{
-    "message":"Email Type:"
+  "n_mail": {
+    "message": "Email Type:"
   },
-  "n_mail_domain":{
-    "message":"*Domain for Google Apps:"
+  "n_mail_domain": {
+    "message": "*Domain for Google Apps:"
   },
-  "n_mail_prefix":{
-    "message":"Prefix for Subject:"
+  "n_mail_prefix": {
+    "message": "Prefix for Subject:"
   },
-  "s_defaultmail":{
-    "message":"System's mail application"
+  "s_defaultmail": {
+    "message": "System's mail application"
   },
-  "s_gmail":{
-    "message":"Gmail"
+  "s_gmail": {
+    "message": "Gmail"
   },
-  "s_gmailapps":{
-    "message":"*Gmail with Google Apps"
+  "s_gmailapps": {
+    "message": "*Gmail with Google Apps"
   },
-  "qr":{
-    "message":"QR Code"
+  "qr": {
+    "message": "QR Code"
   },
-  "app_qr_url":{
-    "message":"URL of current tab."
+  "app_qr_url": {
+    "message": "URL of current tab."
   },
-  "app_qr_title":{
-    "message":"Title of current tab."
+  "app_qr_title": {
+    "message": "Title of current tab."
   },
-  "app_qr_seltxt":{
-    "message":"Selected texts."
+  "app_qr_seltxt": {
+    "message": "Selected texts."
   },
-  "app_qr_sellnk":{
-    "message":"Selected/dragged link's URL"
+  "app_qr_sellnk": {
+    "message": "Selected/dragged link's URL"
   },
-  "app_qr_customer":{
-    "message":"Customized text."
+  "app_qr_customer": {
+    "message": "Customized text."
   },
-  "print":{
-    "message":"Print"
+  "print": {
+    "message": "Print"
   },
-  "mute":{
-    "message":"Mute tab"
+  "mute": {
+    "message": "Mute tab"
   },
-  "snap":{
-    "message":"Snap window"
+  "snap": {
+    "message": "Snap window"
   },
-  "numc":{
-    "message":"Numerals Converter"
+  "numc": {
+    "message": "Numerals Converter"
   },
-  "app_numc_from":{
-    "message":"From:"
+  "app_numc_from": {
+    "message": "From:"
   },
-  "app_numc_to":{
-    "message":"To:"
+  "app_numc_to": {
+    "message": "To:"
   },
-  "tts":{
-    "message":"Text To Speech"
+  "tts": {
+    "message": "Text To Speech"
   },
-  "n_gender":{
-    "message":"Gender:"
+  "n_gender": {
+    "message": "Gender:"
   },
-  "n_rate":{
-    "message":"Rate:"
+  "n_rate": {
+    "message": "Rate:"
   },
-  "n_voicename":{
-    "message":"Voice Engine:"
+  "n_voicename": {
+    "message": "Voice Engine:"
   },
-  "n_pitch":{
-    "message":"Pitch:"
+  "n_pitch": {
+    "message": "Pitch:"
   },
-  "n_volume":{
-    "message":"Volume:"
+  "n_volume": {
+    "message": "Volume:"
   },
-  "s_female":{
-    "message":"Female"
+  "s_female": {
+    "message": "Female"
   },
-  "s_male":{
-    "message":"Male"
+  "s_male": {
+    "message": "Male"
   },
-  "speaker":{
-    "message":"Text Speaker"
+  "speaker": {
+    "message": "Text Speaker"
   },
-  "jslist":{
-    "message":"Custom Script List"
+  "jslist": {
+    "message": "Custom Script List"
   },
-  "ui_withdir":{
-    "message":"with direction tips of the action name"
+  "ui_withdir": {
+    "message": "with direction tips of the action name"
   },
-  "ui_note_enable":{
-    "message":"Show action note"
+  "ui_note_enable": {
+    "message": "Show action note"
   },
-  "ui_allaction_enable":{
-    "message":"Show next all possible actions"
+  "ui_allaction_enable": {
+    "message": "Show next all possible actions"
   },
-  "theme_colorful":{
-    "message":"Colorful"
+  "theme_colorful": {
+    "message": "Colorful"
   },
-  "theme_bg":{
-    "message":"Background image"
+  "theme_bg": {
+    "message": "Background image"
   },
-  "tks_bug":{
-    "message":"These friends helped testing and reporting bugs: "
+  "tks_bug": {
+    "message": "These friends helped testing and reporting bugs: "
   },
-  "tks_tl":{
-    "message":"These friends helped to translate: "
+  "tks_tl": {
+    "message": "These friends helped to translate: "
   },
-  "tks_pjt":{
-    "message":"Refered/used the following project: "
+  "tks_pjt": {
+    "message": "Refered/used the following project: "
   },
-  "rges0":{
-    "message":"Right-click with holding left button"
+  "rges0": {
+    "message": "Right-click with holding left button"
   },
-  "rges1":{
-    "message":"Left-click with holding right button"
+  "rges1": {
+    "message": "Left-click with holding right button"
   },
-  "wges0":{
-    "message":"Scroll UP with holding LEFT button"
+  "wges0": {
+    "message": "Scroll UP with holding LEFT button"
   },
-  "wges1":{
-    "message":"Scroll DOWN with holding LEFT button"
+  "wges1": {
+    "message": "Scroll DOWN with holding LEFT button"
   },
-  "wges2":{
-    "message":"Scroll UP with holding RIGHT button"
+  "wges2": {
+    "message": "Scroll UP with holding RIGHT button"
   },
-  "wges3":{
-    "message":"Scroll DOWN with holding RIGHT button"
+  "wges3": {
+    "message": "Scroll DOWN with holding RIGHT button"
   },
-  "pop":{
-    "message":"Popup Actions"
+  "pop": {
+    "message": "Popup Actions"
   },
-  "icon":{
-    "message":"Icon Actions"
+  "icon": {
+    "message": "Icon Actions"
   },
-  "ctm":{
-    "message":"Context Menu"
+  "ctm": {
+    "message": "Context Menu"
   },
-  "action":{
-    "message":"Actions"
+  "action": {
+    "message": "Actions"
   },
-  "ctm_add":{
-    "message":"Add the following items to contextMenu:"
+  "ctm_add": {
+    "message": "Add the following items to contextMenu:"
   },
-  "ctm_fnswitch":{
-    "message":"Menus of switching features"
+  "ctm_fnswitch": {
+    "message": "Menus of switching features"
   },
-  "ctm_disable":{
-    "message":"Disable smartUp in current tab temporarily"
+  "ctm_disable": {
+    "message": "Disable smartUp in current tab temporarily"
   },
-  "ctm_opt":{
-    "message":"Options"
+  "ctm_opt": {
+    "message": "Options"
   },
-  "icon_type":{
-    "message":"Choose work type:"
+  "icon_type": {
+    "message": "Choose work type:"
   },
-  "icon_back":{
-    "message":"Background"
+  "icon_back": {
+    "message": "Background"
   },
-  "icon_back_des":{
-    "message":"The action cant get value from page, and, the action will work in any tab includ blank tab."
+  "icon_back_des": {
+    "message": "The action cant get value from page, and, the action will work in any tab includ blank tab."
   },
-  "icon_front":{
-    "message":"Front"
+  "icon_front": {
+    "message": "Front"
   },
-  "icon_front_des":{
-    "message":"The action will get data from page , it is for actions which need access data from tab."
+  "icon_front_des": {
+    "message": "The action will get data from page , it is for actions which need access data from tab."
   },
-  "icon_showname":{
-    "message":"Show action name on the Icon"
+  "icon_showname": {
+    "message": "Show action name on the Icon"
   },
-  "pop_last":{
-    "message":"Set the last action as default one"
+  "pop_last": {
+    "message": "Set the last action as default one"
   },
-  "about_ver":{
-    "message":"VERSION"
+  "about_ver": {
+    "message": "VERSION"
   },
-  "about_url":{
-    "message":"URL"
+  "about_url": {
+    "message": "URL"
   },
-  "review":{
-    "message":"Review"
+  "review": {
+    "message": "Review"
   },
-  "savepdf_resetDes":{"message":"There are many options, if the PDF does not generated, you may try to reset all the options by click the button below."},
-  "savepdf_footerCenter":{"message":"The text for the page's center footer"},
-  "savepdf_footerLeft":{"message":"The text for the page's left footer"},
-  "savepdf_footerRight":{"message":"The text for the page's right footer"},
-  "savepdf_headerCenter":{"message":"The text for the page's center header"},
-  "savepdf_headerLeft":{"message":"The text for the page's left header"},
-  "savepdf_headerRight":{"message":"The text for the page's right header"},
-  "savepdf_marginBottom":{"message":"The margin between the page content and the bottom edge of the paper (inches)"},
-  "savepdf_marginLeft":{"message":"The margin between the page content and the left edge of the paper (inches)"},
-  "savepdf_marginRight":{"message":"The margin between the page content and the right edge of the paper (inches)"},
-  "savepdf_marginTop":{"message":"The margin between the page content and the top edge of the paper (inches)"},
-  "savepdf_orientation":{"message":"Page orientation"},
-  "savepdf_paperHeight":{"message":"The paper height in paper size units"},
-  "savepdf_paperSizeUnit":{"message":"The paper size unit"},
-  "savepdf_paperWidth":{"message":"The paper width in paper size units"},
-  "savepdf_scaling":{"message":"Page content scaling factor"},
-  "savepdf_showBackgroundColors":{"message":"Whether the page background colors should be shown"},
-  "savepdf_showBackgroundImages":{"message":"Whether the page background images should be shown"},
-  "savepdf_shrinkToFit":{"message":"Whether the page content should shrink to fit the page width (overrides scaling)"},
-  "savepdf_portrait":{"message":"portrait"},
-  "savepdf_landscape":{"message":"landscape"},
-  "savepdf_inches":{"message":"inches"},
-  "savepdf_millimeters":{"message":"millimeters"},
-  "savepdf_info":{
-    "message":"For setting headers and footers, you can include certain special characters in the strings you supply. These will be replaced in the rendered output as follows:\n\"&P\": the page number, like \"2\"\n\"&PT\": the page number and the total number of pages, like \"2 of 3\"\n\"&D\": the current date/time\n\"&T\": the page title\n\"&U\": the page URL\nFor more information: https:\/\/developer.mozilla.org/Add-ons/WebExtensions/API/tabs/PageSettings"
+  "savepdf_resetDes": {
+    "message": "There are many options, if the PDF does not generated, you may try to reset all the options by click the button below."
   },
-  "place_string":{"message":"Enter Strings"},
-  "place_number":{"message":"Enter Number"},
-  "perdes_browsersettings":{"message":"Because using mouse gestures on non-Windows platforms conflicts with right-click menus, ensuring a better operating experience, smartUp Gestures needs to request this permission to fix the bug (only Firefox). After getting permission, you need to restart the browser to make it works. For more information: https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings. This page only show only one time, or set it again from: General>Linux/Mac Settings>Try to set context menu popup after mouseup."},
-  "opt_mouseup":{"message":"Try to set context menu popup after mouseup"},
-  "des_mouseup":{"message":"Fix the conflict between the mouse gesture and the context menu. Only Firefox 58+. Need request permission 'browserSettings'."},
-  "touch":{
-    "message":"Touch Gestures"
+  "savepdf_footerCenter": {
+    "message": "The text for the page's center footer"
   },
-  "left":{
-    "message":"LEFT"
+  "savepdf_footerLeft": {
+    "message": "The text for the page's left footer"
   },
-  "right":{
-    "message":"RIGHT"
+  "savepdf_footerRight": {
+    "message": "The text for the page's right footer"
   },
-  "top":{
-    "message":"TOP"
+  "savepdf_headerCenter": {
+    "message": "The text for the page's center header"
   },
-  "ui_bottom":{
-    "message":"BOTTOM"
+  "savepdf_headerLeft": {
+    "message": "The text for the page's left header"
   },
-  "leftbottom":{
-    "message":"LEFT BOTTOM"
+  "savepdf_headerRight": {
+    "message": "The text for the page's right header"
   },
-  "lefttop":{
-    "message":"LEFT TOP"
+  "savepdf_marginBottom": {
+    "message": "The margin between the page content and the bottom edge of the paper (inches)"
   },
-  "righttop":{
-    "message":"RIGHT TOP"
+  "savepdf_marginLeft": {
+    "message": "The margin between the page content and the left edge of the paper (inches)"
   },
-  "hover":{
-    "message":"RIGHT BOTTOM"
+  "savepdf_marginRight": {
+    "message": "The margin between the page content and the right edge of the paper (inches)"
   },
-  "follow":{
-    "message":"FOLLOW"
+  "savepdf_marginTop": {
+    "message": "The margin between the page content and the top edge of the paper (inches)"
   },
-  "center":{
-    "message":"CENTER"
+  "savepdf_orientation": {
+    "message": "Page orientation"
   },
-  "mergewin":{
-    "message":"Merge all Windows"
+  "savepdf_paperHeight": {
+    "message": "The paper height in paper size units"
   },
-  "n_winstate":{
-    "message":"Window State:"
+  "savepdf_paperSizeUnit": {
+    "message": "The paper size unit"
   },
-  "s_minimized":{
-    "message":"Minimized"
+  "savepdf_paperWidth": {
+    "message": "The paper width in paper size units"
   },
-  "s_maximized":{
-    "message":"Maximized"
+  "savepdf_scaling": {
+    "message": "Page content scaling factor"
   },
-  "s_fullscreen":{
-    "message":"Fullscreen"
+  "savepdf_showBackgroundColors": {
+    "message": "Whether the page background colors should be shown"
   },
-  "ext_issue":{
-    "message":"Issues:"
+  "savepdf_showBackgroundImages": {
+    "message": "Whether the page background images should be shown"
   },
-  "ext_allver":{
-    "message":"All versions:"
+  "savepdf_shrinkToFit": {
+    "message": "Whether the page content should shrink to fit the page width (overrides scaling)"
   },
-  "donatedev":{
-    "message":"Support Developer"
+  "savepdf_portrait": {
+    "message": "portrait"
   },
-  "moreext":{
-    "message":"More Extensons"
+  "savepdf_landscape": {
+    "message": "landscape"
   },
-  "con_ad":{
-    "message":"Show advertisements on current options page"
+  "savepdf_inches": {
+    "message": "inches"
   },
-  "des_ad":{
-    "message":"Ads are only shown on the current options page and will never appear on other pages. Thank you for your supporting."
+  "savepdf_millimeters": {
+    "message": "millimeters"
   },
-  "des_moreextlist":{
-    "message":"These extensions are developed by me. Welcome to install and use."
+  "savepdf_info": {
+    "message": "For setting headers and footers, you can include certain special characters in the strings you supply. These will be replaced in the rendered output as follows:\n\"&P\": the page number, like \"2\"\n\"&PT\": the page number and the total number of pages, like \"2 of 3\"\n\"&D\": the current date/time\n\"&T\": the page title\n\"&U\": the page URL\nFor more information: https:\/\/developer.mozilla.org/Add-ons/WebExtensions/API/tabs/PageSettings"
   },
-  "des_adlist0":{
-    "message":"These are advertisements, thank you for your support."
+  "place_string": {
+    "message": "Enter Strings"
   },
-  "des_adlist1":{
-    "message":"It can be turned on or off by the following path: About > Support Development."
+  "place_number": {
+    "message": "Enter Number"
   },
-  "lottery":{
-    "message":"Lottery Data"
+  "perdes_browsersettings": {
+    "message": "Because using mouse gestures on non-Windows platforms conflicts with right-click menus, ensuring a better operating experience, smartUp Gestures needs to request this permission to fix the bug (only Firefox). After getting permission, you need to restart the browser to make it works. For more information: https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings. This page only show only one time, or set it again from: General>Linux/Mac Settings>Try to set context menu popup after mouseup."
   },
-  "lottery_type":{
-    "message":"Lottery type:"
+  "opt_mouseup": {
+    "message": "Try to set context menu popup after mouseup"
   },
-  "lottery_term":{
-    "message":"Lottery term:"
+  "des_mouseup": {
+    "message": "Fix the conflict between the mouse gesture and the context menu. Only Firefox 58+. Need request permission 'browserSettings'."
   },
-  "lottery_dlt":{
-    "message":"Da Le Tou"
+  "touch": {
+    "message": "Touch Gestures"
   },
-  "lottery_pls":{
-    "message":"Pai Lie San"
+  "left": {
+    "message": "LEFT"
   },
-  "lottery_ssq":{
-    "message":"Shuang Se Qiu"
+  "right": {
+    "message": "RIGHT"
   },
-  "lottery_sd":{
-    "message":"Fucai 3D"
+  "top": {
+    "message": "TOP"
   },
-  "pxmovie":{
-    "message":"Poxiao Movie recent update"
+  "ui_bottom": {
+    "message": "BOTTOM"
   },
-  "convertcase":{
-    "message":"Convert Case"
+  "leftbottom": {
+    "message": "LEFT BOTTOM"
   },
-  "btn_upper":{
-    "message":"UPPER CASE"
+  "lefttop": {
+    "message": "LEFT TOP"
   },
-  "btn_lower":{
-    "message":"LOWER CASE"
+  "righttop": {
+    "message": "RIGHT TOP"
   },
-  "btn_start":{
-    "message":"START"
+  "hover": {
+    "message": "RIGHT BOTTOM"
   },
-  "autoreload":{
-    "message":"Auto Reload"
+  "follow": {
+    "message": "FOLLOW"
   },
-  "autoreload_interval":{
-    "message":"Reload intervals in seconds:"
+  "center": {
+    "message": "CENTER"
   },
-  "autoreload_cache":{
-    "message":"Bypass cache"
+  "mergewin": {
+    "message": "Merge all Windows"
   },
-  "autoreload_icon":{
-    "message":"Show countdown on icon"
+  "n_winstate": {
+    "message": "Window State:"
   },
-  "homepage":{
-    "message":"Home Page"
+  "s_minimized": {
+    "message": "Minimized"
   },
-  "n_homepage_icon":{
-    "message":"Show icon within item"
+  "s_maximized": {
+    "message": "Maximized"
   },
-  "n_homepage_bg":{
-    "message":"Show background image with Bing"
+  "s_fullscreen": {
+    "message": "Fullscreen"
   },
-  "n_homepage_resize":{
-    "message":"Resize window to display background image better"
+  "ext_issue": {
+    "message": "Issues:"
   },
-  "tbkjx":{
-    "message":"Coupon"
+  "ext_allver": {
+    "message": "All versions:"
   },
-  "app_tbkjx_num":{
-    "message":"Number of list items"
+  "donatedev": {
+    "message": "Support Developer"
   },
-  "closeapps":{
-    "message":"Close all Mini-apps in tab"
+  "moreext": {
+    "message": "More Extensons"
   },
-  "magnet":{
-    "message":"Torrent Hash To Magnet URI"
+  "con_ad": {
+    "message": "Show advertisements on current options page"
   },
-  "btn_clear":{
-    "message":"CLEAR"
+  "des_ad": {
+    "message": "Ads are only shown on the current options page and will never appear on other pages. Thank you for your supporting."
   },
-  "magnet_placeholder_input":{
-    "message":"Input torrent hash text."
+  "des_moreextlist": {
+    "message": "These extensions are developed by me. Welcome to install and use."
   },
-  "homepage_grouptop":{
-    "message":"Most Visited Sites"
+  "des_adlist0": {
+    "message": "These are advertisements, thank you for your support."
   },
-  "homepage_groupdefault":{
-    "message":"Default Group"
+  "des_adlist1": {
+    "message": "It can be turned on or off by the following path: About > Support Development."
   },
-  "homepage_grouplist":{
-    "message":"Sites group list"
+  "lottery": {
+    "message": "Lottery Data"
   },
-  "editmode":{
-    "message":"Edit Mode"
+  "lottery_type": {
+    "message": "Lottery type:"
   },
-  "homepage_newgroup":{
-    "message":"Add an new group"
+  "lottery_term": {
+    "message": "Lottery term:"
   },
-  "homepage_grouptitle":{
-    "message":"Group Name"
+  "lottery_dlt": {
+    "message": "Da Le Tou"
   },
-  "homepage_sitetitle":{
-    "message":"Site Name"
+  "lottery_pls": {
+    "message": "Pai Lie San"
   },
-  "homepage_siteurl":{
-    "message":"Site URL"
+  "lottery_ssq": {
+    "message": "Shuang Se Qiu"
   },
-  "homepage_placeurl":{
-    "message":"Including prefix: http, https and etc."
+  "lottery_sd": {
+    "message": "Fucai 3D"
   },
-  "homepage_cfmlistdel":{
-    "message":"This will delete all sites in the group, Please confirm the operation."
+  "pxmovie": {
+    "message": "Poxiao Movie recent update"
   },
-  "homepage_ctm":{
-    "message":"Add to Mini-apps: Home Page"
+  "convertcase": {
+    "message": "Convert Case"
   },
-  "n_homepage_last":{
-    "message":"Set the last sites group as a default one"
+  "btn_upper": {
+    "message": "UPPER CASE"
   },
-  "msg_conferr0":{
-    "message":"Failed to save settings. The error message is:"
+  "btn_lower": {
+    "message": "LOWER CASE"
   },
-  "msg_conferr1":{
-    "message":"smartUp Gestures will try to roll back to the previous settings."
+  "btn_start": {
+    "message": "START"
   },
-  "notif_title_conferr":{
-    "message":"Settings save Failed!"
+  "autoreload": {
+    "message": "Auto Reload"
   },
-  "tip_item":{
-    "message":"Click to edit, drag to sort."
+  "autoreload_interval": {
+    "message": "Reload intervals in seconds:"
   },
-  "tip_del":{
-    "message":"Delete"
+  "autoreload_cache": {
+    "message": "Bypass cache"
   },
-  "appslist_listenabled":{
-    "message":"Enabled APPs"
+  "autoreload_icon": {
+    "message": "Show countdown on icon"
   },
-  "appslist_listdisabled":{
-    "message":"Disabled APPs"
+  "homepage": {
+    "message": "Home Page"
   },
-  "appslist_desenabled":{
-    "message":"Dragging to sort, Drag into 'Disabled Apps' to hidden."
+  "n_homepage_icon": {
+    "message": "Show icon within item"
   },
-  "appslist_desdisabled":{
-    "message":"Dragging into 'Enabled Apps' to show."
+  "n_homepage_bg": {
+    "message": "Show background image with Bing"
   },
-  "jslist_listenabled":{
-    "message":"Enabled Scripts"
+  "n_homepage_resize": {
+    "message": "Resize window to display background image better"
   },
-  "jslist_listdisabled":{
-    "message":"Disabled Scripts"
+  "tbkjx": {
+    "message": "Coupon"
   },
-  "jslist_desenabled":{
-    "message":"Dragging to sort, Drag into 'Disabled Scripts' to hidden."
+  "app_tbkjx_num": {
+    "message": "Number of list items"
   },
-  "jslist_desdisabled":{
-    "message":"Dragging into 'Enabled Scripts' to show."
+  "closeapps": {
+    "message": "Close all Mini-apps in tab"
   },
-  "extmgm_alwaysenable":{
-    "message":"Always Enable"
+  "magnet": {
+    "message": "Torrent Hash To Magnet URI"
   },
-  "extmgm_lastenable":{
-    "message":"Last Enabled"
+  "btn_clear": {
+    "message": "CLEAR"
   },
-  "extmgm_allenable":{
-    "message":"Enable all Extensions"
+  "magnet_placeholder_input": {
+    "message": "Input torrent hash text."
   },
-  "extmgm_alldisable":{
-    "message":"Disable all Extensions"
+  "homepage_grouptop": {
+    "message": "Most Visited Sites"
   },
-  "extmgm_tipdisable":{
-    "message":"Disable in current group"
+  "homepage_groupdefault": {
+    "message": "Default Group"
   },
-  "extmgm_tipoption":{
-    "message":"Options Page"
+  "homepage_grouplist": {
+    "message": "Sites group list"
   },
-  "extmgm_tipuninstall":{
-    "message":"Uninstall"
+  "editmode": {
+    "message": "Edit Mode"
   },
-  "extmgm_tipenable":{
-    "message":"Enabled in current group"
+  "homepage_newgroup": {
+    "message": "Add an new group"
   },
-  "extmgm_grouplist":{
-    "message":"Extension Group List"
+  "homepage_grouptitle": {
+    "message": "Group Name"
   },
-  "extmgm_editmode":{
-    "message":"Edit Mode"
+  "homepage_sitetitle": {
+    "message": "Site Name"
   },
-  "n_uninstallconfirm":{
-    "message":"When uninstalling an extension, need to confirm"
+  "homepage_siteurl": {
+    "message": "Site URL"
   },
-  "n_enableallconfirm":{
-    "message":"When enabling all extensions, need to confirm"
+  "homepage_placeurl": {
+    "message": "Including prefix: http, https and etc."
   },
-  "n_disableallconfirm":{
-    "message":"When disabling all extensions, need to confirm"
+  "homepage_cfmlistdel": {
+    "message": "This will delete all sites in the group, Please confirm the operation."
   },
-  "extmgm_confirmenableall":{
-    "message":"All extensions will be enabled, please confirm again."
+  "homepage_ctm": {
+    "message": "Add to Mini-apps: Home Page"
   },
-  "extmgm_confirmdisableall":{
-    "message":"All extensions will be disabled, please confirm again."
+  "n_homepage_last": {
+    "message": "Set the last sites group as a default one"
   },
-  "extmgm_defaultgroup":{
-    "message":"Default Group"
+  "msg_conferr0": {
+    "message": "Failed to save settings. The error message is:"
   },
-  "tip_more":{
-    "message":"More"
+  "msg_conferr1": {
+    "message": "smartUp Gestures will try to roll back to the previous settings."
   },
-  "tip_edit":{
-    "message":"Edit"
+  "notif_title_conferr": {
+    "message": "Settings save Failed!"
   },
-  "extmgm_firstitem":{
-    "message":"Choose which group to enable"
+  "tip_item": {
+    "message": "Click to edit, drag to sort."
   },
-  "extmgm_groupenable":{
-    "message":"Enabled in the group"
+  "tip_del": {
+    "message": "Delete"
   },
-  "extmgm_groupdisable":{
-    "message":"Disable in the group"
+  "appslist_listenabled": {
+    "message": "Enabled APPs"
   },
-  "extmgm_newgroup":{
-    "message":"New Group"
+  "appslist_listdisabled": {
+    "message": "Disabled APPs"
   },
-  "extmgm_groupname":{
-    "message":"Group name"
+  "appslist_desenabled": {
+    "message": "Dragging to sort, Drag into 'Disabled Apps' to hidden."
   },
-  "tip_showlist":{
-    "message":"All actions"
+  "appslist_desdisabled": {
+    "message": "Dragging into 'Enabled Apps' to show."
   },
-  "notepad":{
-    "message":"Notepad"
+  "jslist_listenabled": {
+    "message": "Enabled Scripts"
   },
-  "des_notepad_bottom":{
-    "message":"All the notes are stored at locally without encrypted, and, will not be synced by browser."
+  "jslist_listdisabled": {
+    "message": "Disabled Scripts"
   },
-  "btn_new":{
-    "message":"NEW"
+  "jslist_desenabled": {
+    "message": "Dragging to sort, Drag into 'Disabled Scripts' to hidden."
   },
-  "tip_save":{
-    "message":"SAVE"
+  "jslist_desdisabled": {
+    "message": "Dragging into 'Enabled Scripts' to show."
   },
-  "tip_cancel":{
-    "message":"CANCEL"
+  "extmgm_alwaysenable": {
+    "message": "Always Enable"
   },
-  "notepad_defalut_title":{
-    "message":"Default Title"
+  "extmgm_lastenable": {
+    "message": "Last Enabled"
   },
-  "notepad_defalut_content":{
-    "message":"Default Content"
+  "extmgm_allenable": {
+    "message": "Enable all Extensions"
   },
-  "n_notepad_delconfirm":{
-    "message":"When deleting note, need to confirm."
+  "extmgm_alldisable": {
+    "message": "Disable all Extensions"
   },
-  "n_notepad_switchsave":{
-    "message":"Automatically save when switching notes."
+  "extmgm_tipdisable": {
+    "message": "Disable in current group"
   },
-  "n_notepad_last":{
-    "message":"Set last edited note as the default one."
+  "extmgm_tipoption": {
+    "message": "Options Page"
   },
-  "notepad_delconfirm":{
-    "message":"confirm to delete this notes?"
+  "extmgm_tipuninstall": {
+    "message": "Uninstall"
   },
-  "shorturl":{
-    "message":"Short URL"
+  "extmgm_tipenable": {
+    "message": "Enabled in current group"
   },
-  "app_shorturl_btn":{
-    "message":"Get Short URL"
+  "extmgm_grouplist": {
+    "message": "Extension Group List"
   },
-  "app_shorturl_key":{
-    "message":"Key word:"
+  "extmgm_editmode": {
+    "message": "Edit Mode"
   },
-  "app_shorturl_source":{
-    "message":"Source URL:"
+  "n_uninstallconfirm": {
+    "message": "When uninstalling an extension, need to confirm"
   },
-  "app_shorturl_short":{
-    "message":"Short URL:"
+  "n_enableallconfirm": {
+    "message": "When enabling all extensions, need to confirm"
   },
-  "app_shorturl_wait":{
-    "message":"Waiting for operation ..."
+  "n_disableallconfirm": {
+    "message": "When disabling all extensions, need to confirm"
   },
-  "app_shorturl_waitserver":{
-    "message":"Waiting for server response ..."
+  "extmgm_confirmenableall": {
+    "message": "All extensions will be enabled, please confirm again."
   },
-  "app_shorturl_success":{
-    "message":"Get short URL successfully !"
+  "extmgm_confirmdisableall": {
+    "message": "All extensions will be disabled, please confirm again."
   },
-  "app_shorturl_err":{
-    "message":"Error : "
+  "extmgm_defaultgroup": {
+    "message": "Default Group"
   },
-  "n_qr":{
-    "message":"Show QR code"
+  "tip_more": {
+    "message": "More"
   },
-  "n_suyourls":{
-    "message":"Use smartUp short URL service"
+  "tip_edit": {
+    "message": "Edit"
   },
-  "app_shorturl_keyholder":{
-    "message":"Input keyword, or leave blank to generate automatically."
+  "extmgm_firstitem": {
+    "message": "Choose which group to enable"
   },
-  "dca":{
-    "message":"Double Click Action"
+  "extmgm_groupenable": {
+    "message": "Enabled in the group"
   },
-  "con_dcatrigger":{
-    "message":"Hold the following key to trigger:"
+  "extmgm_groupdisable": {
+    "message": "Disable in the group"
   },
-  "con_dcakeynone":{
-    "message":"None."
+  "extmgm_newgroup": {
+    "message": "New Group"
+  },
+  "extmgm_groupname": {
+    "message": "Group name"
+  },
+  "tip_showlist": {
+    "message": "All actions"
+  },
+  "notepad": {
+    "message": "Notepad"
+  },
+  "des_notepad_bottom": {
+    "message": "All the notes are stored at locally without encrypted, and, will not be synced by browser."
+  },
+  "btn_new": {
+    "message": "NEW"
+  },
+  "tip_save": {
+    "message": "SAVE"
+  },
+  "tip_cancel": {
+    "message": "CANCEL"
+  },
+  "notepad_defalut_title": {
+    "message": "Default Title"
+  },
+  "notepad_defalut_content": {
+    "message": "Default Content"
+  },
+  "n_notepad_delconfirm": {
+    "message": "When deleting note, need to confirm."
+  },
+  "n_notepad_switchsave": {
+    "message": "Automatically save when switching notes."
+  },
+  "n_notepad_last": {
+    "message": "Set last edited note as the default one."
+  },
+  "notepad_delconfirm": {
+    "message": "confirm to delete this notes?"
+  },
+  "shorturl": {
+    "message": "Short URL"
+  },
+  "app_shorturl_btn": {
+    "message": "Get Short URL"
+  },
+  "app_shorturl_key": {
+    "message": "Key word:"
+  },
+  "app_shorturl_source": {
+    "message": "Source URL:"
+  },
+  "app_shorturl_short": {
+    "message": "Short URL:"
+  },
+  "app_shorturl_wait": {
+    "message": "Waiting for operation ..."
+  },
+  "app_shorturl_waitserver": {
+    "message": "Waiting for server response ..."
+  },
+  "app_shorturl_success": {
+    "message": "Get short URL successfully !"
+  },
+  "app_shorturl_err": {
+    "message": "Error : "
+  },
+  "n_qr": {
+    "message": "Show QR code"
+  },
+  "n_suyourls": {
+    "message": "Use smartUp short URL service"
+  },
+  "app_shorturl_keyholder": {
+    "message": "Input keyword, or leave blank to generate automatically."
+  },
+  "dca": {
+    "message": "Double Click Action"
+  },
+  "con_dcatrigger": {
+    "message": "Hold the following key to trigger:"
+  },
+  "con_dcakeynone": {
+    "message": "None."
   },
   "con_dcakeyctrl": {
     "message": "Alt Ctrl or Shift:"
@@ -1779,46 +1835,46 @@
   "con_dcabox": {
     "message": "Enable in a text box."
   },
-  "con_dcaconfirm":{
+  "con_dcaconfirm": {
     "message": "Need confirm, before the operation."
   },
-  "con_dcaselnothing":{
+  "con_dcaselnothing": {
     "message": "Only enabled when there is nothing be selected."
   },
-  "ksa":{
+  "ksa": {
     "message": "Keyboard Shortcut Actions"
   },
-  "con_keys":{
+  "con_keys": {
     "message": "KEYS"
   },
-  "con_actions":{
+  "con_actions": {
     "message": "ACTIONS"
   },
-  "con_others":{
+  "con_others": {
     "message": "OTHERS"
   },
-  "tip_enterkeys":{
-    "message":"Use keyboard to enter keys"
+  "tip_enterkeys": {
+    "message": "Use keyboard to enter keys"
   },
-  "reopenincognito":{
-    "message":"Reopen in Incognito Window"
+  "reopenincognito": {
+    "message": "Reopen in Incognito Window"
   },
-  "n_reopenkeep":{
-    "message":"Keep the original tab"
+  "n_reopenkeep": {
+    "message": "Keep the original tab"
   },
-  "s_incogback":{
-    "message":"Incognito (background)"
+  "s_incogback": {
+    "message": "Incognito (background)"
   },
-  "tip_closemulticonfirm":{
-    "message":"You are trying to close multiple tabs. Are you sure you want to continue?"
+  "tip_closemulticonfirm": {
+    "message": "You are trying to close multiple tabs. Are you sure you want to continue?"
   },
-  "cl_factorcustom":{
-    "message":"Set custom zoom factor (%):"
+  "cl_factorcustom": {
+    "message": "Set custom zoom factor (%):"
   },
-  "cl_factorloaded":{
-    "message":"The factor which get from the page when loaded or reloaded"
+  "cl_factorloaded": {
+    "message": "The factor which get from the page when loaded or reloaded"
   },
-  "c_factor":{
-    "message":"Customize the default zoom factor"
+  "c_factor": {
+    "message": "Customize the default zoom factor"
   }
 }

@@ -2,8 +2,8 @@
   "ext_des": {
     "message": "最佳的瀏覽手勢擴充功能。功能包括：滑鼠手勢、簡單拖曳、超級拖曳等。"
   },
-  "ext_name":{
-    "message":"smartUp手勢"
+  "ext_name": {
+    "message": "smartUp手勢"
   },
   "ext_desb": {
     "message": "smartUp 讓你的瀏覽器使用上更便利與快速，功能包括滑鼠手勢、簡單拖曳、超級拖曳等。使用它，你將能快速地完成更多瀏覽器的操作，例如「關閉/開啟分頁」、「最小化/最大化視窗」，並且你能同時使用其他的擴充功能唷。(僅需做些變更)。 "
@@ -17,8 +17,8 @@
   "ext_email": {
     "message": "反饋："
   },
-  "icon_tip":{
-    "message":"smartUp Gestures can't works perfectly in this tab!"
+  "icon_tip": {
+    "message": "smartUp Gestures can't works perfectly in this tab!"
   },
   "opt_title": {
     "message": "設定"
@@ -32,20 +32,20 @@
   "menu_autosave": {
     "message": "自動儲存設定"
   },
-  "menu_popactions":{
-    "message":"Popup actions:"
+  "menu_popactions": {
+    "message": "Popup actions:"
   },
-  "menu_opts":{
-    "message":"Options"
+  "menu_opts": {
+    "message": "Options"
   },
-  "menu_about":{
-    "message":"About"
+  "menu_about": {
+    "message": "About"
   },
-  "menuplus_opennew":{
-    "message":"開啟於新分頁"
+  "menuplus_opennew": {
+    "message": "開啟於新分頁"
   },
-  "menuplus_exit":{
-    "message":"離開"
+  "menuplus_exit": {
+    "message": "離開"
   },
   "con_name": {
     "message": "名稱："
@@ -53,8 +53,8 @@
   "con_timeout": {
     "message": "逾時"
   },
-  "con_timeout_nomenu":{
-    "message":"Do NOT popup context menu"
+  "con_timeout_nomenu": {
+    "message": "Do NOT popup context menu"
   },
   "con_minlength": {
     "message": "畫出最小長度的手勢"
@@ -68,7 +68,7 @@
   "con_notif": {
     "message": "顯示更新提示"
   },
-  "con_miniappnotif":{
+  "con_miniappnotif": {
     "message": "顯示來自迷你應用程式的提示"
   },
   "con_linux": {
@@ -107,44 +107,44 @@
   "con_enableimg": {
     "message": "拖曳圖片"
   },
-  "con_lang":{
-    "message":"顯示語言："
+  "con_lang": {
+    "message": "顯示語言："
   },
-  "con_export":{
-    "message":"按下這裡匯出設定檔案。"
+  "con_export": {
+    "message": "按下這裡匯出設定檔案。"
   },
-  "con_setbg":{
-    "message":"自訂背景圖片"
+  "con_setbg": {
+    "message": "自訂背景圖片"
   },
-  "con_bgnote0":{
-    "message":"這是目前使用的背景圖片，你可以改變成自己喜歡的。"
+  "con_bgnote0": {
+    "message": "這是目前使用的背景圖片，你可以改變成自己喜歡的。"
   },
-  "con_bgnote1":{
-    "message":"此變更將不會被同步！"
+  "con_bgnote1": {
+    "message": "此變更將不會被同步！"
   },
-  "con_theme":{
-    "message":"選項頁面的佈景主題："
+  "con_theme": {
+    "message": "選項頁面的佈景主題："
   },
-  "con_drgcursor":{
-    "message":"Change mouse style to removable(some browser's default features don't work)"
+  "con_drgcursor": {
+    "message": "Change mouse style to removable(some browser's default features don't work)"
   },
-  "con_notename":{
-    "message":"Note for this action:"
+  "con_notename": {
+    "message": "Note for this action:"
   },
-  "con_notechk":{
-    "message":"show the note in tab."
+  "con_notechk": {
+    "message": "show the note in tab."
   },
-  "con_autosync":{
-    "message":"Auto sync configuration"
+  "con_autosync": {
+    "message": "Auto sync configuration"
   },
-  "con_esc":{
-    "message":"Press [ESC] to cancel current operation"
+  "con_esc": {
+    "message": "Press [ESC] to cancel current operation"
   },
-  "con_background":{
-    "message":"Make Chrome always work in background , so smartUp will work better. (will request 'background' permission)"
+  "con_background": {
+    "message": "Make Chrome always work in background , so smartUp will work better. (will request 'background' permission)"
   },
-  "con_draggable":{
-    "message":"Disable drag, when the dragged element was set as draggable[draggable=true]"
+  "con_draggable": {
+    "message": "Disable drag, when the dragged element was set as draggable[draggable=true]"
   },
   "stnm_per_pers": {
     "message": "權限管理"
@@ -176,7 +176,7 @@
   "stnm_exportconf": {
     "message": "匯出設定"
   },
-  "stnm_syncconf":{
+  "stnm_syncconf": {
     "message": "同步設定"
   },
   "stnm_resetconf": {
@@ -185,17 +185,17 @@
   "stnm_drgsw": {
     "message": "啟用拖曳"
   },
-  "stnm_resetapps":{
-    "message":"重設所有迷你應用程式選項"
+  "stnm_resetapps": {
+    "message": "重設所有迷你應用程式選項"
   },
-  "stnm_action":{
-    "message":"Edit actions"
-    },
+  "stnm_action": {
+    "message": "Edit actions"
+  },
   "des_pers": {
     "message": "為了取得更多資訊，請前往頁面 https://developer.chrome.com/extensions/permission_warnings "
   },
-  "des_pers1":{
-    "message":"你可以前往 設定>一般>權限 刪除這些被請求的權限設定"
+  "des_pers1": {
+    "message": "你可以前往 設定>一般>權限 刪除這些被請求的權限設定"
   },
   "des_linux": {
     "message": "此選項僅可用於非 Windows 平台。需要點兩下右鍵開啟選單。"
@@ -203,8 +203,8 @@
   "des_sync": {
     "message": "設定資料將被 瀏覽器 同步，如果你已经登入且瀏覽器支持该功能。"
   },
-  "des_sync1":{
-    "message":"If you cant connect Google service easily, or configuration cant be saved and aways reset to last one, you may try to uncheck this, by exporting the configuration to preserve your settings."
+  "des_sync1": {
+    "message": "If you cant connect Google service easily, or configuration cant be saved and aways reset to last one, you may try to uncheck this, by exporting the configuration to preserve your settings."
   },
   "des_item": {
     "message": "按下項目以編輯，按下「X」可刪除、按下「+」可新增項目。"
@@ -212,8 +212,8 @@
   "des_fnswitch": {
     "message": "根據個人需要來選擇，建議關閉通常不會用到的功能。"
   },
-  "des_resetapps":{
-    "message":"假如某些迷你應用程式無法執行，嘗試重設它們的設定。此動作將會清除所有迷你應用程式的設定，這是不可還原的動作！"
+  "des_resetapps": {
+    "message": "假如某些迷你應用程式無法執行，嘗試重設它們的設定。此動作將會清除所有迷你應用程式的設定，這是不可還原的動作！"
   },
   "s_default": {
     "message": "預設"
@@ -311,44 +311,44 @@
   "s_detached_panel": {
     "message": "分離面板"
   },
-  "s_tabele_title":{
-    "message":"分頁標題"
+  "s_tabele_title": {
+    "message": "分頁標題"
   },
-  "s_tabele_url":{
-    "message":"分頁網址"
+  "s_tabele_url": {
+    "message": "分頁網址"
   },
-  "s_tabele_aslnk":{
-    "message":"當作連結"
+  "s_tabele_aslnk": {
+    "message": "當作連結"
   },
-  "s_cr_set":{
-    "message":"設定"
+  "s_cr_set": {
+    "message": "設定"
   },
-  "s_cr_ext":{
-    "message":"擴充功能"
+  "s_cr_ext": {
+    "message": "擴充功能"
   },
-  "s_cr_history":{
-    "message":"歷史記錄"
+  "s_cr_history": {
+    "message": "歷史記錄"
   },
-  "s_cr_app":{
-    "message":"應用程式"
+  "s_cr_app": {
+    "message": "應用程式"
   },
-  "s_cr_dl":{
-    "message":"下載"
+  "s_cr_dl": {
+    "message": "下載"
   },
-  "s_cr_bookmark":{
-    "message":"書籤"
+  "s_cr_bookmark": {
+    "message": "書籤"
   },
-  "s_cr_flag":{
-    "message":"實驗功能"
+  "s_cr_flag": {
+    "message": "實驗功能"
   },
-  "s_unicode":{
-    "message":"Unicode"
+  "s_unicode": {
+    "message": "Unicode"
   },
-  "s_uri":{
-    "message":"encodeURI"
+  "s_uri": {
+    "message": "encodeURI"
   },
-  "s_uric":{
-    "message":"encodeURIComponent"
+  "s_uric": {
+    "message": "encodeURIComponent"
   },
   "s_none": {
     "message": "無"
@@ -389,20 +389,20 @@
   "s_reset": {
     "message": "重設"
   },
-  "s_audible":{
-    "message":"Audible tabs"
+  "s_audible": {
+    "message": "Audible tabs"
   },
-  "n_notif":{
-    "message":"顯示動作提示"
+  "n_notif": {
+    "message": "顯示動作提示"
   },
-  "n_tab":{
-    "message":"目標分頁："
+  "n_tab": {
+    "message": "目標分頁："
   },
-  "n_tab_single":{
-    "message":"目標分頁："
+  "n_tab_single": {
+    "message": "目標分頁："
   },
-  "n_tab_lrhl":{
-    "message":"目標分頁："
+  "n_tab_lrhl": {
+    "message": "目標分頁："
   },
   "n_close": {
     "message": "目標分頁："
@@ -413,17 +413,17 @@
   "n_close_sel": {
     "message": "已選擇分頁："
   },
-  "n_close_keep":{
-    "message":"關閉最後分頁時保留視窗。"
+  "n_close_keep": {
+    "message": "關閉最後分頁時保留視窗。"
   },
-  "n_closePin":{
-    "message":"Do not close the pinned tab."
+  "n_closePin": {
+    "message": "Do not close the pinned tab."
   },
-  "n_closeConfirm":{
-    "message":"Need to confirm, when closing multiple tabs."
+  "n_closeConfirm": {
+    "message": "Need to confirm, when closing multiple tabs."
   },
-  "n_closetab":{
-    "message":"Close tab after completing action."
+  "n_closetab": {
+    "message": "Close tab after completing action."
   },
   "n_optype": {
     "message": "開啟風格："
@@ -431,17 +431,17 @@
   "n_position": {
     "message": "位置："
   },
-  "n_position_lrhl":{
-    "message":"位置："
+  "n_position_lrhl": {
+    "message": "位置："
   },
   "n_new_position": {
     "message": "位置："
   },
-  "n_index":{
-    "message":"位置："
+  "n_index": {
+    "message": "位置："
   },
-  "n_index_new":{
-    "message":"位置："
+  "n_index_new": {
+    "message": "位置："
   },
   "n_wintype": {
     "message": "視窗形式："
@@ -461,29 +461,29 @@
   "n_content": {
     "message": "內容："
   },
-  "n_encoding":{
-    "message":"編碼："
+  "n_encoding": {
+    "message": "編碼："
   },
-  "n_target_np":{
-    "message":"開啟風格："
+  "n_target_np": {
+    "message": "開啟風格："
   },
-  "n_npkey_n":{
-    "message":"關鍵字："
+  "n_npkey_n": {
+    "message": "關鍵字："
   },
-  "n_npkey_p":{
-    "message":"關鍵字："
+  "n_npkey_p": {
+    "message": "關鍵字："
   },
-  "n_dlbar":{
-    "message":"顯示下載列"
+  "n_dlbar": {
+    "message": "顯示下載列"
   },
-  "n_crpages":{
-    "message":"內部頁面："
+  "n_crpages": {
+    "message": "內部頁面："
   },
-  "n_copytabele_content":{
-    "message":"複製形式："
+  "n_copytabele_content": {
+    "message": "複製形式："
   },
-  "n_script":{
-    "message":"腳本："
+  "n_script": {
+    "message": "腳本："
   },
   "n_jq": {
     "message": "注入 JQ"
@@ -494,26 +494,26 @@
   "n_imgengine": {
     "message": "圖片引擎："
   },
-  "n_zoom":{
-    "message":"縮放形式："
+  "n_zoom": {
+    "message": "縮放形式："
   },
-  "n_scroll":{
-    "message":"捲動形式："
+  "n_scroll": {
+    "message": "捲動形式："
   },
-  "n_num":{
-    "message":"數字："
+  "n_num": {
+    "message": "數字："
   },
-  "n_closebox":{
-    "message":"按下清單選項後關閉介面。"
+  "n_closebox": {
+    "message": "按下清單選項後關閉介面。"
   },
-  "n_snap":{
-    "message":"Snap direction:"
+  "n_snap": {
+    "message": "Snap direction:"
   },
-  "n_url":{
-    "message":"URL:"
+  "n_url": {
+    "message": "URL:"
   },
-  "n_dialog":{
-    "message":"Show dialog box"
+  "n_dialog": {
+    "message": "Show dialog box"
   },
   "script": {
     "message": "腳本"
@@ -551,20 +551,20 @@
   "ag_search": {
     "message": "搜尋"
   },
-  "ag_exp":{
-    "message":"實驗性功能"
+  "ag_exp": {
+    "message": "實驗性功能"
   },
-  "ag_chrome":{
-    "message":"關於瀏覽器"
+  "ag_chrome": {
+    "message": "關於瀏覽器"
   },
-  "ag_apps":{
-    "message":"迷你應用程式"
+  "ag_apps": {
+    "message": "迷你應用程式"
   },
-  "ag_su":{
-    "message":"關於 smartUp"
+  "ag_su": {
+    "message": "關於 smartUp"
   },
-  "ag_dep":{
-    "message":"棄用"
+  "ag_dep": {
+    "message": "棄用"
   },
   "none": {
     "message": "無"
@@ -656,8 +656,8 @@
   "txtsearch": {
     "message": "搜尋文字"
   },
-  "txtsearchclip":{
-    "message":"Search Texts from Clipboard"
+  "txtsearchclip": {
+    "message": "Search Texts from Clipboard"
   },
   "openlnk": {
     "message": "開啟連結"
@@ -707,68 +707,68 @@
   "copytabele": {
     "message": "複製分頁元素"
   },
-  "crpages":{
-    "message":"瀏覽器內部頁面"
+  "crpages": {
+    "message": "瀏覽器內部頁面"
   },
-  "dldir":{
-    "message":"開啟預設下載資料夾"
+  "dldir": {
+    "message": "開啟預設下載資料夾"
   },
-  "bookmark":{
-    "message":"加入書籤"
+  "bookmark": {
+    "message": "加入書籤"
   },
-  "bookmarklnk":{
-    "message":"加入書籤"
+  "bookmarklnk": {
+    "message": "加入書籤"
   },
-  "zoom":{
-    "message":"縮放"
+  "zoom": {
+    "message": "縮放"
   },
-  "zoom_dep":{
-    "message":"縮放"
+  "zoom_dep": {
+    "message": "縮放"
   },
-  "savepage":{
-    "message":"儲存頁面"
+  "savepage": {
+    "message": "儲存頁面"
   },
-  "tablist":{
-    "message":"分頁清單"
+  "tablist": {
+    "message": "分頁清單"
   },
-  "upperlevel":{
-    "message":"Go Upper Level"
+  "upperlevel": {
+    "message": "Go Upper Level"
   },
-  "increment":{
-    "message":"Increment Number in URL"
+  "increment": {
+    "message": "Increment Number in URL"
   },
-  "decrement":{
-    "message":"Decrement Number in URL"
+  "decrement": {
+    "message": "Decrement Number in URL"
   },
-  "extdisable":{
-    "message":"Disable smartUp in current tab temporarily"
+  "extdisable": {
+    "message": "Disable smartUp in current tab temporarily"
   },
   "general": {
     "message": "一般"
   },
-  "recentbk":{
-    "message":"最近書籤"
+  "recentbk": {
+    "message": "最近書籤"
   },
-  "recentht":{
-    "message":"最近歷史記錄"
+  "recentht": {
+    "message": "最近歷史記錄"
   },
-  "dllink":{
-    "message":"Save Link"
+  "dllink": {
+    "message": "Save Link"
   },
-  "savepdf":{
-    "message":"Save as PDF"
+  "savepdf": {
+    "message": "Save as PDF"
   },
-  "copyimg":{
-    "message":"Copy Image"
+  "copyimg": {
+    "message": "Copy Image"
   },
-  "set_bk":{
-    "message":"Set Open Bookmarks in new Tabs"
+  "set_bk": {
+    "message": "Set Open Bookmarks in new Tabs"
   },
-  "set_search":{
-    "message":"Set Open Search Results in new Tabs"
+  "set_search": {
+    "message": "Set Open Search Results in new Tabs"
   },
-  "readermode":{
-    "message":"Reader Mode"
+  "readermode": {
+    "message": "Reader Mode"
   },
   "mges": {
     "message": "滑鼠手勢"
@@ -788,14 +788,14 @@
   "about": {
     "message": "關於"
   },
-  "changelog":{
-    "message":"更新記錄"
+  "changelog": {
+    "message": "更新記錄"
   },
-  "translate":{
-    "message":"翻譯"
+  "translate": {
+    "message": "翻譯"
   },
-  "thanks":{
-    "message":"致謝"
+  "thanks": {
+    "message": "致謝"
   },
   "setting": {
     "message": "設定"
@@ -815,8 +815,8 @@
   "linux": {
     "message": "Linux/Mac 設定"
   },
-  "per":{
-    "message":"權限"
+  "per": {
+    "message": "權限"
   },
   "conf": {
     "message": "設定檔案管理"
@@ -899,14 +899,14 @@
   "msg_dirrepeat": {
     "message": "方向已重複，請重新嘗試！"
   },
-  "msg_blank":{
-    "message":"你需要輸入一些什麼才能繼續！"
+  "msg_blank": {
+    "message": "你需要輸入一些什麼才能繼續！"
   },
-  "msg_setbg":{
-    "message":"發生某些錯誤！！"
+  "msg_setbg": {
+    "message": "發生某些錯誤！！"
   },
-  "msg_first":{
-    "message":"感謝你安裝此擴充功能。<br \/><li>smartUp 是免費的擴充功能，如果你能給我5顆星，我會很開心。<li>若這是初次安裝畫面，它已執行中。嘗試按著右鍵以畫出上或右的手勢？！ 若你已安裝，等待1分鐘，它正在背景同步你的設定資料<li>基於某些原因，此選項頁面中某些動作已無法作動。(捲動，腳本...)<li>由於瀏覽器的限制，某些分頁也無法使用 smartUp。(新分頁，設定頁面...)<li>你將可以增加更多動作。"
+  "msg_first": {
+    "message": "感謝你安裝此擴充功能。<br \/><li>smartUp 是免費的擴充功能，如果你能給我5顆星，我會很開心。<li>若這是初次安裝畫面，它已執行中。嘗試按著右鍵以畫出上或右的手勢？！ 若你已安裝，等待1分鐘，它正在背景同步你的設定資料<li>基於某些原因，此選項頁面中某些動作已無法作動。(捲動，腳本...)<li>由於瀏覽器的限制，某些分頁也無法使用 smartUp。(新分頁，設定頁面...)<li>你將可以增加更多動作。"
   },
   "test_mges": {
     "message": "在這裡畫出手勢。"
@@ -932,41 +932,41 @@
   "btn_done": {
     "message": "完成"
   },
-  "btn_del":{
-    "message":"刪除"
+  "btn_del": {
+    "message": "刪除"
   },
-  "btn_continue":{
-    "message":"繼續"
+  "btn_continue": {
+    "message": "繼續"
   },
-  "btn_next":{
-    "message":"下一步"
+  "btn_next": {
+    "message": "下一步"
   },
-  "btn_back":{
-    "message":"上一步"
+  "btn_back": {
+    "message": "上一步"
   },
-  "btn_decode":{
-    "message":"解碼"
+  "btn_decode": {
+    "message": "解碼"
   },
-  "btn_encode":{
-    "message":"編碼"
+  "btn_encode": {
+    "message": "編碼"
   },
-  "btn_play":{
-    "message":"播放"
+  "btn_play": {
+    "message": "播放"
   },
-  "btn_pause":{
-    "message":"暫停"
+  "btn_pause": {
+    "message": "暫停"
   },
-  "btn_resume":{
-    "message":"繼續"
+  "btn_resume": {
+    "message": "繼續"
   },
-  "btn_stop":{
-    "message":"停止"
+  "btn_stop": {
+    "message": "停止"
   },
-  "btn_resetapps":{
-    "message":"重設迷你應用程式設定"
+  "btn_resetapps": {
+    "message": "重設迷你應用程式設定"
   },
-  "btn_reset":{
-    "message":"RESET"
+  "btn_reset": {
+    "message": "RESET"
   },
   "init_openlnk_bg": {
     "message": "開啟連結於背景"
@@ -992,421 +992,427 @@
   "init_openimg_bg": {
     "message": "開啟圖片於背景"
   },
-  "init_searchtxt_bg":{
+  "init_searchtxt_bg": {
     "message": "搜尋文字於背景"
   },
   "init_searchimg_bg": {
     "message": "搜尋圖片於背景"
   },
-  "init_scroll_up":{
-    "message":"向上捲動"
+  "init_scroll_up": {
+    "message": "向上捲動"
   },
-  "init_scroll_down":{
-    "message":"向下捲動"
+  "init_scroll_down": {
+    "message": "向下捲動"
   },
-  "init_scroll_top":{
-    "message":"返回頂部"
+  "init_scroll_top": {
+    "message": "返回頂部"
   },
-  "init_scroll_bottom":{
-    "message":"直達底部"
+  "init_scroll_bottom": {
+    "message": "直達底部"
   },
-  "getper_title":{
-    "message":"權限請求"
+  "getper_title": {
+    "message": "權限請求"
   },
-  "getper_des":{
-    "message":"執行這些動作需要更多權限："
+  "getper_des": {
+    "message": "執行這些動作需要更多權限："
   },
-  "getper_btn":{
-    "message":"取得權限"
+  "getper_btn": {
+    "message": "取得權限"
   },
-  "getper_after":{
-    "message":"權限請求已成功！ 請重新啟動瀏覽器後嘗試剛使用的手勢。<br \/>此頁面將被關閉於"
+  "getper_after": {
+    "message": "權限請求已成功！ 請重新啟動瀏覽器後嘗試剛使用的手勢。<br \/>此頁面將被關閉於"
   },
-  "getper_des1":{
-    "message":"你可以從 設定>一般>權限 刪除這些已請求完成的權限"
+  "getper_des1": {
+    "message": "你可以從 設定>一般>權限 刪除這些已請求完成的權限"
   },
-  "getper_fail":{
-    "message":"Failure to get permissions! \n Chrome must be upgraded to latest version."
+  "getper_fail": {
+    "message": "Failure to get permissions! \n Chrome must be upgraded to latest version."
   },
-  "wel_title":{
-    "message":"歡迎"
+  "wel_title": {
+    "message": "歡迎"
   },
-  "notif_title":{
-    "message":"smartUp 提示"
+  "notif_title": {
+    "message": "smartUp 提示"
   },
-  "notif_dlok":{
-    "message":"Download completed!"
+  "notif_dlok": {
+    "message": "Download completed!"
   },
-  "notif_dlerr":{
-    "message":"download error!"
+  "notif_dlerr": {
+    "message": "download error!"
   },
-  "notif_title_update":{
-    "message":"更新提示"
+  "notif_title_update": {
+    "message": "更新提示"
   },
-  "notif_title_appsave":{
-    "message":"迷你應用程式提示"
+  "notif_title_appsave": {
+    "message": "迷你應用程式提示"
   },
-  "notif_con_appsave":{
-    "message":"變更已被儲存。"
+  "notif_con_appsave": {
+    "message": "變更已被儲存。"
   },
-  "notif_con_bkdel":{
-    "message":"已刪除書籤。"
+  "notif_con_bkdel": {
+    "message": "已刪除書籤。"
   },
-  "notif_con_bkadd":{
-    "message":"已新增書籤。"
+  "notif_con_bkadd": {
+    "message": "已新增書籤。"
   },
-  "notif_con_dlok":{
-    "message":"Download completed!"
+  "notif_con_dlok": {
+    "message": "Download completed!"
   },
-  "notif_btn_open":{
-    "message":"開啟選項頁面"
+  "notif_btn_open": {
+    "message": "開啟選項頁面"
   },
-  "notif_con_dnimgerr":{
-    "message":"儲存圖片錯誤！"
+  "notif_con_dnimgerr": {
+    "message": "儲存圖片錯誤！"
   },
-  "notif_con_dnimg":{
-    "message":"此圖片已下載。"
+  "notif_con_dnimg": {
+    "message": "此圖片已下載。"
   },
-  "lang_auto":{
-    "message":"自動"
+  "lang_auto": {
+    "message": "自動"
   },
-  "lang_en":{
-    "message":"英文 (en)"
+  "lang_en": {
+    "message": "英文 (en)"
   },
-  "title_newengine":{
-    "message":"新增引擎"
+  "title_newengine": {
+    "message": "新增引擎"
   },
-  "title_newaction":{
-    "message":"新增動作"
+  "title_newaction": {
+    "message": "新增動作"
   },
-  "title_newscript":{
-    "message":"新增腳本"
+  "title_newscript": {
+    "message": "新增腳本"
   },
-  "title_editaction":{
-    "message":"編輯動作"
+  "title_editaction": {
+    "message": "編輯動作"
   },
-  "title_editengine":{
-    "message":"編輯引擎"
+  "title_editengine": {
+    "message": "編輯引擎"
   },
-  "title_editscript":{
-    "message":"編輯腳本"
+  "title_editscript": {
+    "message": "編輯腳本"
   },
-  "title_editdirect":{
-    "message":"編輯手勢"
+  "title_editdirect": {
+    "message": "編輯手勢"
   },
-  "tip_editdir":{
-    "message":"編輯手勢"
+  "tip_editdir": {
+    "message": "編輯手勢"
   },
-  "tip_resetcur":{
-    "message":"重設目前頁面"
+  "tip_resetcur": {
+    "message": "重設目前頁面"
   },
-  "tip_addnew":{
-    "message":"新增"
+  "tip_addnew": {
+    "message": "新增"
   },
-  "rss":{
-    "message":"RSS"
+  "rss": {
+    "message": "RSS"
   },
-  "random":{
-    "message":"隨機數字"
+  "random": {
+    "message": "隨機數字"
   },
-  "extmgm":{
-    "message":"擴充功能管理"
+  "extmgm": {
+    "message": "擴充功能管理"
   },
-  "appslist":{
-    "message":"迷你應用程式清單"
+  "appslist": {
+    "message": "迷你應用程式清單"
   },
-  "app_random_bound":{
-    "message":"範圍："
+  "app_random_bound": {
+    "message": "範圍："
   },
-  "app_random_num":{
-    "message":"數字："
+  "app_random_num": {
+    "message": "數字："
   },
-  "app_random_norepeat":{
-    "message":"不重複"
+  "app_random_norepeat": {
+    "message": "不重複"
   },
-  "app_random_fill":{
-    "message":"填寫所有數字"
+  "app_random_fill": {
+    "message": "填寫所有數字"
   },
-  "app_extmgm_disableall":{
-    "message":"全部停用"
+  "app_extmgm_disableall": {
+    "message": "全部停用"
   },
-  "recentclosed":{
-    "message":"最近關閉分頁"
+  "recentclosed": {
+    "message": "最近關閉分頁"
   },
-  "app_recentclosed_tabs":{
-    "message":"分頁"
+  "app_recentclosed_tabs": {
+    "message": "分頁"
   },
-  "synced":{
-    "message":"已同步分頁"
+  "synced": {
+    "message": "已同步分頁"
   },
-  "app_synced_switch":{
-    "message":"切換已同步裝置："
+  "app_synced_switch": {
+    "message": "切換已同步裝置："
   },
-  "app_synced_nodevice":{
-    "message":"沒有已同步裝置。"
+  "app_synced_nodevice": {
+    "message": "沒有已同步裝置。"
   },
-  "app_tip_opt":{
-    "message":"選項"
+  "app_tip_opt": {
+    "message": "選項"
   },
-  "app_rss_menu":{
-    "message":"選單"
+  "app_rss_menu": {
+    "message": "選單"
   },
-  "app_rss_new":{
-    "message":"新增"
+  "app_rss_new": {
+    "message": "新增"
   },
-  "app_rss_subplace":{
-    "message":"RSS2.0"
+  "app_rss_subplace": {
+    "message": "RSS2.0"
   },
-  "app_recentbk_recentlength":{
-    "message":"數字："
+  "app_recentbk_recentlength": {
+    "message": "數字："
   },
-  "app_recentht_recentlength":{
-    "message":"數字："
+  "app_recentht_recentlength": {
+    "message": "數字："
   },
-  "app_recentclosed_recentlength":{
-    "message":"數字："
+  "app_recentclosed_recentlength": {
+    "message": "數字："
   },
-  "base64":{
-    "message":"Base64 編碼"
+  "base64": {
+    "message": "Base64 編碼"
   },
-  "mail":{
-    "message":"以 Email 分享"
+  "mail": {
+    "message": "以 Email 分享"
   },
-  "n_mail":{
-    "message":"Email ："
+  "n_mail": {
+    "message": "Email ："
   },
-  "n_mail_domain":{
-    "message":"* Google Apps 域名："
+  "n_mail_domain": {
+    "message": "* Google Apps 域名："
   },
-  "n_mail_prefix":{
-    "message":"主旨前置："
+  "n_mail_prefix": {
+    "message": "主旨前置："
   },
-  "s_defaultmail":{
-    "message":"系統 mail 應用程式"
+  "s_defaultmail": {
+    "message": "系統 mail 應用程式"
   },
-  "s_gmail":{
-    "message":"Gmail"
+  "s_gmail": {
+    "message": "Gmail"
   },
-  "s_gmailapps":{
-    "message":"*Google Apps 的 Gmail "
+  "s_gmailapps": {
+    "message": "*Google Apps 的 Gmail "
   },
-  "qr":{
-    "message":"QR Code"
+  "qr": {
+    "message": "QR Code"
   },
-  "app_qr_url":{
-    "message":"目前分頁的網址。"
+  "app_qr_url": {
+    "message": "目前分頁的網址。"
   },
-  "app_qr_title":{
-    "message":"目前分頁的標題。"
+  "app_qr_title": {
+    "message": "目前分頁的標題。"
   },
-  "app_qr_seltxt":{
-    "message":"已選取文字。"
+  "app_qr_seltxt": {
+    "message": "已選取文字。"
   },
-  "app_qr_sellnk":{
-    "message":"Selected/dragged link's URL"
+  "app_qr_sellnk": {
+    "message": "Selected/dragged link's URL"
   },
-  "app_qr_customer":{
-    "message":"已自定文字。"
+  "app_qr_customer": {
+    "message": "已自定文字。"
   },
-  "print":{
-    "message":"列印"
+  "print": {
+    "message": "列印"
   },
-  "mute":{
-    "message":"Mute tab"
+  "mute": {
+    "message": "Mute tab"
   },
-  "snap":{
-    "message":"Snap window"
+  "snap": {
+    "message": "Snap window"
   },
-  "numc":{
-    "message":"數字轉換器"
+  "numc": {
+    "message": "數字轉換器"
   },
-  "app_numc_from":{
-    "message":"來自："
+  "app_numc_from": {
+    "message": "來自："
   },
-  "app_numc_to":{
-    "message":"到："
+  "app_numc_to": {
+    "message": "到："
   },
-  "tts":{
-    "message":"語音轉文字"
+  "tts": {
+    "message": "語音轉文字"
   },
-  "n_gender":{
-    "message":"性別："
+  "n_gender": {
+    "message": "性別："
   },
-  "n_rate":{
-    "message":"評分："
+  "n_rate": {
+    "message": "評分："
   },
-  "n_voicename":{
-    "message":"語音引擎："
+  "n_voicename": {
+    "message": "語音引擎："
   },
-  "n_pitch":{
-    "message":"音調："
+  "n_pitch": {
+    "message": "音調："
   },
-  "n_volume":{
-    "message":"音量："
+  "n_volume": {
+    "message": "音量："
   },
-  "s_female":{
-    "message":"女性"
+  "s_female": {
+    "message": "女性"
   },
-  "s_male":{
-    "message":"男性"
+  "s_male": {
+    "message": "男性"
   },
-  "speaker":{
-    "message":"文字語音"
+  "speaker": {
+    "message": "文字語音"
   },
-  "jslist":{
-    "message":"Custom Script List"
+  "jslist": {
+    "message": "Custom Script List"
   },
-  "ui_withdir":{
-    "message":"使用動作名稱的方向提示"
+  "ui_withdir": {
+    "message": "使用動作名稱的方向提示"
   },
-  "ui_note_enable":{
-    "message":"顯示動作注意事項"
+  "ui_note_enable": {
+    "message": "顯示動作注意事項"
   },
-  "ui_allaction_enable":{
-    "message":"顯示接下來所有可能的動作"
+  "ui_allaction_enable": {
+    "message": "顯示接下來所有可能的動作"
   },
-  "theme_colorful":{
-    "message":"色彩"
+  "theme_colorful": {
+    "message": "色彩"
   },
-  "theme_bg":{
-    "message":"背景圖片"
+  "theme_bg": {
+    "message": "背景圖片"
   },
-  "tks_bug":{
-    "message":"這些朋友幫助測試與回報 Bug： "
+  "tks_bug": {
+    "message": "這些朋友幫助測試與回報 Bug： "
   },
-  "tks_tl":{
-    "message":"這些朋友協助翻譯： "
+  "tks_tl": {
+    "message": "這些朋友協助翻譯： "
   },
-  "tks_pjt":{
-    "message":"相關/使用 下列專案： "
+  "tks_pjt": {
+    "message": "相關/使用 下列專案： "
   },
-  "rges0":{
-    "message":"Right-click with holding left button"
+  "rges0": {
+    "message": "Right-click with holding left button"
   },
-  "rges1":{
-    "message":"Left-click with holding right button"
+  "rges1": {
+    "message": "Left-click with holding right button"
   },
-  "wges0":{
-    "message":"Scroll UP with holding LEFT button"
+  "wges0": {
+    "message": "Scroll UP with holding LEFT button"
   },
-  "wges1":{
-    "message":"Scroll DOWN with holding LEFT button"
+  "wges1": {
+    "message": "Scroll DOWN with holding LEFT button"
   },
-  "wges2":{
-    "message":"Scroll UP with holding RIGHT button"
+  "wges2": {
+    "message": "Scroll UP with holding RIGHT button"
   },
-  "wges3":{
-    "message":"Scroll DOWN with holding RIGHT button"
+  "wges3": {
+    "message": "Scroll DOWN with holding RIGHT button"
   },
-  "pop":{
-    "message":"Popup Actions"
+  "pop": {
+    "message": "Popup Actions"
   },
-  "icon":{
-    "message":"Icon Actions"
+  "icon": {
+    "message": "Icon Actions"
   },
-  "ctm":{
-    "message":"Context Menu"
+  "ctm": {
+    "message": "Context Menu"
   },
-  "action":{
-    "message":"Actions"
+  "action": {
+    "message": "Actions"
   },
-  "ctm_add":{
-    "message":"Add the following items to contextMenu:"
+  "ctm_add": {
+    "message": "Add the following items to contextMenu:"
   },
-  "ctm_fnswitch":{
-    "message":"Menus of switching features"
+  "ctm_fnswitch": {
+    "message": "Menus of switching features"
   },
-  "ctm_disable":{
-    "message":"Disable smartUp in current tab temporarily"
+  "ctm_disable": {
+    "message": "Disable smartUp in current tab temporarily"
   },
-  "ctm_opt":{
-    "message":"Options"
+  "ctm_opt": {
+    "message": "Options"
   },
-  "icon_type":{
-    "message":"Choose work type:"
+  "icon_type": {
+    "message": "Choose work type:"
   },
-  "icon_back":{
-    "message":"Background"
+  "icon_back": {
+    "message": "Background"
   },
-  "icon_back_des":{
-    "message":"The action cant get value from page, and, the action will work in any tab includ blank tab."
+  "icon_back_des": {
+    "message": "The action cant get value from page, and, the action will work in any tab includ blank tab."
   },
-  "icon_front":{
-    "message":"Front"
+  "icon_front": {
+    "message": "Front"
   },
-  "icon_front_des":{
-    "message":"The action will get data from page , it is for actions which need access data from tab."
+  "icon_front_des": {
+    "message": "The action will get data from page , it is for actions which need access data from tab."
   },
-  "icon_showname":{
-    "message":"Show action name on the Icon"
+  "icon_showname": {
+    "message": "Show action name on the Icon"
   },
-  "pop_last":{
-    "message":"Set the last action as default one"
+  "pop_last": {
+    "message": "Set the last action as default one"
   },
-  "about_ver":{
-    "message":"VERSION"
+  "about_ver": {
+    "message": "VERSION"
   },
-  "about_url":{
-    "message":"URL"
+  "about_url": {
+    "message": "URL"
   },
-  "review":{
-    "message":"評分與評論"
+  "review": {
+    "message": "評分與評論"
   },
-  "perdes_browsersettings":{"message":"Because using mouse gestures on non-Windows platforms conflicts with right-click menus, ensuring a better operating experience, smartUp Gestures needs to request this permission to fix the bug (only Firefox). After getting permission, you need to restart the browser to make it works. For more information: https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings. This page only show only one time, or set it again from: General>Linux/Mac Settings>Try to set context menu popup after mouseup."},
-  "opt_mouseup":{"message":"Try to set context menu popup after mouseup"},
-  "des_mouseup":{"message":"Fix the conflict between the mouse gesture and the context menu. Only Firefox 58+. Need request permission 'browserSettings'."},
-  "touch":{
-    "message":"Touch Gestures"
+  "perdes_browsersettings": {
+    "message": "Because using mouse gestures on non-Windows platforms conflicts with right-click menus, ensuring a better operating experience, smartUp Gestures needs to request this permission to fix the bug (only Firefox). After getting permission, you need to restart the browser to make it works. For more information: https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings. This page only show only one time, or set it again from: General>Linux/Mac Settings>Try to set context menu popup after mouseup."
   },
-  "left":{
-    "message":"LEFT"
+  "opt_mouseup": {
+    "message": "Try to set context menu popup after mouseup"
   },
-  "right":{
-    "message":"RIGHT"
+  "des_mouseup": {
+    "message": "Fix the conflict between the mouse gesture and the context menu. Only Firefox 58+. Need request permission 'browserSettings'."
   },
-  "top":{
-    "message":"TOP"
+  "touch": {
+    "message": "Touch Gestures"
   },
-  "ui_bottom":{
-    "message":"BOTTOM"
+  "left": {
+    "message": "LEFT"
   },
-  "leftbottom":{
-    "message":"LEFT BOTTOM"
+  "right": {
+    "message": "RIGHT"
   },
-  "lefttop":{
-    "message":"LEFT TOP"
+  "top": {
+    "message": "TOP"
   },
-  "righttop":{
-    "message":"RIGHT TOP"
+  "ui_bottom": {
+    "message": "BOTTOM"
   },
-  "hover":{
-    "message":"RIGHT BOTTOM"
+  "leftbottom": {
+    "message": "LEFT BOTTOM"
   },
-  "follow":{
-    "message":"FOLLOW"
+  "lefttop": {
+    "message": "LEFT TOP"
   },
-  "center":{
-    "message":"CENTER"
+  "righttop": {
+    "message": "RIGHT TOP"
   },
-  "mergewin":{
-    "message":"Merge all Windows"
+  "hover": {
+    "message": "RIGHT BOTTOM"
   },
-  "n_winstate":{
-    "message":"Window State:"
+  "follow": {
+    "message": "FOLLOW"
   },
-  "s_minimized":{
-    "message":"Minimized"
+  "center": {
+    "message": "CENTER"
   },
-  "s_maximized":{
-    "message":"Maximized"
+  "mergewin": {
+    "message": "Merge all Windows"
   },
-  "s_fullscreen":{
-    "message":"Fullscreen"
+  "n_winstate": {
+    "message": "Window State:"
   },
-  "ext_issue":{
-    "message":"Issues:"
+  "s_minimized": {
+    "message": "Minimized"
   },
-  "ext_allver":{
-    "message":"All versions:"
+  "s_maximized": {
+    "message": "Maximized"
+  },
+  "s_fullscreen": {
+    "message": "Fullscreen"
+  },
+  "ext_issue": {
+    "message": "Issues:"
+  },
+  "ext_allver": {
+    "message": "All versions:"
   }
 }

@@ -48,7 +48,7 @@ body {
   font-size: 13px;
   min-height: 300px;
   min-width: 680px;
-  /* transition: background .4s ease-in-out; */
+  /* transition: background-color .4s ease-in-out; */
   padding-top: 100px;
   padding-bottom: 10px;
 }
@@ -78,7 +78,8 @@ input[type=range]:focus {
   outline: none;
 }
 
-input[type=range]::-moz-range-thumb {}
+input[type=range]::-moz-range-thumb {
+}
 
 input[type=range]::-webkit-slider-thumb {
   /*	width: 15px;
@@ -248,17 +249,6 @@ nav .nav_svg {
   right: 10px;
 }
 
-/*nav #nav_menu{
-	background:url('../image/menuplus.svg') transparent center center no-repeat;
-	background-size: 10px;
-}
-nav #nav_menu:hover{
-	cursor: pointer;
-	background-color: rgba(255,255,255,.1) !important;
-}
-nav .nav_menu{
-	cursor: pointer;
-}*/
 menu {
   margin: 0;
   padding: 0;
@@ -281,9 +271,6 @@ menu #pin {
   top: 60px;
   opacity: .5;
   cursor: pointer;
-  /*background: #d0d9ff;*/
-  /*border: 1px solid #d0d9ff;*/
-  /*border-radius: 100%;*/
   transition: all .4s ease-in-out;
 }
 
@@ -419,7 +406,7 @@ menu #menu_bottom:hover img {
 
 .btn_engine,
 .btn_script {
-  transition: background .2s ease-in-out;
+  transition: background-color-color .2s ease-in-out;
   width: 40px !important;
   padding: 0 !important;
   background: #5677fc;
@@ -439,7 +426,8 @@ menu #menu_bottom:hover img {
   color: #5677fc !important;
 }
 
-smartup {}
+smartup {
+}
 
 smartup.su_apps {
   position: fixed;
@@ -636,7 +624,8 @@ smartup.su_apps {
   /*height: 80px;*/
 }
 
-.item_more:hover .item_dir {}
+.item_more:hover .item_dir {
+}
 
 .item_dir {
   left: 0px;
@@ -901,7 +890,7 @@ smartup.su_apps {
   min-height: 460px;
 }
 
-#menu>div {
+#menu > div {
   padding: 0 10px;
   width: 100%;
   float: left;
@@ -950,7 +939,7 @@ smartup.su_apps {
   /*margin-top: -18px;*/
 }
 
-#menubox>div {
+#menubox > div {
   padding: 0 10px;
 }
 
@@ -963,7 +952,7 @@ smartup.su_apps {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   cursor: pointer;
-  transition: background .4s ease-out;
+  transition: background-color .4s ease-out;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1533,7 +1522,7 @@ select optgroup {
 
 }
 
-select optgroup>option {
+select optgroup > option {
   color: #000;
   background: #fff;
 }
@@ -1555,7 +1544,7 @@ input[type=button] {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  transition: background .2s ease-in-out;
+  transition: background-color-color .2s ease-in-out;
   color: #5677fc;
   padding: 0 8px;
   margin: 0 5px;
@@ -1607,7 +1596,8 @@ select:hover {
   margin: 2px 0;
 }
 
-#about_main {}
+#about_main {
+}
 
 #abmain_log {
   display: block;
@@ -1762,7 +1752,7 @@ details li i {
   color: #000;
 }
 
-details>details {
+details > details {
   margin-left: 20px;
 }
 
@@ -1820,7 +1810,8 @@ summary:hover {
   text-indent: 20px;
 }
 
-.thanks_item {}
+.thanks_item {
+}
 
 .thanks_ul {
   margin: 0;
@@ -1873,7 +1864,7 @@ summary:hover {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  transition: background .2s ease-in-out;
+  transition: background-color-color .2s ease-in-out;
   color: #5677fc;
   padding: 0 8px;
   margin: 0 5px;
@@ -2043,7 +2034,8 @@ summary:hover {
   margin: 2px;
 }
 
-#donate_title {}
+#donate_title {
+}
 
 #donate_name {
   cursor: pointer;
@@ -2459,17 +2451,10 @@ smartup.su_apps {
   clear: both;
 }
 
-/*.box_checkradio,
-.box_checkrange,
-.box_checkselect,
-.box_checktext{
-	display: none;
-	transition: background .4s ease-in-out;
-}*/
 .box_radiolist,
 .box_checklist {
   display: none;
-  transition: background .4s ease-in-out;
+  transition: background-color .4s ease-in-out;
 }
 
 /*////////////*/

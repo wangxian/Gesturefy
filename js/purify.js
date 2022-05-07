@@ -3,7 +3,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
-    (global = global || self, global.DOMPurify = factory());
+      (global = global || self, global.DOMPurify = factory());
 }(this, function () {
   'use strict';
 
@@ -51,7 +51,7 @@
 
   if (!construct) {
     construct = function construct(Func, args) {
-      return new(Function.prototype.bind.apply(Func, [null].concat(_toConsumableArray(args))))();
+      return new (Function.prototype.bind.apply(Func, [null].concat(_toConsumableArray(args))))();
     };
   }
 
@@ -333,7 +333,8 @@
     var documentMode = {};
     try {
       documentMode = clone(document).documentMode ? document.documentMode : {};
-    } catch (_) {}
+    } catch (_) {
+    }
 
     var hooks = {};
 
@@ -456,123 +457,123 @@
      *
      * @param  {Object} cfg optional config literal
      */
-    // eslint-disable-next-line complexity
+      // eslint-disable-next-line complexity
     var _parseConfig = function _parseConfig(cfg) {
-      if (CONFIG && CONFIG === cfg) {
-        return;
-      }
-
-      /* Shield configuration object from tampering */
-      if (!cfg || (typeof cfg === 'undefined' ? 'undefined' : _typeof(cfg)) !== 'object') {
-        cfg = {};
-      }
-
-      /* Shield configuration object from prototype pollution */
-      cfg = clone(cfg);
-
-      /* Set configuration parameters */
-      ALLOWED_TAGS = 'ALLOWED_TAGS' in cfg ? addToSet({}, cfg.ALLOWED_TAGS) : DEFAULT_ALLOWED_TAGS;
-      ALLOWED_ATTR = 'ALLOWED_ATTR' in cfg ? addToSet({}, cfg.ALLOWED_ATTR) : DEFAULT_ALLOWED_ATTR;
-      URI_SAFE_ATTRIBUTES = 'ADD_URI_SAFE_ATTR' in cfg ? addToSet(clone(DEFAULT_URI_SAFE_ATTRIBUTES), cfg.ADD_URI_SAFE_ATTR) : DEFAULT_URI_SAFE_ATTRIBUTES;
-      DATA_URI_TAGS = 'ADD_DATA_URI_TAGS' in cfg ? addToSet(clone(DEFAULT_DATA_URI_TAGS), cfg.ADD_DATA_URI_TAGS) : DEFAULT_DATA_URI_TAGS;
-      FORBID_TAGS = 'FORBID_TAGS' in cfg ? addToSet({}, cfg.FORBID_TAGS) : {};
-      FORBID_ATTR = 'FORBID_ATTR' in cfg ? addToSet({}, cfg.FORBID_ATTR) : {};
-      USE_PROFILES = 'USE_PROFILES' in cfg ? cfg.USE_PROFILES : false;
-      ALLOW_ARIA_ATTR = cfg.ALLOW_ARIA_ATTR !== false; // Default true
-      ALLOW_DATA_ATTR = cfg.ALLOW_DATA_ATTR !== false; // Default true
-      ALLOW_UNKNOWN_PROTOCOLS = cfg.ALLOW_UNKNOWN_PROTOCOLS || false; // Default false
-      SAFE_FOR_TEMPLATES = cfg.SAFE_FOR_TEMPLATES || false; // Default false
-      WHOLE_DOCUMENT = cfg.WHOLE_DOCUMENT || false; // Default false
-      RETURN_DOM = cfg.RETURN_DOM || false; // Default false
-      RETURN_DOM_FRAGMENT = cfg.RETURN_DOM_FRAGMENT || false; // Default false
-      RETURN_DOM_IMPORT = cfg.RETURN_DOM_IMPORT !== false; // Default true
-      RETURN_TRUSTED_TYPE = cfg.RETURN_TRUSTED_TYPE || false; // Default false
-      FORCE_BODY = cfg.FORCE_BODY || false; // Default false
-      SANITIZE_DOM = cfg.SANITIZE_DOM !== false; // Default true
-      KEEP_CONTENT = cfg.KEEP_CONTENT !== false; // Default true
-      IN_PLACE = cfg.IN_PLACE || false; // Default false
-      IS_ALLOWED_URI$$1 = cfg.ALLOWED_URI_REGEXP || IS_ALLOWED_URI$$1;
-      if (SAFE_FOR_TEMPLATES) {
-        ALLOW_DATA_ATTR = false;
-      }
-
-      if (RETURN_DOM_FRAGMENT) {
-        RETURN_DOM = true;
-      }
-
-      /* Parse profile info */
-      if (USE_PROFILES) {
-        ALLOWED_TAGS = addToSet({}, [].concat(_toConsumableArray$1(text)));
-        ALLOWED_ATTR = [];
-        if (USE_PROFILES.html === true) {
-          addToSet(ALLOWED_TAGS, html);
-          addToSet(ALLOWED_ATTR, html$1);
+        if (CONFIG && CONFIG === cfg) {
+          return;
         }
 
-        if (USE_PROFILES.svg === true) {
-          addToSet(ALLOWED_TAGS, svg);
-          addToSet(ALLOWED_ATTR, svg$1);
-          addToSet(ALLOWED_ATTR, xml);
+        /* Shield configuration object from tampering */
+        if (!cfg || (typeof cfg === 'undefined' ? 'undefined' : _typeof(cfg)) !== 'object') {
+          cfg = {};
         }
 
-        if (USE_PROFILES.svgFilters === true) {
-          addToSet(ALLOWED_TAGS, svgFilters);
-          addToSet(ALLOWED_ATTR, svg$1);
-          addToSet(ALLOWED_ATTR, xml);
+        /* Shield configuration object from prototype pollution */
+        cfg = clone(cfg);
+
+        /* Set configuration parameters */
+        ALLOWED_TAGS = 'ALLOWED_TAGS' in cfg ? addToSet({}, cfg.ALLOWED_TAGS) : DEFAULT_ALLOWED_TAGS;
+        ALLOWED_ATTR = 'ALLOWED_ATTR' in cfg ? addToSet({}, cfg.ALLOWED_ATTR) : DEFAULT_ALLOWED_ATTR;
+        URI_SAFE_ATTRIBUTES = 'ADD_URI_SAFE_ATTR' in cfg ? addToSet(clone(DEFAULT_URI_SAFE_ATTRIBUTES), cfg.ADD_URI_SAFE_ATTR) : DEFAULT_URI_SAFE_ATTRIBUTES;
+        DATA_URI_TAGS = 'ADD_DATA_URI_TAGS' in cfg ? addToSet(clone(DEFAULT_DATA_URI_TAGS), cfg.ADD_DATA_URI_TAGS) : DEFAULT_DATA_URI_TAGS;
+        FORBID_TAGS = 'FORBID_TAGS' in cfg ? addToSet({}, cfg.FORBID_TAGS) : {};
+        FORBID_ATTR = 'FORBID_ATTR' in cfg ? addToSet({}, cfg.FORBID_ATTR) : {};
+        USE_PROFILES = 'USE_PROFILES' in cfg ? cfg.USE_PROFILES : false;
+        ALLOW_ARIA_ATTR = cfg.ALLOW_ARIA_ATTR !== false; // Default true
+        ALLOW_DATA_ATTR = cfg.ALLOW_DATA_ATTR !== false; // Default true
+        ALLOW_UNKNOWN_PROTOCOLS = cfg.ALLOW_UNKNOWN_PROTOCOLS || false; // Default false
+        SAFE_FOR_TEMPLATES = cfg.SAFE_FOR_TEMPLATES || false; // Default false
+        WHOLE_DOCUMENT = cfg.WHOLE_DOCUMENT || false; // Default false
+        RETURN_DOM = cfg.RETURN_DOM || false; // Default false
+        RETURN_DOM_FRAGMENT = cfg.RETURN_DOM_FRAGMENT || false; // Default false
+        RETURN_DOM_IMPORT = cfg.RETURN_DOM_IMPORT !== false; // Default true
+        RETURN_TRUSTED_TYPE = cfg.RETURN_TRUSTED_TYPE || false; // Default false
+        FORCE_BODY = cfg.FORCE_BODY || false; // Default false
+        SANITIZE_DOM = cfg.SANITIZE_DOM !== false; // Default true
+        KEEP_CONTENT = cfg.KEEP_CONTENT !== false; // Default true
+        IN_PLACE = cfg.IN_PLACE || false; // Default false
+        IS_ALLOWED_URI$$1 = cfg.ALLOWED_URI_REGEXP || IS_ALLOWED_URI$$1;
+        if (SAFE_FOR_TEMPLATES) {
+          ALLOW_DATA_ATTR = false;
         }
 
-        if (USE_PROFILES.mathMl === true) {
-          addToSet(ALLOWED_TAGS, mathMl);
-          addToSet(ALLOWED_ATTR, mathMl$1);
-          addToSet(ALLOWED_ATTR, xml);
-        }
-      }
-
-      /* Merge configuration parameters */
-      if (cfg.ADD_TAGS) {
-        if (ALLOWED_TAGS === DEFAULT_ALLOWED_TAGS) {
-          ALLOWED_TAGS = clone(ALLOWED_TAGS);
+        if (RETURN_DOM_FRAGMENT) {
+          RETURN_DOM = true;
         }
 
-        addToSet(ALLOWED_TAGS, cfg.ADD_TAGS);
-      }
+        /* Parse profile info */
+        if (USE_PROFILES) {
+          ALLOWED_TAGS = addToSet({}, [].concat(_toConsumableArray$1(text)));
+          ALLOWED_ATTR = [];
+          if (USE_PROFILES.html === true) {
+            addToSet(ALLOWED_TAGS, html);
+            addToSet(ALLOWED_ATTR, html$1);
+          }
 
-      if (cfg.ADD_ATTR) {
-        if (ALLOWED_ATTR === DEFAULT_ALLOWED_ATTR) {
-          ALLOWED_ATTR = clone(ALLOWED_ATTR);
+          if (USE_PROFILES.svg === true) {
+            addToSet(ALLOWED_TAGS, svg);
+            addToSet(ALLOWED_ATTR, svg$1);
+            addToSet(ALLOWED_ATTR, xml);
+          }
+
+          if (USE_PROFILES.svgFilters === true) {
+            addToSet(ALLOWED_TAGS, svgFilters);
+            addToSet(ALLOWED_ATTR, svg$1);
+            addToSet(ALLOWED_ATTR, xml);
+          }
+
+          if (USE_PROFILES.mathMl === true) {
+            addToSet(ALLOWED_TAGS, mathMl);
+            addToSet(ALLOWED_ATTR, mathMl$1);
+            addToSet(ALLOWED_ATTR, xml);
+          }
         }
 
-        addToSet(ALLOWED_ATTR, cfg.ADD_ATTR);
-      }
+        /* Merge configuration parameters */
+        if (cfg.ADD_TAGS) {
+          if (ALLOWED_TAGS === DEFAULT_ALLOWED_TAGS) {
+            ALLOWED_TAGS = clone(ALLOWED_TAGS);
+          }
 
-      if (cfg.ADD_URI_SAFE_ATTR) {
-        addToSet(URI_SAFE_ATTRIBUTES, cfg.ADD_URI_SAFE_ATTR);
-      }
+          addToSet(ALLOWED_TAGS, cfg.ADD_TAGS);
+        }
 
-      /* Add #text in case KEEP_CONTENT is set to true */
-      if (KEEP_CONTENT) {
-        ALLOWED_TAGS['#text'] = true;
-      }
+        if (cfg.ADD_ATTR) {
+          if (ALLOWED_ATTR === DEFAULT_ALLOWED_ATTR) {
+            ALLOWED_ATTR = clone(ALLOWED_ATTR);
+          }
 
-      /* Add html, head and body to ALLOWED_TAGS in case WHOLE_DOCUMENT is true */
-      if (WHOLE_DOCUMENT) {
-        addToSet(ALLOWED_TAGS, ['html', 'head', 'body']);
-      }
+          addToSet(ALLOWED_ATTR, cfg.ADD_ATTR);
+        }
 
-      /* Add tbody to ALLOWED_TAGS in case tables are permitted, see #286, #365 */
-      if (ALLOWED_TAGS.table) {
-        addToSet(ALLOWED_TAGS, ['tbody']);
-        delete FORBID_TAGS.tbody;
-      }
+        if (cfg.ADD_URI_SAFE_ATTR) {
+          addToSet(URI_SAFE_ATTRIBUTES, cfg.ADD_URI_SAFE_ATTR);
+        }
 
-      // Prevent further manipulation of configuration.
-      // Not available in IE8, Safari 5, etc.
-      if (freeze) {
-        freeze(cfg);
-      }
+        /* Add #text in case KEEP_CONTENT is set to true */
+        if (KEEP_CONTENT) {
+          ALLOWED_TAGS['#text'] = true;
+        }
 
-      CONFIG = cfg;
-    };
+        /* Add html, head and body to ALLOWED_TAGS in case WHOLE_DOCUMENT is true */
+        if (WHOLE_DOCUMENT) {
+          addToSet(ALLOWED_TAGS, ['html', 'head', 'body']);
+        }
+
+        /* Add tbody to ALLOWED_TAGS in case tables are permitted, see #286, #365 */
+        if (ALLOWED_TAGS.table) {
+          addToSet(ALLOWED_TAGS, ['tbody']);
+          delete FORBID_TAGS.tbody;
+        }
+
+        // Prevent further manipulation of configuration.
+        // Not available in IE8, Safari 5, etc.
+        if (freeze) {
+          freeze(cfg);
+        }
+
+        CONFIG = cfg;
+      };
 
     var MATHML_TEXT_INTEGRATION_POINTS = addToSet({}, ['mi', 'mo', 'mn', 'ms', 'mtext']);
 
@@ -748,7 +749,8 @@
       /* Use the DOMParser API by default, fallback later if needs be */
       try {
         doc = new DOMParser().parseFromString(dirtyPayload, 'text/html');
-      } catch (_) {}
+      } catch (_) {
+      }
 
       /* Use createHTMLDocument in case DOMParser is not available */
       if (!doc || !doc.documentElement) {
@@ -924,34 +926,34 @@
      * @param  {string} value Attribute value.
      * @return {Boolean} Returns true if `value` is valid, otherwise false.
      */
-    // eslint-disable-next-line complexity
+      // eslint-disable-next-line complexity
     var _isValidAttribute = function _isValidAttribute(lcTag, lcName, value) {
-      /* Make sure attribute cannot clobber */
-      if (SANITIZE_DOM && (lcName === 'id' || lcName === 'name') && (value in document || value in formElement)) {
-        return false;
-      }
+        /* Make sure attribute cannot clobber */
+        if (SANITIZE_DOM && (lcName === 'id' || lcName === 'name') && (value in document || value in formElement)) {
+          return false;
+        }
 
-      /* Allow valid data-* attributes: At least one character after "-"
-          (https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
-          XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and http://www.w3.org/TR/xml/#d0e804)
-          We don't need to check the value; it's always URI safe. */
-      if (ALLOW_DATA_ATTR && regExpTest(DATA_ATTR$$1, lcName));
-      else if (ALLOW_ARIA_ATTR && regExpTest(ARIA_ATTR$$1, lcName));
-      else if (!ALLOWED_ATTR[lcName] || FORBID_ATTR[lcName]) {
-        return false;
+        /* Allow valid data-* attributes: At least one character after "-"
+            (https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
+            XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and http://www.w3.org/TR/xml/#d0e804)
+            We don't need to check the value; it's always URI safe. */
+        if (ALLOW_DATA_ATTR && regExpTest(DATA_ATTR$$1, lcName)) ;
+        else if (ALLOW_ARIA_ATTR && regExpTest(ARIA_ATTR$$1, lcName)) ;
+        else if (!ALLOWED_ATTR[lcName] || FORBID_ATTR[lcName]) {
+          return false;
 
-        /* Check value is safe. First, is attr inert? If so, is safe */
-      } else if (URI_SAFE_ATTRIBUTES[lcName]);
-      else if (regExpTest(IS_ALLOWED_URI$$1, stringReplace(value, ATTR_WHITESPACE$$1, '')));
-      else if ((lcName === 'src' || lcName === 'xlink:href' || lcName === 'href') && lcTag !== 'script' && stringIndexOf(value, 'data:') === 0 && DATA_URI_TAGS[lcTag]);
-      else if (ALLOW_UNKNOWN_PROTOCOLS && !regExpTest(IS_SCRIPT_OR_DATA$$1, stringReplace(value, ATTR_WHITESPACE$$1, '')));
-      else if (!value);
-      else {
-        return false;
-      }
+          /* Check value is safe. First, is attr inert? If so, is safe */
+        } else if (URI_SAFE_ATTRIBUTES[lcName]) ;
+        else if (regExpTest(IS_ALLOWED_URI$$1, stringReplace(value, ATTR_WHITESPACE$$1, ''))) ;
+        else if ((lcName === 'src' || lcName === 'xlink:href' || lcName === 'href') && lcTag !== 'script' && stringIndexOf(value, 'data:') === 0 && DATA_URI_TAGS[lcTag]) ;
+        else if (ALLOW_UNKNOWN_PROTOCOLS && !regExpTest(IS_SCRIPT_OR_DATA$$1, stringReplace(value, ATTR_WHITESPACE$$1, ''))) ;
+        else if (!value) ;
+        else {
+          return false;
+        }
 
-      return true;
-    };
+        return true;
+      };
 
     /**
      * _sanitizeAttributes
@@ -1045,7 +1047,8 @@
           }
 
           arrayPop(DOMPurify.removed);
-        } catch (_) {}
+        } catch (_) {
+        }
       }
 
       /* Execute a hook if present */
@@ -1148,7 +1151,7 @@
         IN_PLACE = false;
       }
 
-      if (IN_PLACE);
+      if (IN_PLACE) ;
       else if (dirty instanceof Node) {
         /* If dirty is a DOM element, append to an empty document to avoid
            elements being stripped by the parser */

@@ -2,8 +2,8 @@
   "ext_des": {
     "message": "鼠标手势 forked form startUp"
   },
-  "ext_name":{
-    "message":"Gesturefy"
+  "ext_name": {
+    "message": "Gesturefy"
   },
   "ext_desb": {
     "message": "forked form startUp"
@@ -17,8 +17,8 @@
   "ext_email": {
     "message": "反馈:"
   },
-  "icon_tip":{
-    "message":"Gesturefy手势在当前页面不能正常运行！"
+  "icon_tip": {
+    "message": "Gesturefy手势在当前页面不能正常运行！"
   },
   "opt_title": {
     "message": "设置"
@@ -32,20 +32,20 @@
   "menu_autosave": {
     "message": "自动保存设置"
   },
-  "menu_popactions":{
-    "message":"弹出菜单操作："
+  "menu_popactions": {
+    "message": "弹出菜单操作："
   },
-  "menu_opts":{
-    "message":"选项"
+  "menu_opts": {
+    "message": "选项"
   },
-  "menu_about":{
-    "message":"关于"
+  "menu_about": {
+    "message": "关于"
   },
-  "menuplus_opennew":{
-    "message":"在新标签页中打开"
+  "menuplus_opennew": {
+    "message": "在新标签页中打开"
   },
-  "menuplus_exit":{
-    "message":"关闭"
+  "menuplus_exit": {
+    "message": "关闭"
   },
   "con_name": {
     "message": "名称:"
@@ -53,8 +53,8 @@
   "con_timeout": {
     "message": "超时取消"
   },
-  "con_timeout_nomenu":{
-    "message":"不弹出右键菜单"
+  "con_timeout_nomenu": {
+    "message": "不弹出右键菜单"
   },
   "con_minlength": {
     "message": "画线起效的最小长度"
@@ -68,7 +68,7 @@
   "con_notif": {
     "message": "显示更新提示"
   },
-  "con_miniappnotif":{
+  "con_miniappnotif": {
     "message": "显示来至迷你应用的提示"
   },
   "con_linux": {
@@ -107,44 +107,44 @@
   "con_enableimg": {
     "message": "图片拖曳"
   },
-  "con_lang":{
-    "message":"显示的语言："
+  "con_lang": {
+    "message": "显示的语言："
   },
-  "con_export":{
-    "message":"点击导出配置"
+  "con_export": {
+    "message": "点击导出配置"
   },
-  "con_setbg":{
-    "message":"自定义背景图片"
+  "con_setbg": {
+    "message": "自定义背景图片"
   },
-  "con_bgnote0":{
-    "message":"以上显示的是当前的背景图片，你可以更换为其它图片。"
+  "con_bgnote0": {
+    "message": "以上显示的是当前的背景图片，你可以更换为其它图片。"
   },
-  "con_bgnote1":{
-    "message":"这里设置的背景图片，不会被同步！"
+  "con_bgnote1": {
+    "message": "这里设置的背景图片，不会被同步！"
   },
-  "con_theme":{
-    "message":"设置页主题："
+  "con_theme": {
+    "message": "设置页主题："
   },
-  "con_drgcursor":{
-    "message":"更改拖曳时鼠标的样式（某些浏览器默认的拖曳功能会失效）"
+  "con_drgcursor": {
+    "message": "更改拖曳时鼠标的样式（某些浏览器默认的拖曳功能会失效）"
   },
-  "con_notename":{
-    "message":"备注："
+  "con_notename": {
+    "message": "备注："
   },
-  "con_notechk":{
-    "message":"在标签页中显示该备注。"
+  "con_notechk": {
+    "message": "在标签页中显示该备注。"
   },
-  "con_autosync":{
-    "message":"自动同步配置"
+  "con_autosync": {
+    "message": "自动同步配置"
   },
-  "con_esc":{
-    "message":"按[ESC]键取消当前操作"
+  "con_esc": {
+    "message": "按[ESC]键取消当前操作"
   },
-  "con_background":{
-    "message":"使Chrome一直保持后台运行以加快Gesturefy手势的响应速度。（需要请求background权限）"
+  "con_background": {
+    "message": "使Chrome一直保持后台运行以加快Gesturefy手势的响应速度。（需要请求background权限）"
   },
-  "con_draggable":{
-    "message":"当被拖动元素被设置为可拖动时[draggable=true]，禁用拖曳"
+  "con_draggable": {
+    "message": "当被拖动元素被设置为可拖动时[draggable=true]，禁用拖曳"
   },
   "stnm_per_pers": {
     "message": "权限管理"
@@ -176,7 +176,7 @@
   "stnm_exportconf": {
     "message": "导出设置"
   },
-  "stnm_syncconf":{
+  "stnm_syncconf": {
     "message": "同步设置"
   },
   "stnm_resetconf": {
@@ -185,17 +185,17 @@
   "stnm_drgsw": {
     "message": "拖曳开启"
   },
-  "stnm_resetapps":{
-    "message":"重置所有迷你应用设置"
+  "stnm_resetapps": {
+    "message": "重置所有迷你应用设置"
   },
-  "stnm_action":{
-    "message":"修改操作"
-    },
+  "stnm_action": {
+    "message": "修改操作"
+  },
   "des_pers": {
     "message": "详情请参考https://developer.chrome.com/extensions/permission_warnings。"
   },
-  "des_pers1":{
-    "message":"你随时可以从以下位置删除这些权限：设置》通用选项》权限管理。"
+  "des_pers1": {
+    "message": "你随时可以从以下位置删除这些权限：设置》通用选项》权限管理。"
   },
   "des_linux": {
     "message": "由于非Windows平台上，鼠标右键菜单与鼠标手势的操作有冲突，才采用这种折中的方案来保障手势的正常运行。"
@@ -203,8 +203,8 @@
   "des_sync": {
     "message": "配置文件将随同浏览器被同步，如果你已经登录且浏览器支持该功能。"
   },
-  "des_sync1":{
-    "message":"如果你的电脑与Google的服务器连接不顺畅，或者扩展的配置经常被重置，可以试试不选中此项。请尝试通过导出配置文件来保存你的设置。"
+  "des_sync1": {
+    "message": "如果你的电脑与Google的服务器连接不顺畅，或者扩展的配置经常被重置，可以试试不选中此项。请尝试通过导出配置文件来保存你的设置。"
   },
   "des_item": {
     "message": "单击列表项进入编辑，点击“X”删除，“+”添加，拖动排序。"
@@ -212,8 +212,8 @@
   "des_fnswitch": {
     "message": "建议按需启用，禁用不会用到的功能。"
   },
-  "des_resetapps":{
-    "message":"如果某些迷你应用不能正常工作，你可以试着重置所有迷你应用的设置。注意：此操作将清空所有迷你应用的设置，且不能撤销。"
+  "des_resetapps": {
+    "message": "如果某些迷你应用不能正常工作，你可以试着重置所有迷你应用的设置。注意：此操作将清空所有迷你应用的设置，且不能撤销。"
   },
   "s_default": {
     "message": "默认"
@@ -221,8 +221,8 @@
   "s_current": {
     "message": "当前标签页"
   },
-  "s_currentwin":{
-    "message":"当前窗口"
+  "s_currentwin": {
+    "message": "当前窗口"
   },
   "s_others": {
     "message": "其他"
@@ -314,47 +314,47 @@
   "s_detached_panel": {
     "message": "Detached Panel"
   },
-  "s_tabele_title":{
-    "message":"标签页的标题"
+  "s_tabele_title": {
+    "message": "标签页的标题"
   },
-  "s_tabele_url":{
-    "message":"标签页的网址"
+  "s_tabele_url": {
+    "message": "标签页的网址"
   },
-  "s_tabele_aslnk":{
-    "message":"作为链接"
+  "s_tabele_aslnk": {
+    "message": "作为链接"
   },
-  "s_cr_set":{
-    "message":"设置"
+  "s_cr_set": {
+    "message": "设置"
   },
-  "s_cr_ext":{
-    "message":"扩展"
+  "s_cr_ext": {
+    "message": "扩展"
   },
-  "s_cr_history":{
-    "message":"历史纪录"
+  "s_cr_history": {
+    "message": "历史纪录"
   },
-  "s_cr_app":{
-    "message":"应用"
+  "s_cr_app": {
+    "message": "应用"
   },
-  "s_cr_dl":{
-    "message":"下载内容"
+  "s_cr_dl": {
+    "message": "下载内容"
   },
-  "s_cr_bookmark":{
-    "message":"书签管理器"
+  "s_cr_bookmark": {
+    "message": "书签管理器"
   },
-  "s_cr_flag":{
-    "message":"Flags"
+  "s_cr_flag": {
+    "message": "Flags"
   },
-  "s_unicode":{
-    "message":"Unicode"
+  "s_unicode": {
+    "message": "Unicode"
   },
-  "s_uri":{
-    "message":"encodeURI"
+  "s_uri": {
+    "message": "encodeURI"
   },
-  "s_uric":{
-    "message":"encodeURIComponent"
+  "s_uric": {
+    "message": "encodeURIComponent"
   },
-  "s_uricgbk":{
-    "message":"encodeURI(GBK)"
+  "s_uricgbk": {
+    "message": "encodeURI(GBK)"
   },
   "s_none": {
     "message": "无"
@@ -395,20 +395,20 @@
   "s_reset": {
     "message": "重置"
   },
-  "s_audible":{
-    "message":"有声音的标签页"
+  "s_audible": {
+    "message": "有声音的标签页"
   },
-  "n_notif":{
-    "message":"显示操作提示"
+  "n_notif": {
+    "message": "显示操作提示"
   },
-  "n_tab":{
-    "message":"目标标签页："
+  "n_tab": {
+    "message": "目标标签页："
   },
-  "n_tab_single":{
-    "message":"目标标签页："
+  "n_tab_single": {
+    "message": "目标标签页："
   },
-  "n_tab_lrhl":{
-    "message":"目标标签页："
+  "n_tab_lrhl": {
+    "message": "目标标签页："
   },
   "n_close": {
     "message": "目标标签页："
@@ -419,17 +419,17 @@
   "n_close_sel": {
     "message": "选中标签页："
   },
-  "n_close_keep":{
-    "message":"当关闭的是最后一个标签页时，不关闭窗口。"
+  "n_close_keep": {
+    "message": "当关闭的是最后一个标签页时，不关闭窗口。"
   },
-  "n_closePin":{
-    "message":"不关闭被固定的标签页。"
+  "n_closePin": {
+    "message": "不关闭被固定的标签页。"
   },
-  "n_closeConfirm":{
-    "message":"关闭多个标签页前需要确认。"
+  "n_closeConfirm": {
+    "message": "关闭多个标签页前需要确认。"
   },
-  "n_closetab":{
-    "message":"操作完成后关闭标签页"
+  "n_closetab": {
+    "message": "操作完成后关闭标签页"
   },
   "n_optype": {
     "message": "打开方式："
@@ -437,17 +437,17 @@
   "n_position": {
     "message": "位置："
   },
-  "n_position_lrhl":{
-    "message":"位置："
+  "n_position_lrhl": {
+    "message": "位置："
   },
   "n_new_position": {
     "message": "位置："
   },
-  "n_index":{
-    "message":"位置："
+  "n_index": {
+    "message": "位置："
   },
-  "n_index_new":{
-    "message":"位置："
+  "n_index_new": {
+    "message": "位置："
   },
   "n_wintype": {
     "message": "窗口类型："
@@ -467,29 +467,29 @@
   "n_content": {
     "message": "内容："
   },
-  "n_encoding":{
-    "message":"编码："
+  "n_encoding": {
+    "message": "编码："
   },
-  "n_target_np":{
-    "message":"打开方式："
+  "n_target_np": {
+    "message": "打开方式："
   },
-  "n_npkey_n":{
-    "message":"关键词："
+  "n_npkey_n": {
+    "message": "关键词："
   },
-  "n_npkey_p":{
-    "message":"关键词："
+  "n_npkey_p": {
+    "message": "关键词："
   },
-  "n_dlbar":{
-    "message":"显示下载栏"
+  "n_dlbar": {
+    "message": "显示下载栏"
   },
-  "n_crpages":{
-    "message":"浏览器内部页面："
+  "n_crpages": {
+    "message": "浏览器内部页面："
   },
-  "n_copytabele_content":{
-    "message":"复制类型："
+  "n_copytabele_content": {
+    "message": "复制类型："
   },
-  "n_script":{
-    "message":"脚本："
+  "n_script": {
+    "message": "脚本："
   },
   "n_jq": {
     "message": "插入JQ"
@@ -500,29 +500,29 @@
   "n_imgengine": {
     "message": "图片引擎："
   },
-  "n_zoom":{
-    "message":"缩放类型："
+  "n_zoom": {
+    "message": "缩放类型："
   },
-  "n_scroll":{
-    "message":"滚动类型："
+  "n_scroll": {
+    "message": "滚动类型："
   },
-  "n_num":{
-    "message":"数量："
+  "n_num": {
+    "message": "数量："
   },
-  "n_closebox":{
-    "message":"点击列表项后关闭窗口。"
+  "n_closebox": {
+    "message": "点击列表项后关闭窗口。"
   },
-  "n_snap":{
-    "message":"分屏方向："
+  "n_snap": {
+    "message": "分屏方向："
   },
-  "n_url":{
-    "message":"URL:"
+  "n_url": {
+    "message": "URL:"
   },
-  "n_dialog":{
-    "message":"显示对话框"
+  "n_dialog": {
+    "message": "显示对话框"
   },
-  "n_duplicatetype":{
-    "message":"在后台打开复制的标签页。"
+  "n_duplicatetype": {
+    "message": "在后台打开复制的标签页。"
   },
   "script": {
     "message": "运行脚本"
@@ -560,20 +560,20 @@
   "ag_search": {
     "message": "搜索"
   },
-  "ag_exp":{
-    "message":"实验"
+  "ag_exp": {
+    "message": "实验"
   },
-  "ag_chrome":{
-    "message":"浏览器相关"
+  "ag_chrome": {
+    "message": "浏览器相关"
   },
-  "ag_apps":{
-    "message":"迷你应用"
+  "ag_apps": {
+    "message": "迷你应用"
   },
-  "ag_su":{
-    "message":"Gesturefy相关"
+  "ag_su": {
+    "message": "Gesturefy相关"
   },
-  "ag_dep":{
-    "message":"即将删除"
+  "ag_dep": {
+    "message": "即将删除"
   },
   "none": {
     "message": "无"
@@ -665,8 +665,8 @@
   "txtsearch": {
     "message": "搜索文本"
   },
-  "txtsearchclip":{
-    "message":"搜索剪贴板中的文本"
+  "txtsearchclip": {
+    "message": "搜索剪贴板中的文本"
   },
   "openlnk": {
     "message": "打开链接"
@@ -716,68 +716,68 @@
   "copytabele": {
     "message": "复制标签页元素"
   },
-  "crpages":{
-    "message":"浏览器内部页面"
+  "crpages": {
+    "message": "浏览器内部页面"
   },
-  "dldir":{
-    "message":"打开默认下载文件夹"
+  "dldir": {
+    "message": "打开默认下载文件夹"
   },
-  "bookmark":{
-    "message":"添加书签"
+  "bookmark": {
+    "message": "添加书签"
   },
-  "bookmarklnk":{
-    "message":"添加书签"
+  "bookmarklnk": {
+    "message": "添加书签"
   },
-  "zoom":{
-    "message":"缩放"
+  "zoom": {
+    "message": "缩放"
   },
-  "zoom_dep":{
-    "message":"缩放"
+  "zoom_dep": {
+    "message": "缩放"
   },
-  "savepage":{
-    "message":"保存网页"
+  "savepage": {
+    "message": "保存网页"
   },
-  "tablist":{
-    "message":"标签页列表"
+  "tablist": {
+    "message": "标签页列表"
   },
-  "upperlevel":{
-    "message":"转到上一级"
+  "upperlevel": {
+    "message": "转到上一级"
   },
-  "increment":{
-    "message":"网址自增一"
+  "increment": {
+    "message": "网址自增一"
   },
-  "decrement":{
-    "message":"网址自减一"
+  "decrement": {
+    "message": "网址自减一"
   },
-  "extdisable":{
-    "message":"在当前页暂时禁用Gesturefy手势"
+  "extdisable": {
+    "message": "在当前页暂时禁用Gesturefy手势"
   },
   "general": {
     "message": "通用选项"
   },
-  "recentbk":{
-    "message":"最近书签"
+  "recentbk": {
+    "message": "最近书签"
   },
-  "recentht":{
-    "message":"最近历史纪录"
+  "recentht": {
+    "message": "最近历史纪录"
   },
-  "dllink":{
-    "message":"下载链接"
+  "dllink": {
+    "message": "下载链接"
   },
-  "savepdf":{
-    "message":"另存为PDF文件"
+  "savepdf": {
+    "message": "另存为PDF文件"
   },
-  "copyimg":{
-    "message":"复制图片"
+  "copyimg": {
+    "message": "复制图片"
   },
-  "set_bk":{
-    "message":"设置在新标签页中打开书签"
+  "set_bk": {
+    "message": "设置在新标签页中打开书签"
   },
-  "set_search":{
-    "message":"设置在新标签页中打开搜索结果"
+  "set_search": {
+    "message": "设置在新标签页中打开搜索结果"
   },
-  "readermode":{
-    "message":"阅读模式"
+  "readermode": {
+    "message": "阅读模式"
   },
   "mges": {
     "message": "鼠标手势"
@@ -797,14 +797,14 @@
   "about": {
     "message": "关于"
   },
-  "changelog":{
-    "message":"更新日志"
+  "changelog": {
+    "message": "更新日志"
   },
-  "translate":{
-    "message":"翻译"
+  "translate": {
+    "message": "翻译"
   },
-  "thanks":{
-    "message":"致谢"
+  "thanks": {
+    "message": "致谢"
   },
   "setting": {
     "message": "设置"
@@ -824,8 +824,8 @@
   "linux": {
     "message": "Linux/OSX选项"
   },
-  "per":{
-    "message":"权限管理"
+  "per": {
+    "message": "权限管理"
   },
   "conf": {
     "message": "配置管理"
@@ -908,14 +908,14 @@
   "msg_dirrepeat": {
     "message": "方向重复，请重试！"
   },
-  "msg_blank":{
-    "message":"有地方还没输入内容，请确认！"
+  "msg_blank": {
+    "message": "有地方还没输入内容，请确认！"
   },
-  "msg_setbg":{
-    "message":"出错了~"
+  "msg_setbg": {
+    "message": "出错了~"
   },
-  "msg_first":{
-    "message":"感谢安装本扩展！<br \/><li>Gesturefy是一款免费的扩展，如果你觉得满意的话，请给个五星好评，这样我才有继续更新的动力。<li>如果你是首次安装，扩展已经在正常运行了。试着按着右键，然后向上再向右画线试试吧。如果你曾经安装过，扩展正在后台同步设置，请稍等片刻。<li>由于某些原因，某些操作不能在这个页面工作（如滚动、用户脚本等）。<li>由于浏览器安全方面的限制，Gesturefy在某些特定页面也不能正常工作（如新标签、浏览器设置页）<li>本扩展包含了相等多的操作，我们默认只设置了少量，你可以根据自己的情况，增删及编辑。"
+  "msg_first": {
+    "message": "感谢安装本扩展！<br \/><li>Gesturefy是一款免费的扩展，如果你觉得满意的话，请给个五星好评，这样我才有继续更新的动力。<li>如果你是首次安装，扩展已经在正常运行了。试着按着右键，然后向上再向右画线试试吧。如果你曾经安装过，扩展正在后台同步设置，请稍等片刻。<li>由于某些原因，某些操作不能在这个页面工作（如滚动、用户脚本等）。<li>由于浏览器安全方面的限制，Gesturefy在某些特定页面也不能正常工作（如新标签、浏览器设置页）<li>本扩展包含了相等多的操作，我们默认只设置了少量，你可以根据自己的情况，增删及编辑。"
   },
   "test_mges": {
     "message": "请在此画线！"
@@ -941,41 +941,41 @@
   "btn_done": {
     "message": "确定"
   },
-  "btn_del":{
-    "message":"删除"
+  "btn_del": {
+    "message": "删除"
   },
-  "btn_continue":{
-    "message":"继续"
+  "btn_continue": {
+    "message": "继续"
   },
-  "btn_next":{
-    "message":"下一步"
+  "btn_next": {
+    "message": "下一步"
   },
-  "btn_back":{
-    "message":"返回"
+  "btn_back": {
+    "message": "返回"
   },
-  "btn_decode":{
-    "message":"解码"
+  "btn_decode": {
+    "message": "解码"
   },
-  "btn_encode":{
-    "message":"编码"
+  "btn_encode": {
+    "message": "编码"
   },
-  "btn_play":{
-    "message":"播放"
+  "btn_play": {
+    "message": "播放"
   },
-  "btn_pause":{
-    "message":"暂停"
+  "btn_pause": {
+    "message": "暂停"
   },
-  "btn_resume":{
-    "message":"继续"
+  "btn_resume": {
+    "message": "继续"
   },
-  "btn_stop":{
-    "message":"停止"
+  "btn_stop": {
+    "message": "停止"
   },
-  "btn_resetapps":{
-    "message":"重置迷你应用设置"
+  "btn_resetapps": {
+    "message": "重置迷你应用设置"
   },
-  "btn_reset":{
-    "message":"重置"
+  "btn_reset": {
+    "message": "重置"
   },
   "init_openlnk_bg": {
     "message": "在后台标签页中打开链接"
@@ -1001,749 +1001,755 @@
   "init_openimg_bg": {
     "message": "在后台标签页中打开图片"
   },
-  "init_searchtxt_bg":{
+  "init_searchtxt_bg": {
     "message": "搜索文本并在后台标签页中打开"
   },
   "init_searchimg_bg": {
     "message": "搜索图片并在后台标签页中打开"
   },
-  "init_scroll_up":{
-    "message":"向上滚动"
+  "init_scroll_up": {
+    "message": "向上滚动"
   },
-  "init_scroll_down":{
-    "message":"向下滚动"
+  "init_scroll_down": {
+    "message": "向下滚动"
   },
-  "init_scroll_top":{
-    "message":"到顶部"
+  "init_scroll_top": {
+    "message": "到顶部"
   },
-  "init_scroll_bottom":{
-    "message":"到底部"
+  "init_scroll_bottom": {
+    "message": "到底部"
   },
-  "getper_title":{
-    "message":"权限请求"
+  "getper_title": {
+    "message": "权限请求"
   },
-  "getper_des":{
-    "message":"要完成当前操作，需要请求以下额外的权限："
+  "getper_des": {
+    "message": "要完成当前操作，需要请求以下额外的权限："
   },
-  "getper_btn":{
-    "message":"获取权限"
+  "getper_btn": {
+    "message": "获取权限"
   },
-  "getper_after":{
-    "message":"获取权限成功！请重试上一个操作。某些情况下，需要重启浏览器才能生效！<br \/>当前页面将在以下倒计时后关闭  "
+  "getper_after": {
+    "message": "获取权限成功！请重试上一个操作。某些情况下，需要重启浏览器才能生效！<br \/>当前页面将在以下倒计时后关闭  "
   },
-  "getper_des1":{
-    "message":"你随时可以从以下位置删除这些权限：设置》通用选项》权限管理。"
+  "getper_des1": {
+    "message": "你随时可以从以下位置删除这些权限：设置》通用选项》权限管理。"
   },
-  "getper_fail":{
-    "message":"获取权限失败！请将浏览器升级到最新版再试。"
+  "getper_fail": {
+    "message": "获取权限失败！请将浏览器升级到最新版再试。"
   },
-  "wel_title":{
-    "message":"欢迎"
+  "wel_title": {
+    "message": "欢迎"
   },
-  "notif_title":{
-    "message":"Gesturefy消息"
+  "notif_title": {
+    "message": "Gesturefy消息"
   },
-  "notif_dlok":{
-    "message":"下载完成！"
+  "notif_dlok": {
+    "message": "下载完成！"
   },
-  "notif_dlerr":{
-    "message":"下载出错！"
+  "notif_dlerr": {
+    "message": "下载出错！"
   },
-  "notif_title_update":{
-    "message":"更新提示"
+  "notif_title_update": {
+    "message": "更新提示"
   },
-  "notif_title_appsave":{
-    "message":"迷你应用消息"
+  "notif_title_appsave": {
+    "message": "迷你应用消息"
   },
-  "notif_con_appsave":{
-    "message":"设置已保存！"
+  "notif_con_appsave": {
+    "message": "设置已保存！"
   },
-  "notif_con_bkdel":{
-    "message":"已经删除该书签"
+  "notif_con_bkdel": {
+    "message": "已经删除该书签"
   },
-  "notif_con_bkadd":{
-    "message":"已经成功添加书签"
+  "notif_con_bkadd": {
+    "message": "已经成功添加书签"
   },
-  "notif_con_dlok":{
-    "message":"下载完成！"
+  "notif_con_dlok": {
+    "message": "下载完成！"
   },
-  "notif_btn_open":{
-    "message":"打开设置页"
+  "notif_btn_open": {
+    "message": "打开设置页"
   },
-  "notif_con_dnimgerr":{
-    "message":"保存图片出错！"
+  "notif_con_dnimgerr": {
+    "message": "保存图片出错！"
   },
-  "notif_con_dnimg":{
-    "message":"图片下载完成！"
+  "notif_con_dnimg": {
+    "message": "图片下载完成！"
   },
-  "lang_auto":{
-    "message":"自动"
+  "lang_auto": {
+    "message": "自动"
   },
-  "lang_en":{
-    "message":"英文（en）"
+  "lang_en": {
+    "message": "英文（en）"
   },
-  "title_newengine":{
-    "message":"添加新引擎"
+  "title_newengine": {
+    "message": "添加新引擎"
   },
-  "title_newaction":{
-    "message":"添加新操作"
+  "title_newaction": {
+    "message": "添加新操作"
   },
-  "title_newscript":{
-    "message":"添加新脚本"
+  "title_newscript": {
+    "message": "添加新脚本"
   },
-  "title_editaction":{
-    "message":"编辑操作"
+  "title_editaction": {
+    "message": "编辑操作"
   },
-  "title_editengine":{
-    "message":"编辑引擎"
+  "title_editengine": {
+    "message": "编辑引擎"
   },
-  "title_editscript":{
-    "message":"编辑脚本"
+  "title_editscript": {
+    "message": "编辑脚本"
   },
-  "title_editdirect":{
-    "message":"编辑画线"
+  "title_editdirect": {
+    "message": "编辑画线"
   },
-  "tip_editdir":{
-    "message":"编辑画线"
+  "tip_editdir": {
+    "message": "编辑画线"
   },
-  "tip_resetcur":{
-    "message":"重置当前页设置"
+  "tip_resetcur": {
+    "message": "重置当前页设置"
   },
-  "tip_addnew":{
-    "message":"新增"
+  "tip_addnew": {
+    "message": "新增"
   },
-  "rss":{
-    "message":"RSS"
+  "rss": {
+    "message": "RSS"
   },
-  "random":{
-    "message":"随机数"
+  "random": {
+    "message": "随机数"
   },
-  "extmgm":{
-    "message":"扩展管理"
+  "extmgm": {
+    "message": "扩展管理"
   },
-  "appslist":{
-    "message":"迷你应用列表"
+  "appslist": {
+    "message": "迷你应用列表"
   },
-  "app_random_bound":{
-    "message":"范围："
+  "app_random_bound": {
+    "message": "范围："
   },
-  "app_random_num":{
-    "message":"数量："
+  "app_random_num": {
+    "message": "数量："
   },
-  "app_random_norepeat":{
-    "message":"不重复"
+  "app_random_norepeat": {
+    "message": "不重复"
   },
-  "app_random_fill":{
-    "message":"补全数位"
+  "app_random_fill": {
+    "message": "补全数位"
   },
-  "app_extmgm_disableall":{
-    "message":"全部禁用"
+  "app_extmgm_disableall": {
+    "message": "全部禁用"
   },
-  "recentclosed":{
-    "message":"最近关闭标签页"
+  "recentclosed": {
+    "message": "最近关闭标签页"
   },
-  "app_recentclosed_tabs":{
-    "message":"tabs"
+  "app_recentclosed_tabs": {
+    "message": "tabs"
   },
-  "synced":{
-    "message":"同步的标签页"
+  "synced": {
+    "message": "同步的标签页"
   },
-  "app_synced_switch":{
-    "message":"选择同步的设备： "
+  "app_synced_switch": {
+    "message": "选择同步的设备： "
   },
-  "app_synced_nodevice":{
-    "message":"没有同步的设备。"
+  "app_synced_nodevice": {
+    "message": "没有同步的设备。"
   },
-  "app_tip_opt":{
-    "message":"设置"
+  "app_tip_opt": {
+    "message": "设置"
   },
-  "app_tip_info":{
-    "message":"信息"
+  "app_tip_info": {
+    "message": "信息"
   },
-  "app_rss_menu":{
-    "message":"菜单"
+  "app_rss_menu": {
+    "message": "菜单"
   },
-  "app_rss_new":{
-    "message":"新增"
+  "app_rss_new": {
+    "message": "新增"
   },
-  "app_rss_subplace":{
-    "message":"RSS2.0"
+  "app_rss_subplace": {
+    "message": "RSS2.0"
   },
-  "app_recentbk_recentlength":{
-    "message":"数量："
+  "app_recentbk_recentlength": {
+    "message": "数量："
   },
-  "app_recentht_recentlength":{
-    "message":"数量："
+  "app_recentht_recentlength": {
+    "message": "数量："
   },
-  "app_recentclosed_recentlength":{
-    "message":"数量："
+  "app_recentclosed_recentlength": {
+    "message": "数量："
   },
-  "base64":{
-    "message":"Base64编码"
+  "base64": {
+    "message": "Base64编码"
   },
-  "mail":{
-    "message":"通过Email分享"
+  "mail": {
+    "message": "通过Email分享"
   },
-  "n_mail":{
-    "message":"Email类型："
+  "n_mail": {
+    "message": "Email类型："
   },
-  "n_mail_domain":{
-    "message":"*Google Apps域名："
+  "n_mail_domain": {
+    "message": "*Google Apps域名："
   },
-  "n_mail_prefix":{
-    "message":"Prefix for Subject:"
+  "n_mail_prefix": {
+    "message": "Prefix for Subject:"
   },
-  "s_defaultmail":{
-    "message":"系统默认"
+  "s_defaultmail": {
+    "message": "系统默认"
   },
-  "s_gmail":{
-    "message":"Gmail"
+  "s_gmail": {
+    "message": "Gmail"
   },
-  "s_gmailapps":{
-    "message":"*Gmail with Google Apps"
+  "s_gmailapps": {
+    "message": "*Gmail with Google Apps"
   },
-  "qr":{
-    "message":"二维码"
+  "qr": {
+    "message": "二维码"
   },
-  "app_qr_url":{
-    "message":"当前标签页的网址"
+  "app_qr_url": {
+    "message": "当前标签页的网址"
   },
-  "app_qr_title":{
-    "message":"当前标签页的标题"
+  "app_qr_title": {
+    "message": "当前标签页的标题"
   },
-  "app_qr_seltxt":{
-    "message":"选中的文本"
+  "app_qr_seltxt": {
+    "message": "选中的文本"
   },
-  "app_qr_sellnk":{
-    "message":"选中/拖曳链接的网址"
+  "app_qr_sellnk": {
+    "message": "选中/拖曳链接的网址"
   },
-  "app_qr_customer":{
-    "message":"自定义文本"
+  "app_qr_customer": {
+    "message": "自定义文本"
   },
-  "print":{
-    "message":"打印"
+  "print": {
+    "message": "打印"
   },
-  "mute":{
-    "message":"静音"
+  "mute": {
+    "message": "静音"
   },
-  "snap":{
-    "message":"窗口分屏"
+  "snap": {
+    "message": "窗口分屏"
   },
-  "numc":{
-    "message":"进制转换"
+  "numc": {
+    "message": "进制转换"
   },
-  "app_numc_from":{
-    "message":"From:"
+  "app_numc_from": {
+    "message": "From:"
   },
-  "app_numc_to":{
-    "message":"To:"
+  "app_numc_to": {
+    "message": "To:"
   },
-  "tts":{
-    "message":"文本转语音"
+  "tts": {
+    "message": "文本转语音"
   },
-  "n_gender":{
-    "message":"性别："
+  "n_gender": {
+    "message": "性别："
   },
-  "n_rate":{
-    "message":"语速："
+  "n_rate": {
+    "message": "语速："
   },
-  "n_voicename":{
-    "message":"语音引擎："
+  "n_voicename": {
+    "message": "语音引擎："
   },
-  "n_pitch":{
-    "message":"音调："
+  "n_pitch": {
+    "message": "音调："
   },
-  "n_volume":{
-    "message":"音量："
+  "n_volume": {
+    "message": "音量："
   },
-  "s_female":{
-    "message":"女"
+  "s_female": {
+    "message": "女"
   },
-  "s_male":{
-    "message":"男"
+  "s_male": {
+    "message": "男"
   },
-  "speaker":{
-    "message":"文本朗读"
+  "speaker": {
+    "message": "文本朗读"
   },
-  "jslist":{
-    "message":"自定义脚本列表"
+  "jslist": {
+    "message": "自定义脚本列表"
   },
-  "ui_withdir":{
-    "message":"在操作名称中包含方向提示"
+  "ui_withdir": {
+    "message": "在操作名称中包含方向提示"
   },
-  "ui_note_enable":{
-    "message":"显示操作备注"
+  "ui_note_enable": {
+    "message": "显示操作备注"
   },
-  "ui_allaction_enable":{
-    "message":"显示后续可能的操作"
+  "ui_allaction_enable": {
+    "message": "显示后续可能的操作"
   },
-  "theme_colorful":{
-    "message":"多彩"
+  "theme_colorful": {
+    "message": "多彩"
   },
-  "theme_bg":{
-    "message":"背景图"
+  "theme_bg": {
+    "message": "背景图"
   },
-  "tks_bug":{
-    "message":"以下朋友帮助过测试及提交BUG："
+  "tks_bug": {
+    "message": "以下朋友帮助过测试及提交BUG："
   },
-  "tks_tl":{
-    "message":"这些朋友帮助翻译扩展："
+  "tks_tl": {
+    "message": "这些朋友帮助翻译扩展："
   },
-  "tks_pjt":{
-    "message":"参考/使用了以下项目："
+  "tks_pjt": {
+    "message": "参考/使用了以下项目："
   },
-  "rges0":{
-    "message":"按住左键再右击"
+  "rges0": {
+    "message": "按住左键再右击"
   },
-  "rges1":{
-    "message":"按住右键再左击"
+  "rges1": {
+    "message": "按住右键再左击"
   },
-  "wges0":{
-    "message":"按住左键再向上滚动"
+  "wges0": {
+    "message": "按住左键再向上滚动"
   },
-  "wges1":{
-    "message":"按住左键再向下滚动"
+  "wges1": {
+    "message": "按住左键再向下滚动"
   },
-  "wges2":{
-    "message":"按住右键再向上滚动"
+  "wges2": {
+    "message": "按住右键再向上滚动"
   },
-  "wges3":{
-    "message":"按住右键再向下滚动"
+  "wges3": {
+    "message": "按住右键再向下滚动"
   },
-  "pop":{
-    "message":"弹出菜单操作"
+  "pop": {
+    "message": "弹出菜单操作"
   },
-  "icon":{
-    "message":"图标操作"
+  "icon": {
+    "message": "图标操作"
   },
-  "ctm":{
-    "message":"右键菜单"
+  "ctm": {
+    "message": "右键菜单"
   },
-  "action":{
-    "message":"操作"
+  "action": {
+    "message": "操作"
   },
-  "ctm_add":{
-    "message":"添加以下项到右键菜单："
+  "ctm_add": {
+    "message": "添加以下项到右键菜单："
   },
-  "ctm_fnswitch":{
-    "message":"开关功能选项的菜单"
+  "ctm_fnswitch": {
+    "message": "开关功能选项的菜单"
   },
-  "ctm_disable":{
-    "message":"在当前页暂时禁用Gesturefy手势"
+  "ctm_disable": {
+    "message": "在当前页暂时禁用Gesturefy手势"
   },
-  "ctm_opt":{
-    "message":"设置"
+  "ctm_opt": {
+    "message": "设置"
   },
-  "icon_type":{
-    "message":"选择工作模式："
+  "icon_type": {
+    "message": "选择工作模式："
   },
-  "icon_back":{
-    "message":"后台"
+  "icon_back": {
+    "message": "后台"
   },
-  "icon_back_des":{
-    "message":"操作不能从页面中获取数据，同时，操作可以在所有页面中运行，包括空白页。"
+  "icon_back_des": {
+    "message": "操作不能从页面中获取数据，同时，操作可以在所有页面中运行，包括空白页。"
   },
-  "icon_front":{
-    "message":"前台"
+  "icon_front": {
+    "message": "前台"
   },
-  "icon_front_des":{
-    "message":"操作可以从页面中获取数据，适用于需要获取数据的操作。"
+  "icon_front_des": {
+    "message": "操作可以从页面中获取数据，适用于需要获取数据的操作。"
   },
-  "icon_showname":{
-    "message":"在图标处显示操作的名称"
+  "icon_showname": {
+    "message": "在图标处显示操作的名称"
   },
-  "pop_last":{
-    "message":"设置上一次的操作为默认"
+  "pop_last": {
+    "message": "设置上一次的操作为默认"
   },
-  "about_ver":{
-    "message":"版本"
+  "about_ver": {
+    "message": "版本"
   },
-  "about_url":{
-    "message":"网址"
+  "about_url": {
+    "message": "网址"
   },
-  "review":{
-    "message":"评分与评论"
+  "review": {
+    "message": "评分与评论"
   },
-  "perdes_browsersettings":{"message":"由于非Windows平台上，鼠标右键菜单在按下鼠标按键按下后就出现，导致与使用右键操作的鼠标手势冲突，导致鼠标手势不可用。为消除该影响，Gesturefy手势需要请求额外的权限（‘browserSettings’）来改变右键菜单的弹出方式（仅Firefox）。本页面只出现一次，你也可以通过以下路径再次尝试开启：通用选项》Linux/MAC选项》尝试设置右键菜单延后出现。详情请参考：https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings。"},
-  "opt_mouseup":{"message":"尝试设置右键菜单延后出现"},
-  "des_mouseup":{"message":"该选项可以消除右键菜单与鼠标手势操作的冲突。需要请求'browserSettings'权限，仅适用于Firefox58+。"},
-  "touch":{
-    "message":"触屏手势"
+  "perdes_browsersettings": {
+    "message": "由于非Windows平台上，鼠标右键菜单在按下鼠标按键按下后就出现，导致与使用右键操作的鼠标手势冲突，导致鼠标手势不可用。为消除该影响，Gesturefy手势需要请求额外的权限（‘browserSettings’）来改变右键菜单的弹出方式（仅Firefox）。本页面只出现一次，你也可以通过以下路径再次尝试开启：通用选项》Linux/MAC选项》尝试设置右键菜单延后出现。详情请参考：https://developer.mozilla.org/Add-ons/WebExtensions/API/browserSettings。"
   },
-  "left":{
-    "message":"左边"
+  "opt_mouseup": {
+    "message": "尝试设置右键菜单延后出现"
   },
-  "right":{
-    "message":"右边"
+  "des_mouseup": {
+    "message": "该选项可以消除右键菜单与鼠标手势操作的冲突。需要请求'browserSettings'权限，仅适用于Firefox58+。"
   },
-  "top":{
-    "message":"顶部"
+  "touch": {
+    "message": "触屏手势"
   },
-  "ui_bottom":{
-    "message":"底部"
+  "left": {
+    "message": "左边"
   },
-  "leftbottom":{
-    "message":"左下"
+  "right": {
+    "message": "右边"
   },
-  "lefttop":{
-    "message":"左上"
+  "top": {
+    "message": "顶部"
   },
-  "righttop":{
-    "message":"右上"
+  "ui_bottom": {
+    "message": "底部"
   },
-  "hover":{
-    "message":"右下"
+  "leftbottom": {
+    "message": "左下"
   },
-  "follow":{
-    "message":"跟随"
+  "lefttop": {
+    "message": "左上"
   },
-  "center":{
-    "message":"居中"
+  "righttop": {
+    "message": "右上"
   },
-  "mergewin":{
-    "message":"合并所有窗口"
+  "hover": {
+    "message": "右下"
   },
-  "n_winstate":{
-    "message":"窗口状态："
+  "follow": {
+    "message": "跟随"
   },
-  "s_minimized":{
-    "message":"最小化"
+  "center": {
+    "message": "居中"
   },
-  "s_maximized":{
-    "message":"最大化"
+  "mergewin": {
+    "message": "合并所有窗口"
   },
-  "s_fullscreen":{
-    "message":"全屏"
+  "n_winstate": {
+    "message": "窗口状态："
   },
-  "ext_issue":{
-    "message":"问题反馈："
+  "s_minimized": {
+    "message": "最小化"
   },
-  "ext_allver":{
-    "message":"所有版本："
+  "s_maximized": {
+    "message": "最大化"
   },
-  "donatedev":{
-    "message":"支持开发"
+  "s_fullscreen": {
+    "message": "全屏"
   },
-  "moreext":{
-    "message":"扩展推荐"
+  "ext_issue": {
+    "message": "问题反馈："
   },
-  "con_ad":{
-    "message":"在当前的设置页展示广告"
+  "ext_allver": {
+    "message": "所有版本："
   },
-  "des_ad":{
-    "message":"广告仅在当前的设置页展现，绝不会在其它页面出现。感谢你的支持。"
+  "donatedev": {
+    "message": "支持开发"
   },
-  "des_moreextlist":{
-    "message":"这些扩展都是本人所开发，欢迎安装使用。"
+  "moreext": {
+    "message": "扩展推荐"
   },
-  "des_adlist0":{
-    "message":"此处展示的是广告，感谢你的支持。"
+  "con_ad": {
+    "message": "在当前的设置页展示广告"
   },
-  "des_adlist1":{
-    "message":"可以通过如下路径来开启或者关闭：关于>支持开发。"
+  "des_ad": {
+    "message": "广告仅在当前的设置页展现，绝不会在其它页面出现。感谢你的支持。"
   },
-  "lottery":{
-    "message":"彩票开奖数据"
+  "des_moreextlist": {
+    "message": "这些扩展都是本人所开发，欢迎安装使用。"
   },
-  "lottery_type":{
-    "message":"彩种："
+  "des_adlist0": {
+    "message": "此处展示的是广告，感谢你的支持。"
   },
-  "lottery_term":{
-    "message":"期号："
+  "des_adlist1": {
+    "message": "可以通过如下路径来开启或者关闭：关于>支持开发。"
   },
-  "lottery_dlt":{
-    "message":"大乐透"
+  "lottery": {
+    "message": "彩票开奖数据"
   },
-  "lottery_pls":{
-    "message":"排列3"
+  "lottery_type": {
+    "message": "彩种："
   },
-  "lottery_ssq":{
-    "message":"双色球"
+  "lottery_term": {
+    "message": "期号："
   },
-  "lottery_sd":{
-    "message":"福彩3D"
+  "lottery_dlt": {
+    "message": "大乐透"
   },
-  "pxmovie":{
-    "message":"破晓电影最近更新"
+  "lottery_pls": {
+    "message": "排列3"
   },
-  "convertcase":{
-    "message":"大小写字母转换"
+  "lottery_ssq": {
+    "message": "双色球"
   },
-  "btn_upper":{
-    "message":"大写"
+  "lottery_sd": {
+    "message": "福彩3D"
   },
-  "btn_lower":{
-    "message":"小写"
+  "pxmovie": {
+    "message": "破晓电影最近更新"
   },
-  "btn_start":{
-    "message":"开始"
+  "convertcase": {
+    "message": "大小写字母转换"
   },
-  "autoreload":{
-    "message":"自动刷新"
+  "btn_upper": {
+    "message": "大写"
   },
-  "autoreload_interval":{
-    "message":"刷新间隔时间（秒）:"
+  "btn_lower": {
+    "message": "小写"
   },
-  "autoreload_cache":{
-    "message":"忽略本地缓存"
+  "btn_start": {
+    "message": "开始"
   },
-  "autoreload_icon":{
-    "message":"在扩展图标上显示刷新倒计时"
+  "autoreload": {
+    "message": "自动刷新"
   },
-  "homepage":{
-    "message":"主页"
+  "autoreload_interval": {
+    "message": "刷新间隔时间（秒）:"
   },
-  "n_homepage_icon":{
-    "message":"在网站列表项中显示小图标(由Google提供)"
+  "autoreload_cache": {
+    "message": "忽略本地缓存"
   },
-  "n_homepage_bg":{
-    "message":"用Bing每日图片设置背景图"
+  "autoreload_icon": {
+    "message": "在扩展图标上显示刷新倒计时"
   },
-  "n_homepage_resize":{
-    "message":"改变窗口大小以更好的显示背景图"
+  "homepage": {
+    "message": "主页"
   },
-  "tbkjx":{
-    "message":"领券购物"
+  "n_homepage_icon": {
+    "message": "在网站列表项中显示小图标(由Google提供)"
   },
-  "app_tbkjx_num":{
-    "message":"显示商品的数量"
+  "n_homepage_bg": {
+    "message": "用Bing每日图片设置背景图"
   },
-  "closeapps":{
-    "message":"关闭当前页内所有迷你应用"
+  "n_homepage_resize": {
+    "message": "改变窗口大小以更好的显示背景图"
   },
-  "magnet":{
-    "message":"特征码转磁链"
+  "tbkjx": {
+    "message": "领券购物"
   },
-  "btn_clear":{
-    "message":"清除"
+  "app_tbkjx_num": {
+    "message": "显示商品的数量"
   },
-  "magnet_placeholder_input":{
-    "message":"输入特征码。"
+  "closeapps": {
+    "message": "关闭当前页内所有迷你应用"
   },
-  "homepage_grouptop":{
-    "message":"最常访问的网站"
+  "magnet": {
+    "message": "特征码转磁链"
   },
-  "homepage_groupdefault":{
-    "message":"默认分组"
+  "btn_clear": {
+    "message": "清除"
   },
-  "homepage_grouplist":{
-    "message":"网站分组列表"
+  "magnet_placeholder_input": {
+    "message": "输入特征码。"
   },
-  "editmode":{
-    "message":"编辑模式"
+  "homepage_grouptop": {
+    "message": "最常访问的网站"
   },
-  "homepage_newgroup":{
-    "message":"新增分组"
+  "homepage_groupdefault": {
+    "message": "默认分组"
   },
-  "homepage_grouptitle":{
-    "message":"分组名称"
+  "homepage_grouplist": {
+    "message": "网站分组列表"
   },
-  "homepage_sitetitle":{
-    "message":"网站名称"
+  "editmode": {
+    "message": "编辑模式"
   },
-  "homepage_siteurl":{
-    "message":"网站地址"
+  "homepage_newgroup": {
+    "message": "新增分组"
   },
-  "homepage_placeurl":{
-    "message":"包括前缀：http，https等。"
+  "homepage_grouptitle": {
+    "message": "分组名称"
   },
-  "homepage_cfmlistdel":{
-    "message":"该操作会删除相应分组下的所有网站，请再次确认。"
+  "homepage_sitetitle": {
+    "message": "网站名称"
   },
-  "homepage_ctm":{
-    "message":"添加到迷你应用-主页"
+  "homepage_siteurl": {
+    "message": "网站地址"
   },
-  "n_homepage_last":{
-    "message":"设置上一次选中的网站分组为默认"
+  "homepage_placeurl": {
+    "message": "包括前缀：http，https等。"
   },
-  "msg_conferr0":{
-    "message":"设置保存失败。错误信息如下："
+  "homepage_cfmlistdel": {
+    "message": "该操作会删除相应分组下的所有网站，请再次确认。"
   },
-  "msg_conferr1":{
-    "message":"Gesturefy手势将尝试回滚到之前的设置。"
+  "homepage_ctm": {
+    "message": "添加到迷你应用-主页"
   },
-  "notif_title_conferr":{
-    "message":"设置保存失败！"
+  "n_homepage_last": {
+    "message": "设置上一次选中的网站分组为默认"
   },
-  "tip_item":{
-    "message":"点击编辑，拖动排序。"
+  "msg_conferr0": {
+    "message": "设置保存失败。错误信息如下："
   },
-  "tip_del":{
-    "message":"删除"
+  "msg_conferr1": {
+    "message": "Gesturefy手势将尝试回滚到之前的设置。"
   },
-  "appslist_listenabled":{
-    "message":"显示的迷你应用"
+  "notif_title_conferr": {
+    "message": "设置保存失败！"
   },
-  "appslist_listdisabled":{
-    "message":"隐藏的迷你应用"
+  "tip_item": {
+    "message": "点击编辑，拖动排序。"
   },
-  "appslist_desenabled":{
-    "message":"拖动排序，拖动到‘隐藏的迷你应用’实现隐藏。"
+  "tip_del": {
+    "message": "删除"
   },
-  "appslist_desdisabled":{
-    "message":"拖动到‘显示的迷你应用’实现显示。"
+  "appslist_listenabled": {
+    "message": "显示的迷你应用"
   },
-  "jslist_listenabled":{
-    "message":"启用的脚本"
+  "appslist_listdisabled": {
+    "message": "隐藏的迷你应用"
   },
-  "jslist_listdisabled":{
-    "message":"禁用的脚本"
+  "appslist_desenabled": {
+    "message": "拖动排序，拖动到‘隐藏的迷你应用’实现隐藏。"
   },
-  "jslist_desenabled":{
-    "message":"拖动排序, 拖动到‘禁用的脚本’实现隐藏。"
+  "appslist_desdisabled": {
+    "message": "拖动到‘显示的迷你应用’实现显示。"
   },
-  "jslist_desdisabled":{
-    "message":"拖动到‘启用的脚本’实现显示。"
+  "jslist_listenabled": {
+    "message": "启用的脚本"
   },
-  "extmgm_alwaysenable":{
-    "message":"始终启用"
+  "jslist_listdisabled": {
+    "message": "禁用的脚本"
   },
-  "extmgm_lastenable":{
-    "message":"最后启用"
+  "jslist_desenabled": {
+    "message": "拖动排序, 拖动到‘禁用的脚本’实现隐藏。"
   },
-  "extmgm_allenable":{
-    "message":"启用所有扩展"
+  "jslist_desdisabled": {
+    "message": "拖动到‘启用的脚本’实现显示。"
   },
-  "extmgm_alldisable":{
-    "message":"禁用所有扩展"
+  "extmgm_alwaysenable": {
+    "message": "始终启用"
   },
-  "extmgm_tipdisable":{
-    "message":"在当前组中禁用"
+  "extmgm_lastenable": {
+    "message": "最后启用"
   },
-  "extmgm_tipoption":{
-    "message":"设置"
+  "extmgm_allenable": {
+    "message": "启用所有扩展"
   },
-  "extmgm_tipuninstall":{
-    "message":"卸载"
+  "extmgm_alldisable": {
+    "message": "禁用所有扩展"
   },
-  "extmgm_tipenable":{
-    "message":"在当前组中启用"
+  "extmgm_tipdisable": {
+    "message": "在当前组中禁用"
   },
-  "extmgm_grouplist":{
-    "message":"扩展分组列表"
+  "extmgm_tipoption": {
+    "message": "设置"
   },
-  "n_uninstallconfirm":{
-    "message":"卸载扩展程序时，需要确认"
+  "extmgm_tipuninstall": {
+    "message": "卸载"
   },
-  "n_enableallconfirm":{
-    "message":"启用所有扩展时，需要确认"
+  "extmgm_tipenable": {
+    "message": "在当前组中启用"
   },
-  "n_disableallconfirm":{
-    "message":"禁用所有扩展名时，需要确认"
+  "extmgm_grouplist": {
+    "message": "扩展分组列表"
   },
-  "extmgm_confirmenableall":{
-    "message":"所有扩展将被启用，请再次确认。"
+  "n_uninstallconfirm": {
+    "message": "卸载扩展程序时，需要确认"
   },
-  "extmgm_confirmdisableall":{
-    "message":"所有扩展将被禁用，请再次确认。"
+  "n_enableallconfirm": {
+    "message": "启用所有扩展时，需要确认"
   },
-  "extmgm_defaultgroup":{
-    "message":"默认组"
+  "n_disableallconfirm": {
+    "message": "禁用所有扩展名时，需要确认"
   },
-  "tip_more":{
-    "message":"更多"
+  "extmgm_confirmenableall": {
+    "message": "所有扩展将被启用，请再次确认。"
   },
-  "tip_editmode":{
-    "message":"编辑模式"
+  "extmgm_confirmdisableall": {
+    "message": "所有扩展将被禁用，请再次确认。"
   },
-  "tip_edit":{
-    "message":"编辑"
+  "extmgm_defaultgroup": {
+    "message": "默认组"
   },
-  "extmgm_firstitem":{
-    "message":"选择要启用的组"
+  "tip_more": {
+    "message": "更多"
   },
-  "extmgm_groupenable":{
-    "message":"在当前组中启用"
+  "tip_editmode": {
+    "message": "编辑模式"
   },
-  "extmgm_groupdisable":{
-    "message":"在当前组中禁用"
+  "tip_edit": {
+    "message": "编辑"
   },
-  "extmgm_newgroup":{
-    "message":"新建分组"
+  "extmgm_firstitem": {
+    "message": "选择要启用的组"
   },
-  "extmgm_groupname":{
-    "message":"分组名称"
+  "extmgm_groupenable": {
+    "message": "在当前组中启用"
   },
-  "tip_showlist":{
-    "message":"所有操作"
+  "extmgm_groupdisable": {
+    "message": "在当前组中禁用"
   },
-  "notepad":{
-    "message":"记事本"
+  "extmgm_newgroup": {
+    "message": "新建分组"
   },
-  "des_notepad_bottom":{
-    "message":"所有记事未经加密直接保存于本地，且不会被浏览器同步。"
+  "extmgm_groupname": {
+    "message": "分组名称"
   },
-  "btn_new":{
-    "message":"新建"
+  "tip_showlist": {
+    "message": "所有操作"
   },
-  "tip_save":{
-    "message":"保存"
+  "notepad": {
+    "message": "记事本"
   },
-  "tip_cancel":{
-    "message":"取消"
+  "des_notepad_bottom": {
+    "message": "所有记事未经加密直接保存于本地，且不会被浏览器同步。"
   },
-  "su_notepad_defalut_title":{
-    "message":"默认标题"
+  "btn_new": {
+    "message": "新建"
   },
-  "su_notepad_defalut_content":{
-    "message":"空白内容"
+  "tip_save": {
+    "message": "保存"
   },
-  "n_notepad_delconfirm":{
-    "message":"当删除某个记事时，需要再次确认。"
+  "tip_cancel": {
+    "message": "取消"
   },
-  "n_notepad_switchsave":{
-    "message":"在不同记事间切换时，自动保存。"
+  "su_notepad_defalut_title": {
+    "message": "默认标题"
   },
-  "n_notepad_last":{
-    "message":"设置上一次编辑的记事为默认项。"
+  "su_notepad_defalut_content": {
+    "message": "空白内容"
   },
-  "notepad_delconfirm":{
-    "message":"请再次确认是否删除？"
+  "n_notepad_delconfirm": {
+    "message": "当删除某个记事时，需要再次确认。"
   },
-  "shorturl":{
-    "message":"短网址"
+  "n_notepad_switchsave": {
+    "message": "在不同记事间切换时，自动保存。"
   },
-  "app_shorturl_btn":{
-    "message":"获取短网址"
+  "n_notepad_last": {
+    "message": "设置上一次编辑的记事为默认项。"
   },
-  "app_shorturl_key":{
-    "message":"关键字："
+  "notepad_delconfirm": {
+    "message": "请再次确认是否删除？"
   },
-  "app_shorturl_source":{
-    "message":"原网址："
+  "shorturl": {
+    "message": "短网址"
   },
-  "app_shorturl_short":{
-    "message":"短网址："
+  "app_shorturl_btn": {
+    "message": "获取短网址"
   },
-  "app_shorturl_wait":{
-    "message":"等待操作 ..."
+  "app_shorturl_key": {
+    "message": "关键字："
   },
-  "app_shorturl_waitserver":{
-    "message":"等待服务器响应 ..."
+  "app_shorturl_source": {
+    "message": "原网址："
   },
-  "app_shorturl_success":{
-    "message":"获取短网址成功 !"
+  "app_shorturl_short": {
+    "message": "短网址："
   },
-  "app_shorturl_err":{
-    "message":"错误 : "
+  "app_shorturl_wait": {
+    "message": "等待操作 ..."
   },
-  "n_qr":{
-    "message":"显示二维码"
+  "app_shorturl_waitserver": {
+    "message": "等待服务器响应 ..."
   },
-  "n_suyourls":{
-    "message":"使用Gesturefy手势提供的短网址服务"
+  "app_shorturl_success": {
+    "message": "获取短网址成功 !"
   },
-  "app_shorturl_keyholder":{
-    "message":"输入关键词，留空则自动生成"
+  "app_shorturl_err": {
+    "message": "错误 : "
   },
-  "dca":{
-    "message":"双击操作"
+  "n_qr": {
+    "message": "显示二维码"
   },
-  "con_dcatrigger":{
-    "message":"按住以下键触发："
+  "n_suyourls": {
+    "message": "使用Gesturefy手势提供的短网址服务"
   },
-  "con_dcakeynone":{
-    "message":"无"
+  "app_shorturl_keyholder": {
+    "message": "输入关键词，留空则自动生成"
+  },
+  "dca": {
+    "message": "双击操作"
+  },
+  "con_dcatrigger": {
+    "message": "按住以下键触发："
+  },
+  "con_dcakeynone": {
+    "message": "无"
   },
   "con_dcakeyctrl": {
     "message": "Alt、Ctrl或Shift："
@@ -1754,46 +1760,46 @@
   "con_dcabox": {
     "message": "在文本框中启用。"
   },
-  "con_dcaconfirm":{
+  "con_dcaconfirm": {
     "message": "操作执行前需要确认。"
   },
-  "con_dcaselnothing":{
+  "con_dcaselnothing": {
     "message": "仅当未选中内容时才有效。"
   },
-  "ksa":{
+  "ksa": {
     "message": "快捷键操作"
   },
-  "con_keys":{
+  "con_keys": {
     "message": "按键"
   },
-  "con_actions":{
+  "con_actions": {
     "message": "操作"
   },
-  "con_others":{
+  "con_others": {
     "message": "其它"
   },
-  "tip_enterkeys":{
-    "message":"使用键盘输入按键"
+  "tip_enterkeys": {
+    "message": "使用键盘输入按键"
   },
-  "reopenincognito":{
-    "message":"在隐身窗口中重新打开"
+  "reopenincognito": {
+    "message": "在隐身窗口中重新打开"
   },
-  "n_reopenkeep":{
-    "message":"保留原始标签页"
+  "n_reopenkeep": {
+    "message": "保留原始标签页"
   },
-  "s_incogback":{
-    "message":"隐身窗口（后台）"
+  "s_incogback": {
+    "message": "隐身窗口（后台）"
   },
-  "tip_closemulticonfirm":{
-    "message":"你正在尝试关闭多个标签页。 你确定你要继续吗？"
+  "tip_closemulticonfirm": {
+    "message": "你正在尝试关闭多个标签页。 你确定你要继续吗？"
   },
-  "cl_factorcustom":{
-    "message":"设置页面默认缩放系数为（%）："
+  "cl_factorcustom": {
+    "message": "设置页面默认缩放系数为（%）："
   },
-  "cl_factorloaded":{
-    "message":"加载或重新加载时从页面中获取缩放系数"
+  "cl_factorloaded": {
+    "message": "加载或重新加载时从页面中获取缩放系数"
   },
-  "c_factor":{
-    "message":"自定义默认缩放系数"
+  "c_factor": {
+    "message": "自定义默认缩放系数"
   }
 }
