@@ -101,7 +101,7 @@ let actions = {
       {name: "homepage"},
       {name: "tbkjx"},
       {name: "appslist"},
-      {name: "magnet"},
+      {name: "magnet"}
       /*{name:"notepad"},
       {name:"shorturl"}
       {name:"gmail"},
@@ -183,6 +183,7 @@ let actions = {
     ]
   ]
 }
+
 actions.popactions = actions.mgesactions = actions.mges;
 actions.popactions_group = actions.mgesactions_group = actions.mges_group;
 
@@ -420,6 +421,7 @@ let actionRemove = function (actionName) {
     }
   }
 }
+
 chrome.tts ? chrome.tts.getVoices(function (voice) {
   for (i = 0; i < voice.length; i++) {
     if (voice[i].voiceName == "native") {
@@ -430,10 +432,10 @@ chrome.tts ? chrome.tts.getVoices(function (voice) {
   }
 }) : null;
 
-//copy image
+// copy image
 (chrome.clipboard && chrome.clipboard.setImageData) ? null : actionRemove(["copyimg"]);
 
-//save pdf
+//s ave pdf
 (!chrome.tabs.saveAsPDF) ? actionRemove(["savepdf"]) : null;
 
 (browserType != "fx") ? actionRemove(["new_bk", "new_search", "readermode"]) : null;

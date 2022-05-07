@@ -2794,10 +2794,12 @@ var sub = {
       var theorgs;
       sub.checkPermission(thepers, theorgs, theFunction);
     },
+
     copyimg: function () {
       if (!sub.message.selEle.img) {
         return;
       }
+
       let theFunction = function () {
         fetch(sub.message.selEle.img)
           .then(response => response.arrayBuffer())
@@ -5478,10 +5480,12 @@ var sub = {
             formData.append("lottery_type", "tb");
             formData.append("r", 1522867870);
             formData.append("no", message.value.term);
+
             var _options = {
               method: "POST",
               body: formData
             }
+
             fetch("http://east.swlc.net.cn/LotteryNew/AnnouncementDetail.aspx", _options)
               .then(response => response.text())
               .then(str => (new window.DOMParser()).parseFromString(str, "text/html"))
