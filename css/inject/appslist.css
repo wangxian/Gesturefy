@@ -16,7 +16,7 @@ smartup.su_apps#su_apps_appslist li {
 
 smartup.su_apps#su_apps_appslist li > div {
   box-sizing: border-box;
-  border: 1px solid rgba(204, 204, 255, 0.6);
+  border: 1px solid #ffecd0;
   padding: 0 5px;
   /*margin: 1px;*/
   font-size: 14px;
@@ -38,8 +38,8 @@ smartup.su_apps#su_apps_appslist li > div {
 
 smartup.su_apps#su_apps_appslist li > div:hover {
   box-shadow: 0px 1px 3px #ccc;
-  background: #d0d9ff;
-  border-color: rgba(86, 119, 252, .5) !important;
+  background: #ffecd0;
+  border-color: #fcaf56 !important;
 }
 
 smartup.su_apps#su_apps_appslist li img {
