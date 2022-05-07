@@ -56,7 +56,7 @@ smartup.su_apps#su_apps_appslist li span {
 }
 
 smartup.su_apps#su_apps_appslist .su_appslist_editmode {
-  background-color: red;
+  background-color: #fff2d0;
 }
 
 smartup.su_apps#su_apps_appslist .su_appslist_ulenabled {

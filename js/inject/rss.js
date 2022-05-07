@@ -114,7 +114,7 @@ sue.apps.rss = {
     }
 
     dom.style.cssText += "border-color:rgb(255, 102, 0);";
-    dom.querySelector(".su_head").style.cssText += "background-color:rgb(255, 102, 0);"
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;"
     dom.addEventListener("click", sue.apps.rss.handleEvent, false);
   },
   handleEvent: function (e) {

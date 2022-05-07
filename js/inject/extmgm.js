@@ -45,7 +45,7 @@ sue.apps.extmgm = {
     sue.apps.extmgm.groupInit(dom);
 
     dom.style.cssText += "border-color:#0a5fa2;";
-    dom.querySelector(".su_head").style.cssText += "background-color:#0a5fa2;";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     dom.addEventListener("click", this.handleEvent, false);
   },
   firstItem: function (dom) {

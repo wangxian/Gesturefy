@@ -24,7 +24,7 @@ sue.apps.pxmovie = {
     }));
 
     dom.style.cssText += "border-color:#d61717;";
-    dom.querySelector(".su_head").style.cssText += "background-color:#d61717;";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     theAppBox.addEventListener("click", this.handleEvent, false);
     chrome.runtime.sendMessage({type: "appsAction", app: "pxmovie", action: "getList"});
   },

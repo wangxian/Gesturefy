@@ -115,7 +115,7 @@ sue.apps.homepage = {
 
     } else {
       dom.style.cssText += "border-color:#8856fc;";
-      dom.querySelector(".su_head").style.cssText += "background-color:#8856fc;";
+      dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     }
     dom.addEventListener("click", this.handleEvent, false);
   },

@@ -3420,9 +3420,19 @@ var sub = {
       var _appname = "appslist";
       sub.initAppconf(_appname);
       var _obj = {}
-      _obj.apps = ["rss", "tablist", "random", "extmgm", "recentbk", "recentht", "recentclosed", "synced", "base64", "qr", "numc", "speaker", "jslist", "lottery", "convertcase", "autoreload", "homepage", "magnet" /*,"notepad","shorturl"*/];
+
+      // applist
+      // 应用列表
+      _obj.apps = ["rss", "tablist", "random", "extmgm",
+                   "recentbk", "recentht", "recentclosed", "synced",
+                   "base64", "qr", "numc", "speaker", "jslist",
+                   "lottery", "homepage", "magnet"];
+
+
       chrome.tabs.saveAsPDF ? _obj.apps.push("savepdf") : null;
-      navigator.language == "zh-CN" ? _obj.apps.push("tbkjx") : null;
+
+      // navigator.language == "zh-CN" ? _obj.apps.push("tbkjx") : null;
+
       sub.cons[_appname] = _obj;
       sub.insertTest(_appname);
     },
@@ -5025,7 +5035,7 @@ var sub = {
             }
           }
         }
-        console.log(_sendConf)
+        // console.log(_sendConf)
         sendResponse(_sendConf);
         break;
       case "action_ksa":
@@ -5048,7 +5058,7 @@ var sub = {
             });
           });
         } else {
-          console.log("s")
+          // console.log("s")
           sendResponse(sub.theConf);
         }
         sub.initCurrent(sender, sub.theConf);
@@ -5074,7 +5084,7 @@ var sub = {
             });
           });
         } else {
-          console.log("s")
+          // console.log("s")
           sendResponse(sub.theConf);
         }
         sub.initCurrent(sender, sub.theConf);

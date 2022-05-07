@@ -73,7 +73,7 @@ sue.apps.notepad = {
 
 
     dom.style.cssText += "border-color:rgb(128 123 67);";
-    dom.querySelector(".su_head").style.cssText += "background-color:rgb(128 123 67);";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     dom.addEventListener("click", this.handleEvent, false);
     dom.addEventListener("keypress", this.handleEvent, false);
     dom.addEventListener("keydown", this.handleEvent, false);

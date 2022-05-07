@@ -72,8 +72,8 @@ sue.apps.jslist = {
     }
     theAppBox.appendChild(_ul);
     dom.addEventListener("click", this.handleEvent, false)
-    dom.style.cssText += "border-color:#351fe5;";
-    dom.querySelector(".su_head").style.cssText += "background-color:#351fe5;";
+    dom.style.cssText += "border-color:#fff2d0;";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
   },
   handleEvent: function (e) {
     switch (e.type) {

@@ -250,7 +250,7 @@ sue.apps.tbkjx = {
       value: "jingxuan"
     })
     dom.style.cssText += "border-color:#2b2b34;";
-    dom.querySelector(".su_head").style.cssText += "background-color:#2b2b34;";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     dom.addEventListener("click", this.handleEvent, false);
     dom.addEventListener("keypress", this.handleEvent, false);
     dom.addEventListener("mouseover", this.handleEvent, false);
