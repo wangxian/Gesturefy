@@ -727,6 +727,7 @@ var suo = {
       value: config
     });
   },
+
   domCreate2: function (edom, eele, einner, ecss, edata, etxt) {
     var dom = document.createElement(edom);
     if (eele) {
@@ -2037,14 +2038,17 @@ var suo = {
           setName: ["confid", "actiontype"],
           setValue: [i, actionType]
         }, (confOBJ[i].mydes && confOBJ[i].mydes.type && confOBJ[i].mydes.value) ? confOBJ[i].mydes.value : suo.getI18n(confOBJ[i].name));
+
         var liDirbox = suo.domCreate2("span", {
           setName: ["className"],
           setValue: ["item_sdrgdir item_edit"]
         });
+
         var liimg = suo.domCreate2("span", {
           setName: ["className"],
           setValue: ["item_edit"]
         });
+
         liimg.style.cssText += "background:url(" + chrome.extension.getURL("") + "image/" + "direct.png" + ") #d0d9ff center no-repeat;color:#d0d9ff;display:inline-block;width:40px;height:40px;" + suo.directimg(confOBJ[i].direct);
         liDirbox.appendChild(liimg);
         liOBJ.appendChild(liName);
@@ -2177,6 +2181,7 @@ var suo = {
       }, null, null, null, "x");
       liOBJ.appendChild(liName);
       liOBJ.appendChild(liDel);
+
       if ("txtengine imgengine script pop ctm".indexOf(type) != -1) {
         //console.log(confOBJ[i])
       } else {
@@ -2187,18 +2192,19 @@ var suo = {
           R: "180deg",
           D: "270deg"
         };
+
         //confOBJ[i].direct="undefined"
         var lidir = suo.domCreate2("span", {
           setName: ["className"],
           setValue: ["item_dir item_edit"]
         }, null, (confOBJ[i].note && confOBJ[i].note.value ? "height:18px;line-height:18px;" : null));
+
         for (var k = 0; k < confOBJ[i].direct.length; k++) {
           var _domImg = suo.domCreate2("img", {
             setName: ["className"],
             setValue: ["item_edit"]
           }, null, "-webkit-transform:rotate(" + myDeg[confOBJ[i].direct[k]] + ");" + (confOBJ[i].note && confOBJ[i].note.value ? "height:16px;" : ""));
           _domImg.src = "../image/direct.png";
-          // _domImg.draggable="false";
           lidir.appendChild(_domImg);
         }
 
@@ -3967,7 +3973,7 @@ var suo = {
 
     document.title = suo.getI18n("opt_title") + " - " + suo.getI18n("ext_name");
 
-    document.querySelector("#main").style.cssText += "opacity:1;transition:all .9s ease-in-out;display:block;";
+    // document.querySelector("#main").style.cssText += "opacity:1;transition:all .9s ease-in-out;display:block;";
 
     document.querySelector("#abmain_name").innerText = suo.getI18n("ext_name");
     document.querySelector("#abmain_des").innerText = suo.getI18n("ext_des");
