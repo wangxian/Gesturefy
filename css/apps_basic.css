@@ -34,7 +34,7 @@ smartup.su_apps a {
 
 smartup.su_apps input[type=text],
 smartup.su_apps input[type=number] {
-  border: 1px solid #d0d9ff;
+  border: 1px solid #fcaf56;
   height: 26px;
   border-radius: 3px;
   /*min-width: 160px;*/
@@ -53,7 +53,7 @@ smartup.su_apps button {
   cursor: pointer;
   text-align: center;
   transition: background .2s ease-in-out;
-  color: #5677fc;
+  color: #fcaf56;
   padding: 0 8px;
   margin: 0 5px;
   border-radius: 2px;
@@ -69,19 +69,19 @@ smartup.su_apps button {
 smartup.su_apps input[type=button]:hover,
 smartup.su_apps button:hover {
   color: #fff;
-  background: #5677fc;
+  background: #fcaf56;
 }
 
 smartup.su_apps input[type=button]:active,
 smartup.su_apps button:active {
   position: relative;
   top: 1px;
-  background: rgba(86, 119, 252, 0.4);
+  background: rgb(143, 79, 5);
 }
 
 smartup.su_apps select {
   border-radius: 3px;
-  border: 1px solid #d0d9ff;
+  border: 1px solid #ffecd0;
   height: 26px;
   padding: 0 10px;
   min-width: 80px;
@@ -92,7 +92,7 @@ smartup.su_apps select {
 
 smartup.su_apps select optgroup {
   color: #fff;
-  background: #5677fc;
+  background: #fcaf56;
   font-weight: bold;
 }
 
@@ -136,9 +136,9 @@ smartup.su_apps {
   left: 0;
   top: 0;
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-  background-color: #d0d9ff;
+  background-color: #fbbb63;
   z-index: 100000;
-  border: 1px solid #5677fc;
+  border: 1px solid #fbbb63;
   border-radius: 2px;
   opacity: 0;
 }
@@ -150,7 +150,7 @@ smartup .su_head {
   top: 0;
   height: 120px;
   width: 100%;
-  background-color: #5677fc;
+  background-color: #fcaf56;
   text-align: center;
 }
 
@@ -224,7 +224,7 @@ smartup .su_menu img {
   border-radius: 100%;
   width: 16px;
   height: 16px;
-  border: 1px solid #ccf;
+  border: 1px solid #ffecd0;
   background: #fff;
   cursor: pointer;
   padding: 2px;
@@ -245,7 +245,7 @@ smartup .su_options {
   box-sizing: border-box;
   opacity: 0;
   z-index: -1;
-  box-shadow: 0px 2px 4px #5677fc;
+  box-shadow: 0px 2px 4px #fcaf56;
 }
 
 smartup .su_options select {
@@ -258,7 +258,7 @@ smartup .su_options input[type=text] {
 
 smartup .su_options input[type=range] {
   height: 1px;
-  background: #5677fc;
+  background: #fcaf56;
   border: 1px solid transparent;
   border-radius: 5px;
   -webkit-user-select: none;
@@ -277,7 +277,7 @@ smartup .su_options input[type=range] {
 
 smartup .su_options input[type=range]::-webkit-slider-thumb {
   background: #e7e9fd;
-  border: 1px solid #d0d9ff;
+  border: 1px solid #ffecd0;
   border-radius: 100%;
   -webkit-user-select: none;
   user-select: none;
@@ -285,13 +285,13 @@ smartup .su_options input[type=range]::-webkit-slider-thumb {
   width: 34px;
   height: 13px;
   border-radius: 6px;
-  background: #5677fc;
+  background: #fcaf56;
   box-shadow: none;
 }
 
 smartup .su_options .options_rangebox {
   margin: 0 3px;
-  border-bottom: 1px solid #d0d9ff;
+  border-bottom: 1px solid #ffecd0;
   width: 30px;
   display: inline-block;
   text-align: center;
@@ -349,7 +349,7 @@ smartup.su_apps .su_editbox {
   top: 48px;
   left: 120px;
   padding: 4px;
-  background: #cef;
+  background: #fff2d0;
   margin: 0 auto;
   position: absolute;
   border-radius: 2px;
@@ -368,7 +368,7 @@ smartup.su_apps .su_notifi {
   width: auto;
   min-width: 160px;
   line-height: 24px;
-  background-color: #ccf;
+  background-color: #ffecd0;
   position: absolute;
   top: 0px;
   border-radius: 24px 24px 0 0;

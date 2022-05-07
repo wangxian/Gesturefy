@@ -51,7 +51,7 @@ sue.apps = {
       let _domHeadCloseBtn = sue.apps.domCreate("div", {
         setName: ["className"],
         setValue: ["su_btn_close"]
-      }, null, null, null, "x");
+      }, null, null, null, "✖");
       domHead.appendChild(_domHeadCloseBtn);
     }
     domBox.appendChild(domHead);
@@ -343,9 +343,11 @@ sue.apps = {
     var OBJ = sue.apps.getAPPboxEle(e);
     var mytime = new Date();
     mytime = mytime.getTime();
+
     if (!OBJ) {
       return false;
     }
+
     OBJ.querySelector(".su_head").style.cssText += "cursor:move;";
     OBJ.style.cssText += "transition:none;" +
       "left:" + (e.clientX - sue.apps.cons.boxmove.posX) + "px;" +

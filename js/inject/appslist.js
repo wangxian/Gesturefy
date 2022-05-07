@@ -14,6 +14,7 @@ sue.apps.appslist = {
         {type: "checkbox", label: "n_closebox", name: "n_closebox", checked: true}
       ]
     }
+
     sue.apps.init();
     var dom = sue.apps.initBox(appInfo);
     dom.id = "su_apps_" + appInfo.appName;
@@ -30,18 +31,22 @@ sue.apps.appslist = {
         setName: ["id"],
         setValue: [_conf[i]]
       });
+
       var _div = sue.apps.domCreate("div", {setName: ["className"], setValue: ["su_appslist_li su_appslist_item"]}, null, null, {
         setName: ["id"],
         setValue: [_conf[i]]
       }, sue.apps.i18n(_conf[i]));
+
       _li.appendChild(_div);
       _ul.appendChild(_li);
     }
+
     theAppBox.appendChild(_ul);
-    dom.style.cssText += "border-color:#fd7900;";
-    dom.querySelector(".su_head").style.cssText += "background-color:#fd7900;";
+    // dom.style.cssText += "border-color:#fd7900;";
+    dom.querySelector(".su_head").style.cssText += "background-color:#fbbb63;";
     dom.addEventListener("click", this.handleEvent, false);
   },
+
   handleEvent: function (e) {
     switch (e.type) {
       case"click":
@@ -73,8 +78,8 @@ sue.apps.appslist = {
     _ulenabled.classList.add("su_appslist_ulenabled_before");
 
     let _uldisabled = sue.apps.domCreate("ul", {setName: ["className"], setValue: ["su_appslist_uldisabled"]});
-    let _apps = sue.apps.appslist.apps,
-      _enabled = sue.apps.appslist.config.enabled;
+    let _apps = sue.apps.appslist.apps, _enabled = sue.apps.appslist.config.enabled;
+
     for (var i = 0; i < _apps.length; i++) {
       if (!_enabled.contains(_apps[i])) {
         var _li = sue.apps.domCreate("li", {setName: ["className"], setValue: ["su_appslist_li"]}, null, null, {
@@ -89,6 +94,7 @@ sue.apps.appslist = {
         _uldisabled.appendChild(_li);
       }
     }
+
     sue.apps.getAPPboxEle(e).querySelector(".su_appslist_box").appendChild(_uldisabled);
     sue.apps.appslist.cons.sortDomEnabled = Sortable.create(_ulenabled, {
       animation: 200,
@@ -110,6 +116,7 @@ sue.apps.appslist = {
         sue.apps.appslist.config.enabled = _arr;
         sue.apps.appslist.saveConf();
       },
+
       onAdd: function (e) {
         console.log(e);
         let _lis = e.target.querySelectorAll("li.su_appslist_li");
@@ -121,7 +128,8 @@ sue.apps.appslist = {
         sue.apps.appslist.config.enabled = _arr;
         sue.apps.appslist.saveConf();
       }
-    })
+    });
+
     sue.apps.appslist.cons.sortDomDisabled = Sortable.create(_uldisabled, {
       animation: 200,
       easing: "ease-in-out",
@@ -131,14 +139,16 @@ sue.apps.appslist = {
         name: 'disabled',
         put: ["enabled"]
       }
-    })
+    });
     sue.apps.initPos(e);
   },
+
   editModeClear: function (e) {
     let _ulenabled = sue.apps.getAPPboxEle(e).querySelector(".su_appslist_ulenabled"),
       _uldisabled = sue.apps.getAPPboxEle(e).querySelector(".su_appslist_uldisabled");
     _ulenabled.classList.remove("su_appslist_ulenabled_before");
     _uldisabled.remove();
+
     sue.apps.appslist.cons.sortDomEnabled.destroy();
     sue.apps.appslist.cons.sortDomDisabled.destroy();
     sue.apps.initPos(e);
@@ -147,6 +157,7 @@ sue.apps.appslist = {
     chrome.runtime.sendMessage({type: "apps_saveconf", apptype: "appslist", config: sue.apps.appslist.config});
   },
 }
+
 chrome.runtime.sendMessage({type: "apps_getvalue", apptype: "appslist"}, function (response) {
   sue.apps.appslist.config = response.config;
   sue.apps.appslist.apps = response.value.apps;

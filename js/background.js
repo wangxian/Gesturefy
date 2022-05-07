@@ -1,3 +1,4 @@
+// background.js
 Array.prototype.contains = function (ele) {
   for (var i = 0; i < this.length; i++) {
     if (this[i] == ele) {
@@ -31,7 +32,7 @@ var config,
   timerSaveConf;
 let localConfig;
 
-//check browser
+// check browser
 if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
   browserType = "fx";
 } else if (navigator.userAgent.toLowerCase().indexOf("edge") != -1) {
@@ -6126,7 +6127,8 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     }
   })
 
-})
+});
+
 chrome.tabs.onRemoved.addListener(function (tabId) {
   if (sub.cons.autoreload && sub.cons.autoreload[tabId]) {
     window.clearInterval(sub.cons.autoreload[tabId].timer);
