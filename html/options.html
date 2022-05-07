@@ -76,7 +76,7 @@
 <nav>
   <!-- <img id="nav_logo" src="../icon.png"> -->
   <img id="nav_img" src="../image/menu.svg">
-  <span id="nav_txt" data-i18n="ext_name">smartUp Gestures</span>
+  <span id="nav_txt" data-i18n="ext_name"></span>
   <div id="nav_btn">
     <img id="nav_reset" src="../image/reset.svg" title="_i18n" data-i18n="tip_resetcur">
     <img class="menuplus_save nav_btn_save" src="../image/save.svg" title="_i18n" data-i18n="menu_save">
@@ -85,8 +85,8 @@
 </nav>
 <menu>
   <div id="menu_topbox" style="border-bottom: 1px solid #d0d9ff;">
-    <span id="menu_name">smartUp</span>
-    <img id="menu_logo" src="../icon.png">
+    <span id="menu_name">Gesturefy</span>
+    <!--<img id="menu_logo" src="../icon.png">-->
   </div>
   <div style="clear:both;"></div>
   <div id="menubox"></div>
@@ -100,8 +100,10 @@
   </div>
 </menu>
 
-<div id="top" style="height:260px;background:#e91e63;position: fixed;left: 0;top: 0;z-index: 0;width: 100%;"></div>
-<div id="loadingbox">Loading<img src="../image/loading.gif"></div>
+<div id="top2" style="display:none; height:260px;background:#e91e63;position: fixed;left: 0;top: 0;z-index: 0;width: 100%;"></div>
+
+<!--<div id="loadingbox">loading<img src="../image/loading.gif"></div>-->
+
 <div id="btn_add" title="_i18n" data-i18n="tip_addnew">+</div>
 <div id="main">
   <div class="set set-00" data-confobj="general|fnswitch">
@@ -113,47 +115,36 @@
     <div class="setcontent">
       <input id="con-timeout" class="init change-checkbox" data-confele="timeout" type="checkbox"><label
       for="con-timeout" data-i18n="con_timeout"></label><br/>
-      <input class="init uirange change-range" data-confele="timeoutvalue" type="range" min="100" max="10000"
-             step="100" style="margin-left:24px;"><span class="uirangebox">2</span><span class="box_unit">( ms
-          )</span><br/>
-      <input id="con-timeout_nomenu" class="init change-checkbox" data-confele="timeout_nomenu" type="checkbox"
-             style="margin-left:24px;"><label for="con-timeout_nomenu" data-i18n="con_timeout_nomenu"></label><br/>
+
+      <input class="init uirange change-range" data-confele="timeoutvalue" type="range" min="100" max="10000" step="100" style="margin-left:24px;">
+      <span class="uirangebox">2</span><span class="box_unit">( ms )</span><br/>
+
+      <input id="con-timeout_nomenu" class="init change-checkbox" data-confele="timeout_nomenu" type="checkbox" style="margin-left:24px;">
+      <label for="con-timeout_nomenu" data-i18n="con_timeout_nomenu"></label><br/>
       <label data-i18n="con_minlength"></label><br/>
-      <input class="init uirange change-range" data-confele="minlength" type="range" min="5" max="20"
-             style="margin-left:24px;"><span class="uirangebox">2</span><span class="box_unit">( px
-          )</span><br/>
+      <input class="init uirange change-range" data-confele="minlength" type="range" min="5" max="20" style="margin-left:24px;">
+      <span class="uirangebox">2</span><span class="box_unit">( px )</span><br/>
       <!-- <input class="init change-checkbox" data-confele="icon" type="checkbox"><label data-i18n="con_icon"></label><br /> -->
       <!-- <input class="init change-checkbox" data-confele="boxzoom" type="checkbox"><label data-i18n="con_boxzoom"></label> -->
-      <input id="con-notif" class="init change-checkbox" data-conf0="" data-conf1="settings" data-confele="notif"
-             type="checkbox"><label for="con-notif" data-i18n="con_notif"></label><br/>
-      <input class="init change-checkbox" data-conf0="" data-conf1="settings" data-confele="appnotif"
-             type="checkbox"><label data-i18n="con_miniappnotif"></label><br/>
-      <input class="init change-checkbox" data-confele="esc" type="checkbox"><label data-i18n="con_esc"></label><br/>
-      <input class="change-background" id="change-background" type="checkbox"><label for="change-background"
-                                                                                     data-i18n="con_background"></label>
+      <input id="con-notif" class="init change-checkbox" data-conf0="" data-conf1="settings" data-confele="notif" type="checkbox">
+      <label for="con-notif" data-i18n="con_notif"></label><br/>
+
+      <input class="init change-checkbox" data-conf0="" data-conf1="settings" data-confele="appnotif" type="checkbox">
+      <label data-i18n="con_miniappnotif"></label><br/>
+
+      <input class="init change-checkbox" data-confele="esc" type="checkbox">
+      <label data-i18n="con_esc"></label><br/>
+
+      <input class="change-background" id="change-background" type="checkbox">
+      <label for="change-background" data-i18n="con_background"></label>
     </div>
     <div class="setname" data-i18n="stnm_opts"></div>
     <div class="setcontent">
-      <input id="con-autosave" class="init change-checkbox" data-confele="autosave" type="checkbox"><label
-      for="con-autosave" data-i18n="con_autosave"></label><br/>
-      <!-- <label data-i18n="con_lang">language：</label><br />
-              <select name="" id="con-lang" class="init setmargin" data-confele="lang">
-                  <option data-i18n="lang_auto" value="lang_auto">local</option>
-                  <option data-i18n="lang_en" value="lang_en">English</option>
-              </select>
-              <div class="setdes" data-i18n="des_lang" style="padding-top:0;"></div> -->
-      <!-- <label data-i18n="con_theme"></label><br />
-              <select name="" class="init change setmargin" data-confele="theme">
-                  <option data-i18n="theme_colorful" value="colorful"></option>
-                  <option data-i18n="theme_bg" value="bg"></option>
-              </select>
-              <a href="###" id="setbg", data-i18n="con_setbg"></a> -->
+      <input id="con-autosave" class="init change-checkbox" data-confele="autosave" type="checkbox">
+      <label for="con-autosave" data-i18n="con_autosave"></label><br/>
     </div>
   </div>
-  <!-- <div class="set set-11" data-confobj="general|fnswitch" data-conf0="general" data-conf1="fnswitch">
-          <div class="setname" data-i18n="stnm_function"></div>
-          <div class="setcontent"></div>
-      </div> -->
+
   <div class="set set-11 confobj" data-confobj="general|engine" data-conf0="general" data-conf1="engine">
     <div class="setname" data-i18n="stnm_txtengine"></div>
     <div class="setcontent">
@@ -203,11 +194,6 @@
       <ul class="con-item ul_pers confobj" data-confobj="per_pers"></ul>
       <div style="clear:both;"></div>
     </div>
-    <!--             <div class="setname" data-i18n="stnm_per_orgs"></div>
-          <div class="setcontent">
-              <ul class="con-item ul_orgs confobj" data-confobj="per_orgs"></ul>
-              <div style="clear:both;"></div>
-          </div> -->
     <div class="setdes" data-i18n="des_pers"></div>
   </div>
   <div id="set-conf" class="set set-15" data-confobj="general|sync">
@@ -637,8 +623,8 @@
       Want this extension to show in your native language? If you are familiar with English, you can help us
       translate this extension into your native language. Please contact us by email: crexme@gmail.com .<br/>
       The <a target="_blank" href="https://translate.google.com/toolkit">Google translator toolkit</a> can
-      help you complete your translation quickly. For more informations <a target="_blank"
-                                                                           href="https://developer.chrome.com/extensions/i18n">https://developer.chrome.com/extensions/i18n</a><br/>
+      help you complete your translation quickly. For more informations
+      <a target="_blank" href="https://developer.chrome.com/extensions/i18n">https://developer.chrome.com/extensions/i18n</a><br/>
       <table class="tab_translate">
         <tbody>
         <tr class="tr_title">
@@ -653,10 +639,6 @@
           <td style="border-left:1px solid #ccf;">Русский</td>
           <td><a href="https://ok.ru/kamyshnikov.andrey" target="_blank">Камышников Андрей</a></td>
         </tr>
-        <!--                         <tr class="tr_b">
-                        <td> </td><td> </td>
-                        <td style="border-left:1px solid #ccf;"> </td><td> </td>
-                    </tr> -->
         </tbody>
       </table>
     </div>

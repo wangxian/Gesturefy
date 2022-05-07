@@ -43,14 +43,13 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 100px 0 10px 0;
   font-family: arial, sans-serif;
   font-size: 13px;
   min-height: 300px;
   min-width: 680px;
-  /* transition: background-color .4s ease-in-out; */
-  padding-top: 100px;
-  padding-bottom: 10px;
+  transition: background-color .4s ease-in-out;
+  background-color: #efefef;
 }
 
 a:visited {
@@ -82,11 +81,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 input[type=range]::-webkit-slider-thumb {
-  /*	width: 15px;
-	height: 15px;
-	border-radius:100%;*/
-  background: #e7e9fd;
-  border: 1px solid #d0d9ff;
+  border: 1px solid #f6e3ad;
   box-shadow: 1px 1px 1px #000;
   user-select: none;
   -moz-user-select: none;
@@ -95,7 +90,7 @@ input[type=range]::-webkit-slider-thumb {
   width: 34px;
   height: 13px;
   border-radius: 6px;
-  background: #5677fc;
+  background: #ad7e12;
   box-shadow: none;
   /*margin-bottom: 1px;*/
 }
@@ -151,10 +146,10 @@ input[type=range]::-ms-thumb {
 }
 
 nav {
-  opacity: .95;
+  opacity: 0.75;
   text-align: center;
-  background: #f6f6f6;
-  color: #666;
+  background: #fff;
+  color: #333;
   font-size: 28px;
   font-weight: bold;
   height: 64px;
@@ -208,13 +203,12 @@ nav #nav_img {
 }
 
 nav #nav_txt {
-  /*margin-left: 58px;*/
   text-indent: -64px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   display: block;
-  transition: all .4s ease-in-out;
+  /*transition: all .4s ease-in-out;*/
 }
 
 nav #nav_btn {
@@ -256,12 +250,12 @@ menu {
   height: 100%;
   position: fixed;
   background: #fff;
-  top: 0;
-  left: -350px;
+  top: 65px;
+  left: 0px;
   z-index: 105;
   opacity: 1;
   box-shadow: 2px 0 5px rgba(0, 0, 0, .26);
-  transition: all .4s ease-in-out;
+  /*transition: all .4s ease-in-out;*/
 }
 
 menu #pin {
@@ -276,7 +270,7 @@ menu #pin {
 
 menu #pin:hover {
   border-radius: 100%;
-  background: #d0d9ff;
+  background: #fff4d0;
 }
 
 menu #menu_logo {
@@ -616,7 +610,7 @@ smartup.su_apps {
 .item {
   height: auto;
   width: 200px;
-  border: 1px solid #d0d9ff;
+  border: 1px solid #cccccc;
   opacity: 1;
 }
 
@@ -949,8 +943,8 @@ smartup.su_apps {
   font-size: 16px;
   font-weight: bold;
   color: rgba(0, 0, 0, .9);
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
   cursor: pointer;
   transition: background-color .4s ease-out;
   overflow: hidden;
@@ -960,23 +954,23 @@ smartup.su_apps {
 
 .menup:hover,
 .menu-current {
-  border-top: 1px solid #8598AC;
-  border-bottom: 1px solid #C9CED3;
-  background: #5677fc;
-  color: #fff;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  /*background: #fff6d8;*/
+  color: #333333;
 }
 
 .menuul {
   list-style-type: none;
   margin: -2px 0;
   padding: 2px 0;
-  background: #e7e9fd;
+  background: #fdf6e7;
   transition: all .4s ease-in-out;
   opacity: 1;
 }
 
 .menuul li {
-  text-align: right;
+  text-align: right; color: #333;
   height: 30px;
   line-height: 30px;
   font-size: 14px;
@@ -995,13 +989,13 @@ smartup.su_apps {
 
 .menuul li:hover,
 .menulicurrent {
-  background: #a6baff;
-  border-right: 3px solid #5677fc !important;
-  color: #3f51b5;
+  background: #fae6b6;
+  border-right: 3px solid #edb01b !important;
+  color: #ad7e12;
 }
 
 .menulicurrent {
-  color: #3f51b5;
+  color: #ad7e12;
   font-weight: bold;
 }
 
@@ -1029,7 +1023,7 @@ smartup.su_apps {
 }
 
 .setname {
-  border-bottom: 1px solid rgba(204, 204, 255, 0.4);
+  border-bottom: 1px solid #efefef;
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 5px;
@@ -1506,7 +1500,7 @@ smartup.su_apps {
 
 select {
   border-radius: 3px;
-  border: 1px solid #d0d9ff;
+  border: 1px solid #cccccc;
   height: 26px;
   padding: 0 5px;
   min-width: 100px;
@@ -1596,6 +1590,9 @@ select:hover {
   margin: 2px 0;
 }
 
+/** fix **/
+#m-about { border-bottom-width: 2px; }
+
 #about_main {
 }
 
@@ -1678,7 +1675,7 @@ select:hover {
 }
 
 #loadingbox {
-  color: #5677fc;
+  color: #aaa;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -2227,7 +2224,7 @@ menu #menu_donate {
 
   display: none;
   border-top: 1px solid #d0d9ff48;
-  transition: all .4s ease-in-out;
+  /*transition: all .4s ease-in-out;*/
   /*color: #fff;*/
 }
 

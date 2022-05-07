@@ -4744,9 +4744,10 @@ var sub = {
     }
   },
   funOnMessage: function (message, sender, sendResponse) {
-    console.log(message);
-    console.log(sender);
-    console.log(sendResponse);
+    // console.log(message);
+    // console.log(sender);
+    // console.log(sendResponse);
+
     sub.message = message;
     let getConf = function () {
       let drawType = message.drawType,
@@ -6077,7 +6078,7 @@ if (!chrome.runtime.onInstalled) {
 
 if (!chrome.notifications) {
 } else {
-  console.log("ssss")
+  // console.log("ssss")
   chrome.notifications.onClicked.addListener(function (id) {
     localStorage.setItem("showlog", "true");
     chrome.tabs.create({
@@ -6104,7 +6105,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   sub.CTMclick(info, tab);
 })
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-  console.log(tabId);
+  // console.log(tabId);
   sub.setIcon("normal", tabId, changeInfo, tab);
   if (changeInfo.status == "complete") {
     chrome.tabs.sendMessage(tabId, {
