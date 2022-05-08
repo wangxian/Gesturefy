@@ -6,6 +6,7 @@ Array.prototype.contains = function (ele) {
   }
   return false;
 }
+
 var config,
   defaultConf,
   localConfig = {},

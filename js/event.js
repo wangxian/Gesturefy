@@ -6,15 +6,16 @@ Array.prototype.contains = function (ele) {
   }
   return false;
 }
+
 var editMode, editDirect, browserType;
 var config = {};
 let devMode,
   extDisable = false,
   appType = {},
-  extID = "jialbkkmibnohldjdhbdckemnpdpngeb";
+  extID = "obdmnknihljnnjlfokellfidaegicfhg";
 
 
-//check browser
+// check browser
 if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
   browserType = "fx";
 } else if (navigator.userAgent.toLowerCase().indexOf("edge") != -1) {
@@ -22,6 +23,7 @@ if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
 } else {
   browserType = "cr";
 }
+
 if (browserType != "cr") {
   chrome = browser;
 }
@@ -1066,8 +1068,10 @@ var sue = {
     });
   }
 }
+
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  console.log(message)
+  // console.log(message);
+
   if (message.type == "set_confirm") {
     // sendResponse({type:message.type,message:true});
     if (confirm(chrome.i18n.getMessage("tip_closemulticonfirm"))) {
@@ -1077,13 +1081,15 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       });
     }
   }
+
   if (message.type == "status") {
     sendResponse({
       type: message.type,
       message: true
     })
   }
-  if (message.type == "icon" || message.type == "pop") { //icon action
+
+  if (message.type == "icon" || message.type == "pop") { // icon action
     sue.selEle = {};
     sue.selEle.txt = window.getSelection().toString();
     // fix firefox get selection frome textbox
@@ -1092,18 +1098,22 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
         sue.selEle.txt = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
       }
     }
-    console.log(sue.selEle)
+
+    // console.log(sue.selEle)
     sendResponse({
       type: "action_" + message.type,
       selEle: sue.selEle
     });
   }
+
   if (message.type == "extdisable") {
     extDisable = true;
   }
+
   if (message.type == "setapptype") {
     sue.appType[message.apptype] = true;
   }
+
   switch (message.type) {
     case "fix_switchtab": //fix contextmenu from switchtab by rges or wges
       sue.cons.switchtab = {};
@@ -1118,6 +1128,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       break;
   }
 });
+
 chrome.runtime.sendMessage(extID, {
   type: "evt_getconf"
 }, function (response) {
