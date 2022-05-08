@@ -25,26 +25,28 @@ Array.prototype.containsAll = function (ele) {
 }
 
 var devMode = false;
-var config,
-  defaultConf,
-  _SYNC,
-  browserType,
-  timerSaveConf;
+var config;
+var defaultConf;
+// var _SYNC;
+// var timerSaveConf;
+var browserType;
 let localConfig;
 
 // check browser
-if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+if (navigator.userAgent.toLowerCase().indexOf("firefox") !== -1) {
   browserType = "fx";
-} else if (navigator.userAgent.toLowerCase().indexOf("edge") != -1) {
-  browserType = "msg";
+} else if (navigator.userAgent.toLowerCase().indexOf("edg") !== -1) {
+  browserType = "edg";
 } else {
   browserType = "cr";
 }
-if (browserType != "cr") {
-  chrome = browser;
-  chrome.storage.sync = chrome.storage.local;
-}
 
+// 这里有错误，注释掉
+// if (browserType !== "cr") {
+//   chrome = browser;
+//   chrome.storage.sync = chrome.storage.local;
+// }
+// console.log(browserType, chrome);
 
 var getDefault = {
   i18n: function (str) {
@@ -1363,6 +1365,7 @@ var sub = {
       localStorage.setItem("flag_mouseup", "true");
     }
   },
+
   init: function () {
     sub.upgrade.up();
     sub.initpers();
@@ -1380,7 +1383,7 @@ var sub = {
   },
   handleEvent: {
     onTabsActivated: function (info) {
-      console.log("s")
+      // console.log("s")
       sub.cons.pretab.unshift(info);
     },
     onTabsRemoved: function (info) {
@@ -1488,8 +1491,9 @@ var sub = {
     })
   },
   CTMclick: function (info, tab) {
-    console.log(info);
-    console.log(tab);
+    // console.log(info);
+    // console.log(tab);
+
     for (var i = 0; i < sub.ctm.actions.length; i++) {
       if (info.menuItemId == sub.ctm.actions[i].menuId) {
         var theConf = config.ctm.actions[sub.ctm.actions[i].id];
@@ -1500,7 +1504,8 @@ var sub = {
           img: info.srcUrl || "",
           str: ""
         }
-        console.log(selObj)
+
+        // console.log(selObj)
         sub.message = {
           type: "action_ctm",
           selEle: selObj
@@ -1517,12 +1522,15 @@ var sub = {
           if (fnName == "fndrg") {
             config.general.fnswitch.fnsdrg = false;
           }
+
           if (fnName == "fnsdrg") {
             config.general.fnswitch.fndrg = false;
           }
+
           if (fnName == "fnpop") {
             config.general.fnswitch.fnicon = false;
           }
+
           if (fnName == "fnicon") {
             config.general.fnswitch.fnpop = false;
           }
@@ -1752,7 +1760,7 @@ var sub = {
     }
     if (config.apps[appname]) {
       for (var i in appConfmodel[appname]) {
-        console.log(i)
+        // console.log(i)
         if (config.apps[appname][i] === undefined) {
           config.apps[appname][i] = appConfmodel[appname][i];
         }
@@ -1772,15 +1780,16 @@ var sub = {
     // }
   },
   insertTest: function (appname) {
-    //console.log("appname")
-    //chrome.tabs.sendMessage(curTab.id,{type:"apptype",apptype:appname},function(response){});
+    // console.log("appname")
+    // chrome.tabs.sendMessage(curTab.id,{type:"apptype",apptype:appname},function(response){});
     chrome.tabs.executeScript({
       code: 'chrome.runtime.sendMessage({type:"apps_test",apptype:"' + appname + '",value:sue.apps.enable,appjs:appType["' + appname + '"]},function(response){console.log(response)})',
       runAt: "document_start"
     });
   },
   checkPermission: function (thepers, theorgs, theFunction, msg) {
-    console.log(thepers + "/" + theorgs + "/" + theFunction + "/" + msg)
+    console.log(thepers + "/" + theorgs + "/" + theFunction + "/" + msg);
+
     if (!chrome.permissions) {
       return theFunction();
     }
@@ -1883,15 +1892,17 @@ var sub = {
       })
     })
   },
+
   action: {
     none: function () {
       chrome.tabCapture.capture({
         audio: true
       }, function (stream) {
-        console.log(stream)
+        // console.log(stream);
       });
       return;
     },
+
     //group nav
     back: function () { //chk
       chrome.tabs.executeScript({
@@ -1922,7 +1933,7 @@ var sub = {
     reload: function () { //chk
       var ids = sub.getId(sub.getConfValue("selects", "n_tab"));
       var clear = sub.getConfValue("checks", "n_reload_clear");
-      //fix edge
+      // fix edge
       if (!chrome.tabs.reload) {
         for (var i = 0; ids && i < ids.length; i++) {
           chrome.tabs.executeScript(ids[i], {
@@ -1981,7 +1992,7 @@ var sub = {
       }
       for (var i = 1; i < sub.cons.pretab.length; i++) {
         if (sub.cons.pretab[i].tabId != curTabId && ids.contains(sub.cons.pretab[i].tabId)) {
-          console.log(sub.cons.pretab[i].tabId)
+          // console.log(sub.cons.pretab[i].tabId)
           chrome.tabs.update(sub.cons.pretab[i].tabId, {
             active: true
           }, function () {
@@ -2084,24 +2095,30 @@ var sub = {
       sub.open(theURL, theTarget, theIndex, thePin, "newtab");
     },
     upperlevel: function () {
-      console.log(sub.curTab)
+      // console.log(sub.curTab);
+
       let _optype = sub.getConfValue("selects", "n_optype"),
         _index = sub.getIndex(sub.getConfValue("selects", "n_position"), "new")[0],
         _pin = sub.getConfValue("checks", "n_pin"),
         _url = "";
-      //let _urlA=sub.curTab.url.split("/");
+
+      // let _urlA=sub.curTab.url.split("/");
       let _urlA = sub.curTab.url;
       if (_urlA.substr(-1) == "/") {
         _urlA = _urlA.substr(0, _urlA.length - 1);
       }
+
       let _urlB = _urlA.split("/");
-      //_urlA=_urlA.split("/")
+
+      // _urlA=_urlA.split("/")
       if (_urlB.length > 3) {
         _urlB.length = _urlB.length - 1;
       }
+
       let _urlC = _urlB.join("/");
-      console.log(_urlA)
-      console.log(_urlC);
+      // console.log(_urlA)
+      // console.log(_urlC);
+
       _url = _urlC == _urlA ? "" : _urlC;
       sub.open(_url, _optype, _index, _pin);
     },
@@ -2110,17 +2127,19 @@ var sub = {
         _index = sub.getIndex(sub.getConfValue("selects", "n_position"), "new")[0],
         _pin = sub.getConfValue("checks", "n_pin"),
         _url = "";
+
       let _urlA = sub.curTab.url;
       let _urlB = _urlA.split("/");
-      let i = 0,
-        _urlC = "";
+      let i = 0, _urlC = "";
+
       let setNum = function (txt) {
-        console.log(txt)
+        // console.log(txt)
         let _array = txt.match(/(\d*)/g);
         let i = 0,
           _num = "",
           _numNew,
           _index;
+
         for (i = _array.length - 1; i > -1; i--) {
           console.log(_array);
           if (!isNaN(parseInt(_array[i]))) {
@@ -2128,6 +2147,7 @@ var sub = {
             break;
           }
         }
+
         if (_num == "") {
           return false;
         } else {
@@ -2145,7 +2165,8 @@ var sub = {
 
       for (i = _urlB.length - 1; i > 2; i--) {
         _urlC = _urlB[i];
-        console.log(setNum(_urlC));
+        // console.log(setNum(_urlC));
+
         if (setNum(_urlC)) {
           _urlB[i] = setNum(_urlC);
           _url = _urlB.join("/");
@@ -2165,18 +2186,20 @@ var sub = {
       let i = 0,
         _urlC = "";
       let setNum = function (txt) {
-        console.log(txt)
+        // console.log(txt)
         let _array = txt.match(/(\d*)/g);
         let i = 0,
           _num = "",
           _numNew,
           _index;
+
         for (i = _array.length - 1; i > -1; i--) {
           if (!isNaN(parseInt(_array[i]))) {
             _num = _array[i];
             break;
           }
         }
+
         if (_num == "") {
           return false;
         } else {
@@ -2184,16 +2207,19 @@ var sub = {
           if (_numNew.toString().length < _num.length) {
             _numNew = "0".repeat(_num.length - _numNew.toString().length) + _numNew;
           }
+
           _index = txt.lastIndexOf(_num);
           if (_index != -1) {
             txt = txt.substr(0, _index) + _numNew.toString() + txt.substr(_index + _num.length)
           }
+
           return txt;
         }
       }
       for (i = _urlB.length - 1; i > 2; i--) {
         _urlC = _urlB[i];
-        console.log(setNum(_urlC));
+        // console.log(setNum(_urlC));
+
         if (setNum(_urlC)) {
           _urlB[i] = setNum(_urlC);
           _url = _urlB.join("/");
@@ -2447,15 +2473,18 @@ var sub = {
             if (windows[i].id === window.id) {
               continue;
             }
+
             _win = [];
+
             for (ii = 0; ii < windows[i].tabs.length; ii++) {
-              console.log("sdf")
               tabIds.push(windows[i].tabs[ii].id);
               _win.push(windows[i].tabs[ii].id);
             }
             win.push(_win);
           }
+
           sub.cons.mergewin.lastwins = (win.length > 0) ? win : sub.cons.mergewin.lastwins;
+
           if (tabIds.length > 0 && windows.length > 1) {
             chrome.tabs.move(tabIds, {
               windowId: window.id,
@@ -2491,6 +2520,7 @@ var sub = {
               })(i, window.id)
             }
           }
+
         })
       })
       return;
@@ -2502,8 +2532,9 @@ var sub = {
           let i = 0,
             ii = 0,
             tabIds = [];
+
           for (i = 0; i < windows.length; i++) {
-            console.log(windows[i].id);
+            // console.log(windows[i].id);
             if (windows[i].id === window.id) {
               break;
             }
@@ -2511,13 +2542,14 @@ var sub = {
               tabIds.push(windows[i].tabs[ii].id);
             }
           }
-          console.log(tabIds)
+
+          // console.log(tabIds)
           tabIds.length > 0 ? chrome.tabs.move(tabIds, {
             windowId: window.id,
             index: -1
           }) : null;
-        })
-      })
+        });
+      });
     },
     //txt
     copytxt: function () { //chk
@@ -2568,12 +2600,14 @@ var sub = {
       sub.open(theURL, theTarget, theIndex, thePin);
     },
     txtsearchclip: function () {
-      console.log("txtsearchclip")
+      // console.log("txtsearchclip")
       let _str, _obj = document.body.appendChild(document.createElement("textarea"));
       _obj.focus();
+
       document.execCommand('paste');
       _str = _obj.value;
-      console.log(_obj)
+
+      // console.log(_obj)
       _obj.remove();
 
       let _url, _txt,
@@ -2582,6 +2616,7 @@ var sub = {
         _code = sub.getConfValue("selects", "n_encoding"),
         _index = sub.getIndex(sub.getConfValue("selects", "n_position"), "new")[0],
         _pin = sub.getConfValue("checks", "n_pin");
+
       switch (_code) {
         case "s_unicode":
           _txt = escape(_str);
@@ -2599,6 +2634,7 @@ var sub = {
           _txt = _str;
           break;
       }
+
       _engine = config.general.engine.txtengine[_engine].content;
       _url = _engine.replace(/%s/g, _txt);
 
@@ -2612,10 +2648,12 @@ var sub = {
         var _text = sub.message.selEle.txt,
           _voicename = sub.getConfValue("selects", "n_voicename") ? sub.getConfValue("selects", "n_voicename") : "native",
           _gender = "female"; //sub.getConfValue("selects","n_gender")?sub.getConfValue("selects","n_gender").substr(2):"female",
+
         _rate = sub.getConfValue("ranges", "n_rate") ? Number(sub.getConfValue("ranges", "n_rate")) : 1,
           _pitch = sub.getConfValue("ranges", "n_pitch") ? Number(sub.getConfValue("ranges", "n_pitch")) : 1,
           _volume = sub.getConfValue("ranges", "n_volume") ? Number(sub.getConfValue("ranges", "n_volume")) : 1;
-        console.log(_rate)
+        // console.log(_rate);
+
         chrome.tts.speak(_text, {
           voiceName: _voicename,
           gender: _gender,
@@ -2716,7 +2754,7 @@ var sub = {
       sub.checkPermission(thepers, theorgs, theFunction);
     },
     copylnkas: function () {
-      //console.log("copylnkas")
+      // console.log("copylnkas")
     },
     //img
     openimg: function () { //chk
@@ -2976,16 +3014,19 @@ var sub = {
         })
       } else {
         var factorDefault = 1;
-        console.log(sub.getConfData("checks", "c_factor"));
+        // console.log(sub.getConfData("checks", "c_factor"));
+
         var _confData = sub.getConfData("checks", "c_factor");
         var factorCus = _confData.value ? (_confData.valueOption == "cl_factorcustom" ? parseInt(_confData.valueSetting) / 100 : false) : false,
           factorLoaded = _confData.value ? (_confData.valueOption == "cl_factorloaded" ? true : false) : false;
+
         if (factorLoaded) {
           factorDefault = sub.temp.zoom[sub.curTab.id];
         } else {
           factorDefault = factorCus ? factorCus : 1;
         }
-        console.log(factorDefault);
+
+        // console.log(factorDefault);
 
         var zoomRange = [25, 33, 50, 67, 75, 80, 90, 100, 110, 125, 150, 175, 200, 250, 300, 400, 500];
 
@@ -3061,13 +3102,16 @@ var sub = {
         _domain = sub.getConfValue("texts", "n_mail_domain"),
         _prefix = sub.getConfValue("texts", "n_mail_prefix"),
         _index = sub.getIndex(sub.getConfValue("selects", "n_tab"));
-      console.log(_index)
+
+      // console.log(_index)
       var _sub = _prefix,
         _body = "";
+
       for (var i = 0; i < _index.length; i++) {
         urls.push(sub.curWin.tabs[_index[i]].url);
         titles.push(sub.curWin.tabs[_index[i]].title);
       }
+
       titles.length == 1 ? _sub += titles[0] : _sub += titles.length + " " + "pages";
       for (var i = 0; i < titles.length; i++) {
         _body += titles[i] + " - " + encodeURIComponent(urls[i]) + "        ";
@@ -3206,32 +3250,36 @@ var sub = {
         })
       })
     },
+
     set_bk: function () {
       let theFunction = function () {
         chrome.browserSettings.openBookmarksInNewTabs.get({}).then(function (result) {
           if (result) {
-            console.log(result);
+            // console.log(result);
             chrome.browserSettings.openBookmarksInNewTabs.set({
               value: !result.value
             });
           }
         })
       }
+
       var thepers = ["browserSettings"];
       var theorgs;
       sub.checkPermission(thepers, theorgs, theFunction);
     },
+
     set_search: function () {
       let theFunction = function () {
         chrome.browserSettings.openSearchResultsInNewTabs.get({}).then(function (result) {
           if (result) {
-            console.log(result);
+            // console.log(result);
             chrome.browserSettings.openSearchResultsInNewTabs.set({
               value: !result.value
             });
           }
         })
       }
+
       var thepers = ["browserSettings"];
       var theorgs;
       sub.checkPermission(thepers, theorgs, theFunction);
@@ -3253,13 +3301,16 @@ var sub = {
       sub.initAppconf(_appname);
       sub.insertTest(_appname);
     },
+
     magnet: function () {
-      console.log(sub.message.selEle);
+      // console.log(sub.message.selEle);
       var _appname = "magnet";
       sub.initAppconf(_appname);
       var _obj = {};
+
       _obj.seltxt = sub.message.selEle ? sub.message.selEle.txt : "";
       _obj.drawtype = sub.message.drawType;
+
       sub.cons[_appname] = _obj;
       sub.insertTest(_appname);
     },
@@ -3446,14 +3497,17 @@ var sub = {
       //sub.cons[_appname]=_obj;
       sub.insertTest(_appname);
     },
+
     qr: function () {
-      console.log(sub.message.selEle)
+      // console.log(sub.message.selEle)
       var _appname = "qr";
       sub.initAppconf(_appname);
       var _obj = {};
+
       _obj.seltxt = sub.message.selEle ? sub.message.selEle.txt : "";
       _obj.sellnk = sub.message.selEle ? sub.message.selEle.lnk : "";
       _obj.drawtype = sub.message.drawType;
+
       sub.cons[_appname] = _obj;
       sub.insertTest(_appname);
     },
@@ -3508,7 +3562,7 @@ var sub = {
 
         chrome.management.getAll(function (exts) {
           let getBase64 = function (url, size, callback) {
-            console.log(url)
+            // console.log(url)
             var canvas = document.createElement("canvas");
             var ctx = canvas.getContext("2d");
             var img = new Image;
@@ -3524,6 +3578,7 @@ var sub = {
               canvas = null;
             }
           }
+
           for (var i = 0; i < exts.length; i++) {
             exts[i].iconBase64 = "";
             (function (i) {
@@ -3538,6 +3593,7 @@ var sub = {
                 _obj.extLast.push(exts[i].id);
               }
             }
+
             // if(exts[i].type=="extension"){
             // 	if(exts[i].enabled){
             // 		if(exts[i].id!=sub.extID){_obj.ext_enabled.push(exts[i]);}
@@ -3546,6 +3602,7 @@ var sub = {
             // 	}
             // }
           }
+
           _obj.exts = exts;
           sub.cons[_appname] = _obj;
         })
@@ -3574,7 +3631,7 @@ var sub = {
       sub.checkPermission(thepers, theorgs, theFunction);
     },
     apps_saveconf: function (message, sendResponse) {
-      //console.log(message)
+      // console.log(message)
       config.apps[message.apptype] = message.config;
       sub.saveConf();
       // (!config.general.settings.appnotif)?null:sub.showNotif("basic",sub.getI18n("notif_title_appsave"),sub.getI18n("notif_con_appsave"));
@@ -3584,11 +3641,14 @@ var sub = {
       })
     }
   },
+
   open: function (url, target, position, pin, flag) {
     chrome.windows.getAll(function (windows) {
-      console.log(windows.length)
+      // console.log(windows.length)
     })
+
     console.log("url:" + url + "\ntarget:" + target + "\nindex:" + position + "\npin:" + pin);
+
     var fixURL = function (url) {
       //if()
       var fixstrs = ["http://", "https://", "ftp://", "chrome://", "chrome-extension://", "view-source:chrome-extension://", "view-source:", "moz-extension://", "ms-browser-extension://", "about:", "file:///"];
@@ -3614,6 +3674,7 @@ var sub = {
     } else {
       url = fixURL(url)
     }
+
     //if(!url){/*return;*/}else{url=fixURL(url)}
     var theTarget = target,
       theURL = url,
@@ -3694,6 +3755,7 @@ var sub = {
       })
       return;
     }
+
     let createProperties = {};
     createProperties = {
       active: theTarget == "s_back" ? false : true,
@@ -3704,18 +3766,22 @@ var sub = {
     if (!theURL) {
       delete createProperties.url
     }
+
     if (!(thePos || thePos === 0)) {
       delete createProperties.index
     }
+
     chrome.tabs.create(createProperties);
 
     //(thePos||thePos===0)?chrome.tabs.create({url:theURL,active:theTarget=="s_back"?false:true,index:thePos,pinned:thePin}):chrome.tabs.create({url:theURL,active:theTarget=="s_back"?false:true,pinned:thePin})
   },
+
   initpers: function () {
     if (!chrome.permissions) {
-      console.log("chrome.permissions cant work.");
+      console.error("chrome.permissions cant work.");
       return;
     }
+
     sub.cons.permissions = null;
     sub.cons.origins = null;
     chrome.permissions.contains({
@@ -3728,15 +3794,18 @@ var sub = {
       sub.cons.origins = pers.origins;
     });
   },
+
   saveConf: function (noInit, sendResponse) {
-    console.log("save");
-    console.log(config);
+    // console.log("save");
+    // console.log(config);
+
     let _isSync;
     if (config.general.sync.autosync && chrome.storage.sync) {
       _isSync = true;
     } else {
       _isSync = false;
     }
+
     _isSync ? localStorage.setItem("sync", "true") : localStorage.setItem("sync", "false");
     if (_isSync) {
       chrome.storage.sync.clear(function () {
@@ -3774,13 +3843,15 @@ var sub = {
         })
       })
     }
+
     //_isSync?localStorage.setItem("sync","true"):localStorage.setItem("sync","false");
   },
   reset: function () {
 
   },
+
   setBackup: function (ver) {
-    console.log(ver);
+    // console.log(ver);
     var dbname = "backup";
     var request = indexedDB.open(dbname, 1);
     request.onupgradeneeded = function (e) {
@@ -3808,10 +3879,11 @@ var sub = {
       db = e.target.result;
       var dbobj = db.transaction(["config"], "readwrite").objectStore("config");
       var dbget = dbobj.get(id);
+
       dbget.onsuccess = function (e) {
         if (e.target.result) {
           _conf = e.target.result.config;
-          console.log(_conf);
+          // console.log(_conf);
           if (saveas) {
             saveAs();
           }
@@ -3819,12 +3891,14 @@ var sub = {
       }
     }
   },
+
   upgrade: {
     up: function () {
-      console.log("upgrade_up")
+      // console.log("upgrade_up")
       if (!(config.version < defaultConf.version)) {
         return;
       }
+
       if (config.version < 1.1) {
         sub.upgrade.f1to1_1();
       } else if (config.version < 1.3) {
@@ -3892,6 +3966,7 @@ var sub = {
       } else if (config.version < 46) {
         sub.setBackup("46");
       }
+
     },
     _46: function () {
       config.version = 46;
@@ -4081,9 +4156,11 @@ var sub = {
       sub.saveConf(true);
     },
     _32: function () {
-      console.log("32");
+      // console.log("32");
+
       var acname0 = ["mges", "drg", "sdrg"],
         acname1 = ["mges", "tdrg", "ldrg", "idrg", "tsdrg", "lsdrg", "isdrg"];
+
       // var _fn=function(types){
       // 	for(var j=0;j<_obj.selects.length;j++){
       // 		if(types.contains(_obj.selects[j].type)){
@@ -4091,12 +4168,15 @@ var sub = {
       // 		}
       // 	}
       // }
+
       for (var i = 0; i < acname0.length; i++) {
         for (var ii = 0; ii < acname1.length; ii++) {
           for (var iii = 0; config[acname0[i]][acname1[ii]] && iii < config[acname0[i]][acname1[ii]].length; iii++) {
+
             var _obj = config[acname0[i]][acname1[ii]][iii];
             !_obj.checks ? _obj.checks = [] : null;
             !_obj.selects ? _obj.selects = [] : null;
+
             if (_obj.name == "saveimg" || _obj.name == "saveimgas") {
               for (var j = 0; _obj.selects && j < _obj.selects.length; j++) {
                 if (["n_notif", "n_dlbar"].contains(_obj.selects[j].type)) {
@@ -4204,11 +4284,13 @@ var sub = {
                 value: "s_current"
               });
             }
+
             _obj.checks.length == 0 ? delete _obj.checks : null;
             _obj.selects.length == 0 ? delete _obj.selects : null;
           }
         }
       }
+
       if (!config.apps) {
 
       } else {
@@ -4222,11 +4304,12 @@ var sub = {
           config.apps.recentbk.n_pin = config.apps.recentbk.n_pin == "s_pin" ? true : false;
         }
       }
+
       config.version = 32;
       sub.saveConf(true);
     },
     _31: function () {
-      console.log("31");
+      // console.log("31");
       var _drgtype0 = ["drg", "sdrg"]
       var _drgtype = ["tdrg", "ldrg", "idrg", "tsdrg", "lsdrg", "isdrg"];
       var _erraction = ["txtsearch", "openlnk", "openimg", "imgsearch"];
@@ -4260,13 +4343,14 @@ var sub = {
     },
 
     f1to1_1: function () {
-      console.log("1 to 1.1");
+      // console.log("1 to 1.1");
       for (var i = 0; i < config.mges.mges.length; i++) {
         if (config.mges.mges[i].name == "test") {
           config.mges.mges.splice(i, 1);
           break;
         }
       }
+
       for (var i = 0; i < config.mges.mges.length; i++) {
 
         if (config.mges.mges[i].name == "txtsearch" || config.mges.mges[i].name == "imgsearch") {
@@ -4331,7 +4415,7 @@ var sub = {
     },
 
     f1_1to1_3: function () {
-      console.log("1.1 to 1.2")
+      // console.log("1.1 to 1.2")
       var en = ["txtengine", "imgengine"];
       for (var i = 0; i < en.length; i++) {
         for (var ii = 0; ii < config.general.engine[en[i]].length; ii++) {
@@ -4340,12 +4424,14 @@ var sub = {
           }
         }
       }
+
       config.version = 1.3;
       sub.saveConf(true);
     },
 
     f1_3to1_4: function () {
-      console.log("1.3 to 1.4");
+      // console.log("1.3 to 1.4");
+
       config.general.settings.notif = false;
       for (var i = 0; i < config.mges.mges.length; i++) {
         if (["up", "down", "top", "bottom"].contains(config.mges.mges[i].name)) {
@@ -4356,9 +4442,11 @@ var sub = {
           config.mges.mges[i].name = "scroll";
         }
       }
+
       config.version = 1.4;
       sub.saveConf(true);
     },
+
     f1_4to1_5: function () {
       for (var i = 0; i < config.mges.mges.length; i++) {
         if (config.mges.mges[i].name == "scroll" && !config.mges.mges[i].mydes.type) {
@@ -4944,14 +5032,16 @@ var sub = {
       case "action_pop":
         let _index = message.index;
         /*theConf=config.pop.actions[_index]*/
-        ; //message.popvalue;
+        // message.popvalue;
         sub.theConf = config.pop.actions[_index];
+
         if (config.pop.settings.type == "front") {
           chrome.tabs.query({
             active: true,
             currentWindow: true
           }, function (tabs) {
             sub.curTab = tabs[0];
+
             chrome.tabs.sendMessage(tabs[0].id, {
               type: "pop"
             }, function (response) {
@@ -4959,7 +5049,7 @@ var sub = {
                 sub.message = response;
                 sub.extID = chrome.runtime.id ? chrome.runtime.id : null;
                 sub.initCurrent(null, sub.theConf);
-                console.log(sub.message)
+                // console.log(sub.message)
               }
             });
           })
@@ -5037,10 +5127,12 @@ var sub = {
             }
           }
         }
+
         // console.log(_sendConf)
         sendResponse(_sendConf);
         break;
       case "action_ksa":
+
         sub.theConf = config.ksa.actions[sub.message.id];
         if (sub.theConf.name == "paste") { //for action paste
           sendResponse(sub.theConf); //error log, if none sendResponse
@@ -5063,11 +5155,13 @@ var sub = {
           // console.log("s")
           sendResponse(sub.theConf);
         }
+
         sub.initCurrent(sender, sub.theConf);
         break
       case "action":
         sub.theConf = getConf();
         sub.theConf.type = "action";
+
         if (sub.theConf.name == "paste") { //for action paste
           sendResponse(sub.theConf); //error log, if none sendResponse
           sub.checkPermission(["clipboardRead"], null, function () {
@@ -5089,6 +5183,7 @@ var sub = {
           // console.log("s")
           sendResponse(sub.theConf);
         }
+
         sub.initCurrent(sender, sub.theConf);
         break
       case "getDonateData":
@@ -5172,8 +5267,9 @@ var sub = {
     },
     rss: {
       getMessage: function (message, sender, sendResponse) {
-        console.log(message);
+        // console.log(message);
         url = message.value;
+
         fetch(url)
           .then(response => response.text())
           .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
@@ -5214,7 +5310,8 @@ var sub = {
               feedURL: url
             });
           })
-          .catch(err => console.log(err))
+          .catch(err => console.log(err));
+
       },
       openItem: function (message) {
         let _URL = message.value,
@@ -5315,7 +5412,7 @@ var sub = {
     },
     savepdf: {
       savePDF: function (message) {
-        console.log("s")
+        // console.log("s")
         chrome.tabs.saveAsPDF(message.value);
       }
     },
@@ -5372,11 +5469,13 @@ var sub = {
 
         // sendResponse({exts:_exts})
       },
+
       getAllExt: function (message, sender, sendResponse) {
         sendResponse({
           exts: sub.cons.extmgm.exts
         });
-        console.log(message.extsEnable)
+        // console.log(message.extsEnable);
+
         if (message.extsEnable) {
           for (var i = 0; i < sub.cons.extmgm.exts.length; i++) {
             if (sub.cons.extmgm.exts[i].id == sub.extID || (config.apps.extmgm.always && config.apps.extmgm.always.contains(sub.cons.extmgm.exts[i].id))) {
@@ -5389,6 +5488,7 @@ var sub = {
             }
           }
         }
+
         if (message.extsLast) {
           for (var i = 0; i < sub.cons.extmgm.exts.length; i++) {
             if (sub.cons.extmgm.exts[i].id == sub.extID || (config.apps.extmgm.always && config.apps.extmgm.always.contains(sub.cons.extmgm.exts[i].id))) {
@@ -5403,28 +5503,30 @@ var sub = {
         }
       },
       itemDisable: function (message, sender, sendResponse) {
-        console.log(message)
+        // console.log(message)
         chrome.management.setEnabled(message.extId, false);
       },
+
       itemEnable: function (message, sender, sendResponse) {
-        console.log(message)
+        // console.log(message)
         chrome.management.setEnabled(message.extId, true);
       },
       itemOpturl: function (message, sender, sendResponse) {
         sub.open(message.url);
       },
+
       itemUninstall: function (message, sender, sendResponse) {
         //chrome.management.uninstall(message.extId,{showConfirmDialog:false});
         chrome.management.uninstall(message.extId, {
           showConfirmDialog: config.apps.extmgm.n_uninstallconfirm
         }, function (s) {
-          console.log("s")
           chrome.management.getAll(function (exts) {
             let _exts = [];
             for (var i = 0; i < exts.length; i++) {
               _exts.push(exts[i].id)
             }
-            console.log(_exts);
+
+            // console.log(_exts);
             if (!_exts.contains(message.extId)) {
               chrome.tabs.sendMessage(sender.tab.id, {
                 type: "itemUninstall",
@@ -5473,7 +5575,7 @@ var sub = {
                   lotteryType: message.value.type
                 });
               })
-              .catch(err => console.log(err))
+              .catch(err => console.error("lottery_pls", err));
             break;
           case "lottery_ssq":
             var formData = new FormData();
@@ -5510,6 +5612,7 @@ var sub = {
             formData.append("lottery_type", "3d");
             formData.append("r", 1522867870);
             formData.append("no", message.value.term);
+
             var _options = {
               method: "POST",
               body: formData
@@ -5518,23 +5621,25 @@ var sub = {
               .then(response => response.text())
               .then(str => (new window.DOMParser()).parseFromString(str, "text/html"))
               .then(htmlData => {
-                console.log(htmlData);
+                // console.log(htmlData);
                 var _options = htmlData.querySelectorAll("td");
-                console.log(_options)
+                // console.log(_options);
+
                 var data = [];
                 for (var i = 5; i < 8; i++) {
                   data.push(DOMPurify.sanitize(_options[i].querySelector("font").textContent).toString());
                 }
+
                 return data;
               })
               .then(data => {
-                console.log(data);
+                // console.log(data);
                 chrome.tabs.sendMessage(sender.tab.id, {
                   type: "data",
                   value: data,
                   lotteryType: message.value.type
                 });
-              })
+              });
             break;
         }
       },
@@ -5552,12 +5657,13 @@ var sub = {
               .then(text => JSON.parse(DOMPurify.sanitize(text)))
               .then(arrayData => arrayData[0])
               .then(termData => {
-                console.log(termData);
+                // console.log(termData);
                 chrome.tabs.sendMessage(sender.tab.id, {
                   type: "term",
                   value: termData.tremList
                 });
-              })
+              });
+
             break
           case "lottery_ssq":
             var formData = new FormData();
@@ -5572,9 +5678,11 @@ var sub = {
               .then(response => response.text())
               .then(str => (new window.DOMParser()).parseFromString(str, "text/html"))
               .then(htmlData => {
-                console.log(htmlData);
+
+                // console.log(htmlData);
                 var _options = htmlData.querySelectorAll("#no option");
-                console.log(_options)
+                // console.log(_options)
+
                 var data = [];
                 for (var i = 0; i < _options.length; i++) {
                   data.push(DOMPurify.sanitize(_options[i].value).toString());
@@ -5615,7 +5723,8 @@ var sub = {
                   type: "term",
                   value: data
                 });
-              })
+              });
+
             break;
         }
       }
@@ -5629,7 +5738,8 @@ var sub = {
             reader.onload = function (e) {
               var htmlData = reader.result;
               htmlData = (new window.DOMParser()).parseFromString(htmlData, "text/html");
-              console.log(htmlData);
+              // console.log(htmlData);
+
               var data = [];
               var _doms = htmlData.querySelectorAll(".container .content ul")[0].querySelectorAll("li");
               for (var i = 0; i < _doms.length; i++) {
@@ -5640,7 +5750,8 @@ var sub = {
                 _data.push("https://www.poxiao.com" + _doms[i].childNodes[2].getAttribute("href"))
                 data.push(_data);
               }
-              console.log(data)
+
+              // console.log(data)
               chrome.tabs.sendMessage(sender.tab.id, {
                 type: "list",
                 value: data
@@ -5657,7 +5768,8 @@ var sub = {
             reader.onload = function (e) {
               let htmlData = reader.result;
               htmlData = (new window.DOMParser()).parseFromString(htmlData, "text/html");
-              console.log(htmlData);
+              // console.log(htmlData);
+
               let data = {
                 info: [],
                 dl: [],
@@ -5665,6 +5777,7 @@ var sub = {
                 name: ""
               };
               let domInfos = htmlData.querySelector(".container .detail_intro tbody").querySelectorAll("tr");
+
               for (var i = 0; i < domInfos.length; i++) {
                 var _doms = domInfos[i].querySelectorAll("td"),
                   _data = [];
@@ -5677,12 +5790,14 @@ var sub = {
                     _data.push(DOMPurify.sanitize(_doms[ii].textContent).toString());
                   }
                 }
+
                 data.info.push(_data);
               }
 
               let domDls = htmlData.querySelector(".container #ziy .resourcesmain tbody").querySelectorAll("tr");
               for (var i = 0; i < domDls.length - 1; i++) {
                 var _data = [];
+
                 _data.push(DOMPurify.sanitize(domDls[i].querySelector("td ").textContent).toString());
                 _data.push(DOMPurify.sanitize(domDls[i].querySelector("td input").value.substr(6)).toString());
                 data.dl.push(_data)
@@ -5709,16 +5824,17 @@ var sub = {
         sub.open(_URL, _Target, _Index, _Pin);
       },
       getImageURL: async function (message, sender, sendResponse) {
-        let db = await sub.IDB.DBGet("homepage"),
-          data;
+        let db = await sub.IDB.DBGet("homepage"), data;
+
         if (db.version < 2) {
           db.close();
           data = await sub.IDB.initApps("homepage");
-          console.log(data)
+          // console.log(data)
         } else {
           data = await sub.IDB.itemGet(db, "bingimg", 0);
         }
-        console.log(data)
+
+        // console.log(data)
         if (data) {
           data = {
             id: 0,
@@ -5742,6 +5858,7 @@ var sub = {
             copyrightString: DOMPurify.sanitize(data.querySelector("images>image>copyright").textContent).toString(),
             copyrightURL: DOMPurify.sanitize(data.querySelector("images>image>copyrightlink").textContent).toString()
           };
+
           if (localStorage.getItem("homepageURL") != _data.imageURL) {
             chrome.tabs.sendMessage(sender.tab.id, {
               type: "imageURL",
@@ -5750,7 +5867,7 @@ var sub = {
             sub.apps.homepage.getImage(message, sender, sendResponse, _data);
           }
         } catch (e) {
-          console.log(e.toString());
+          console.error("getImageURL", e.toString());
         }
       },
       getImage: async function (message, sender, sendResponse, data) {
@@ -5784,14 +5901,15 @@ var sub = {
         fetch(_configURL)
           .then(response => response.json())
           .then(json => {
-            console.log(_configURL);
+            // console.log(_configURL);
             if (!localStorage.getItem("tbkjx_dataversion") || Number(json.version) >= sub.date.get()) {
               _url = _url + "?" + sub.date.get().toString();
               localStorage.setItem("tbkjx_dataversion", json.version);
             } else {
               _url = _url + "?" + localStorage.getItem("tbkjx_dataversion");
             }
-            console.log(_url);
+
+            // console.log(_url);
             fetch(_url)
               .then(response => response.json())
               .then(json => {
@@ -5800,16 +5918,7 @@ var sub = {
                   value: json
                 });
               })
-          })
-        // =======================
-
-        // let _date=new Date();
-        // _url=_url+"?"+_date.getFullYear()+((_date.getMonth()+1)<10?("0"+(_date.getMonth()+1)):(_date.getMonth()+1))+(_date.getDate()<10?("0"+_date.getDate()):_date.getDate())
-        // fetch(_url)
-        // 	.then(response=>response.json())
-        // 	.then(json=>{
-        // 		chrome.tabs.sendMessage(sender.tab.id,{type:"data",value:json});
-        // 	})
+          });
       },
       itemOpen: function (message, sender, sendResponse) {
         let _URL = message.value,
@@ -5829,9 +5938,10 @@ var sub = {
         } else {
           data = await sub.IDB.itemGet(db, "note", 0);
         }
-        console.log(data)
+
+        // console.log(data)
         if (data) {
-          console.log("get")
+          // console.log("get")
           message.type = "appsListener_get";
           message.data = data;
           chrome.tabs.sendMessage(sender.tab.id, message);
@@ -5844,7 +5954,7 @@ var sub = {
     },
     shorturl: {
       getURL: async function (message, sender, sendResponse) {
-        console.log(message);
+        // console.log(message);
         try {
           let response = await fetch(
             (config.apps.shorturl.n_suyourls ? "https://url.zimoapps.com/yourls-api.php" : config.apps.shorturl.n_yourls + "/yourls-api.php") +
@@ -5856,14 +5966,14 @@ var sub = {
               method: "POST"
             });
           let data = await response.json();
-          console.log(data);
+          // console.log(data);
           chrome.tabs.sendMessage(sender.tab.id, {
             type: "url",
             app: "shorturl",
             value: data
           });
         } catch (e) {
-          console.log(e.toString());
+          console.error("getURL", e.toString());
           chrome.tabs.sendMessage(sender.tab.id, {
             type: "err",
             app: "shorturl",
@@ -5938,11 +6048,12 @@ var sub = {
       if (key == null) {
         return;
       }
+
       return new Promise((resolve, reject) => {
         let request = db.transaction(storeName, "readonly").objectStore(storeName).get(key);
         request.onerror = reject;
         request.onsuccess = function (e) {
-          console.log(e.target);
+          // console.log(e.target);
           resolve(e.target.result);
         }
       });
@@ -5952,7 +6063,7 @@ var sub = {
         let request = db.transaction(storeName, "readwrite").objectStore(storeName).add(data);
         request.onerror = reject;
         request.onsuccess = function (e) {
-          console.log(e.target);
+          // console.log(e.target);
           resolve(data);
         }
       })
@@ -5982,9 +6093,10 @@ var sub = {
       return new Promise((resolve, reject) => {
         const request = window.indexedDB.open(dbname);
         request.onerror = reject;
+
         request.onsuccess = function (e) {
           let db = e.target.result;
-          console.log(db.name);
+          // console.log(db.name);
           resolve(db);
         }
       })
@@ -6010,10 +6122,12 @@ chrome.browserAction.onClicked.addListener(function (tab) {
         if (response && response.type == "action_icon") {
           sub.message = response;
           sub.extID = chrome.runtime.id ? chrome.runtime.id : null;
+
           var theConf = config.icon.actions[0];
           sub.theConf = theConf;
           sub.initCurrent(null, sub.theConf);
-          console.log(sub.message)
+
+          // console.log(sub.message)
         }
       });
     })
@@ -6031,7 +6145,7 @@ if (!chrome.runtime.getPlatformInfo) {
 if (!chrome.runtime.onInstalled) {
 } else {
   chrome.runtime.onInstalled.addListener(function (details) {
-    console.log(details.reason);
+    // console.log(details.reason);
     chrome.windows.getAll({
       populate: true
     }, function (windows) {
@@ -6050,6 +6164,7 @@ if (!chrome.runtime.onInstalled) {
         url: "../html/options.html"
       });
     }
+
     if (details.reason == "update") {
       chrome.storage.sync.get(function (items) {
         if (devMode || (items.general && items.general.settings.notif)) {
@@ -6169,4 +6284,4 @@ if (chrome.browserSettings && chrome.browserSettings.contextMenuShowEvent) {
   localStorage.setItem("flag_mouseup", "true");
 }
 
-console.log("end")
+console.info("background.js load end");

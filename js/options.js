@@ -7,20 +7,19 @@ Array.prototype.contains = function (ele) {
   return false;
 }
 
-var config,
-  defaultConf,
-  localConfig = {},
-  browserType;
+var config;
+var defaultConf;
+// var localConfig = {};
+var browserType;
 
-//check browser
-if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+// check browser
+if (navigator.userAgent.toLowerCase().indexOf("firefox") !== -1) {
   browserType = "fx";
-} else if (navigator.userAgent.toLowerCase().indexOf("edg") != -1) {
+} else if (navigator.userAgent.toLowerCase().indexOf("edg") !== -1) {
   browserType = "edg";
 } else {
   browserType = "cr";
 }
-
 
 var suo = {
   CON: {
@@ -3994,21 +3993,21 @@ var suo = {
     suo.setTheme();
     suo.initLog();
 
-    //show log
+    // show log
     if (localStorage.getItem("showlog") == "true") {
       suo.clickMenuDiv(document.querySelector("div[data-confobj='about']"));
       suo.clickMenuLI(document.querySelector("li[data-id0='13'][data-id1='0']"));
       localStorage.removeItem("showlog");
     }
 
-    //show about
+    // show about
     if (localStorage.getItem("showabout")) {
       suo.clickMenuDiv(document.querySelector("div[data-confobj='about']"));
       suo.clickMenuLI(document.querySelector("li[data-id0='13'][data-id1='0']"));
       localStorage.removeItem("showabout");
     }
 
-    //init webstore url
+    // init webstore url
     if (browserType == "cr") {
       if (devMode) {
         suo.cons.webstoreURL = "https://chrome.google.com/webstore/detail/jbfidehpoofganklkddfkcjeeaabimmb";
@@ -4020,6 +4019,7 @@ var suo = {
     } else if (browserType == "edg") {
       suo.cons.webstoreURL = "https://microsoftedge.microsoft.com/addons/detail/elponhbfjjjihgeijofonnflefhcbckp";
     }
+
     //disable option auto sync
     if (!chrome.storage.sync) {
       document.querySelector("input[data-confele=autosync]").disabled = true;
